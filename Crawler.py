@@ -8,7 +8,7 @@ options.add_argument("--disable-gpu")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--log-level=3')
 
-driver = webdriver.Chrome('chromedriver', options=options)
+driver = webdriver.Chrome('/HDD1/mvpservereight/minhyeok/chromedriver/chromedriver', options=options)
 driver.implicitly_wait(5)
 
 driver.get(url="https://paperswithcode.com/area/computer-vision")
@@ -131,18 +131,22 @@ f = open("./result.txt", 'w')
 
 for year in sorted(list(year_sort_dic.keys()), reverse = True):
     f.write('## ' + year + '\n\n')
+    
+    Task_buffeer = []
 
+    Task = []
     Field = []
-    Type = []
     num_paper = []
 
     for i in range(len(year_sort_dic[year])):
-        Field.append(year_sort_dic[year][i][1])
-        Type.append(year_sort_dic[year][i][0])
-        num_paper.append(year_sort_dic[year][i][2])
+        if year_sort_dic[year][i][1] not in Task_buffeer:
+            Task_buffeer.append(year_sort_dic[year][i][1])
+            Task.append("[{}](https://paperswithcode.com/task/{})".format(year_sort_dic[year][i][1], year_sort_dic[year][i][1].lower().replace(' ', '-')))
+            Field.append(year_sort_dic[year][i][0])
+            num_paper.append(year_sort_dic[year][i][2])
 
-    raw_data = {'Field': Field,
-                'Type': Type,
+    raw_data = {'Task': Task,
+                'Field': Field,
                 'Number of Papers': num_paper,
                 }
 
