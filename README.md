@@ -3,2265 +3,1863 @@
 
 ## 2022
 
-|    | Field                                | Type                              |   Number of Papers |
-|---:|:-------------------------------------|:----------------------------------|-------------------:|
-|  0 | Deblurring                           | 2D Human Pose Estimation          |                  6 |
-|  1 | Deblurring                           | Deblurring                        |                  6 |
-|  2 | Referring Expression Segmentation    | Instance Segmentation             |                  5 |
-|  3 | Single Image Deraining               | Rain Removal                      |                  5 |
-|  4 | Referring Expression Segmentation    | Referring Expression Segmentation |                  5 |
-|  5 | Domain Generalization                | Domain Adaptation                 |                  4 |
-|  6 | Action Classification                | Video                             |                  4 |
-|  7 | Image Classification                 | Image Classification              |                  3 |
-|  8 | Self-Supervised Image Classification | Image Classification              |                  2 |
-|  9 | Image Denoising                      | Denoising                         |                  2 |
-| 10 | Action Recognition                   | Activity Recognition              |                  2 |
-| 11 | Action Recognition                   | Action Recognition                |                  2 |
-| 12 | Action Recognition                   | Video Classification              |                  2 |
-| 13 | Change Detection                     | Change Detection                  |                  2 |
-| 14 | Semantic Segmentation                | Semantic Segmentation             |                  1 |
-| 15 | Object Detection                     | Object Detection                  |                  1 |
-| 16 | Image Generation                     | Image Generation                  |                  1 |
-| 17 | Image Generation                     | 3D Face Animation                 |                  1 |
-| 18 | Few-Shot Semantic Segmentation       | Few-Shot Learning                 |                  1 |
-| 19 | Retinal Vessel Segmentation          | Medical Image Segmentation        |                  1 |
-| 20 | Low-Light Image Enhancement          | Image Enhancement                 |                  1 |
-| 21 | Image Matching                       | Image Matching                    |                  1 |
-| 22 | Lipreading                           | Lipreading                        |                  1 |
+|    | Task                                                                                                         | Field                      |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------------------------------|:---------------------------|-------------------:|
+|  0 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                     | 2D Human Pose Estimation   |                  6 |
+|  1 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)       | Instance Segmentation      |                  5 |
+|  2 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                             | Rain Removal               |                  5 |
+|  3 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                               | Domain Adaptation          |                  4 |
+|  4 | [Action Classification](https://paperswithcode.com/task/action-classification)                               | Video                      |                  4 |
+|  5 | [Image Classification](https://paperswithcode.com/task/image-classification)                                 | Image Classification       |                  3 |
+|  6 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification) | Image Classification       |                  2 |
+|  7 | [Image Denoising](https://paperswithcode.com/task/image-denoising)                                           | Denoising                  |                  2 |
+|  8 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                     | Activity Recognition       |                  2 |
+|  9 | [Change Detection](https://paperswithcode.com/task/change-detection)                                         | Change Detection           |                  2 |
+| 10 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                               | Semantic Segmentation      |                  1 |
+| 11 | [Object Detection](https://paperswithcode.com/task/object-detection)                                         | Object Detection           |                  1 |
+| 12 | [Image Generation](https://paperswithcode.com/task/image-generation)                                         | Image Generation           |                  1 |
+| 13 | [Few-Shot Semantic Segmentation](https://paperswithcode.com/task/few-shot-semantic-segmentation)             | Few-Shot Learning          |                  1 |
+| 14 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                   | Medical Image Segmentation |                  1 |
+| 15 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                   | Image Enhancement          |                  1 |
+| 16 | [Image Matching](https://paperswithcode.com/task/image-matching)                                             | Image Matching             |                  1 |
+| 17 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                     | Lipreading                 |                  1 |
 
 ## 2021
 
-|     | Field                                               | Type                                       |   Number of Papers |
-|----:|:----------------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Image Classification                                | Image Classification                       |                474 |
-|   1 | Object Detection                                    | Object Detection                           |                128 |
-|   2 | Action Classification                               | Video                                      |                126 |
-|   3 | Semantic Segmentation                               | Semantic Segmentation                      |                115 |
-|   4 | Motion Forecasting                                  | Autonomous Driving                         |                103 |
-|   5 | Motion Forecasting                                  | Motion Forecasting                         |                103 |
-|   6 | Image Generation                                    | Image Generation                           |                101 |
-|   7 | Image Generation                                    | 3D Face Animation                          |                101 |
-|   8 | 3D Object Detection                                 | Object Detection                           |                 91 |
-|   9 | 3D Object Detection                                 | 3D Object Detection                        |                 91 |
-|  10 | Action Recognition                                  | Activity Recognition                       |                 88 |
-|  11 | Action Recognition                                  | Action Recognition                         |                 88 |
-|  12 | Action Recognition                                  | Video Classification                       |                 88 |
-|  13 | Domain Generalization                               | Domain Adaptation                          |                 85 |
-|  14 | Few-Shot Image Classification                       | Image Classification                       |                 65 |
-|  15 | Few-Shot Image Classification                       | Few-Shot Learning                          |                 65 |
-|  16 | Semi-Supervised Video Object Segmentation           | Video Object Segmentation                  |                 63 |
-|  17 | Medical Image Segmentation                          | Semantic Segmentation                      |                 57 |
-|  18 | Medical Image Segmentation                          | Medical Image Segmentation                 |                 57 |
-|  19 | Semi-Supervised Semantic Segmentation               | Semantic Segmentation                      |                 55 |
-|  20 | Person Re-Identification                            | Person Re-Identification                   |                 55 |
-|  21 | Fine-Grained Image Classification                   | Image Classification                       |                 54 |
-|  22 | Self-Supervised Image Classification                | Image Classification                       |                 54 |
-|  23 | Instance Segmentation                               | Instance Segmentation                      |                 53 |
-|  24 | Multi-Label Classification                          | Multi-Label Classification                 |                 53 |
-|  25 | Anomaly Detection                                   | Anomaly Detection                          |                 51 |
-|  26 | Referring Expression Segmentation                   | Referring Expression Segmentation          |                 51 |
-|  27 | Weakly-Supervised Semantic Segmentation             | Semantic Segmentation                      |                 46 |
-|  28 | Image Captioning                                    | Image Captioning                           |                 46 |
-|  29 | Referring Expression Segmentation                   | Instance Segmentation                      |                 45 |
-|  30 | Video Retrieval                                     | Video                                      |                 44 |
-|  31 | Visual Question Answering                           | Visual Question Answering                  |                 40 |
-|  32 | Emotion Recognition in Conversation                 | Emotion Recognition                        |                 40 |
-|  33 | 3D Multi-Object Tracking                            | Multi-Object Tracking                      |                 33 |
-|  34 | 3D Multi-Object Tracking                            | 3D Multi-Object Tracking                   |                 33 |
-|  35 | Semi-Supervised Image Classification                | Image Classification                       |                 32 |
-|  36 | Small Data Image Classification                     | Image Classification                       |                 31 |
-|  37 | Synthetic-to-Real Translation                       | Image-to-Image Translation                 |                 31 |
-|  38 | Semi-Supervised Object Detection                    | Semi-Supervised Object Detection           |                 31 |
-|  39 | Facial Expression Recognition                       | Facial Recognition and Modelling           |                 30 |
-|  40 | Deblurring                                          | 2D Human Pose Estimation                   |                 29 |
-|  41 | Scene Text Recognition                              | Scene Parsing                              |                 29 |
-|  42 | Deblurring                                          | Deblurring                                 |                 29 |
-|  43 | Text-to-Image Generation                            | Image Generation                           |                 28 |
-|  44 | Image Clustering                                    | Image Clustering                           |                 28 |
-|  45 | 3D Human Pose Estimation                            | Pose Estimation                            |                 26 |
-|  46 | Learning with noisy labels                          | Image Classification                       |                 25 |
-|  47 | Monocular Depth Estimation                          | Depth Estimation                           |                 25 |
-|  48 | Trajectory Prediction                               | Trajectory Prediction                      |                 25 |
-|  49 | Learning with noisy labels                          | Document Text Classification               |                 25 |
-|  50 | Zero-Shot Transfer Image Classification             | Zero-Shot Transfer Image Classification    |                 25 |
-|  51 | Few-Shot Object Detection                           | Object Detection                           |                 23 |
-|  52 | Monocular 3D Object Detection                       | 3D Object Detection                        |                 23 |
-|  53 | Human-Object Interaction Detection                  | Human-Object Interaction Detection         |                 23 |
-|  54 | 3D Point Cloud Classification                       | 3D Point Cloud Classification              |                 23 |
-|  55 | Vehicle Re-Identification                           | Intelligent Surveillance                   |                 23 |
-|  56 | Vehicle Re-Identification                           | Vehicle Re-Identification                  |                 23 |
-|  57 | Few-Shot Object Detection                           | Few-Shot Object Detection                  |                 23 |
-|  58 | Face Alignment                                      | Facial Recognition and Modelling           |                 22 |
-|  59 | Unsupervised Object Segmentation                    | Instance Segmentation                      |                 22 |
-|  60 | Video Instance Segmentation                         | Video Instance Segmentation                |                 22 |
-|  61 | Unsupervised Object Segmentation                    | Unsupervised Object Segmentation           |                 22 |
-|  62 | Unsupervised Domain Adaptation                      | Domain Adaptation                          |                 21 |
-|  63 | Image-to-Image Translation                          | Image Generation                           |                 21 |
-|  64 | Skeleton Based Action Recognition                   | Action Recognition                         |                 21 |
-|  65 | Weakly Supervised Action Localization               | Action Recognition                         |                 21 |
-|  66 | Skeleton Based Action Recognition                   | Action Detection                           |                 21 |
-|  67 | Skeleton Based Action Recognition                   | Gesture Recognition                        |                 21 |
-|  68 | Skeleton Based Action Recognition                   | Human Interaction Recognition              |                 21 |
-|  69 | Skeleton Based Action Recognition                   | Action Classification                      |                 21 |
-|  70 | Skeleton Based Action Recognition                   | Hand Gesture Recognition                   |                 21 |
-|  71 | Weakly Supervised Action Localization               | Weakly Supervised Action Localization      |                 21 |
-|  72 | Action Segmentation                                 | Action Localization                        |                 20 |
-|  73 | Keyword Spotting                                    | Keyword Spotting                           |                 20 |
-|  74 | Domain Adaptation                                   | Domain Adaptation                          |                 18 |
-|  75 | Multi-Object Tracking                               | Object Tracking                            |                 18 |
-|  76 | 3D Object Tracking                                  | 3D Object Tracking                         |                 18 |
-|  77 | Panoptic Segmentation                               | Semantic Segmentation                      |                 17 |
-|  78 | RGB Salient Object Detection                        | Object Detection                           |                 16 |
-|  79 | Pose Estimation                                     | 2D Human Pose Estimation                   |                 16 |
-|  80 | Pose Estimation                                     | Pose Estimation                            |                 16 |
-|  81 | Lane Detection                                      | Autonomous Vehicles                        |                 16 |
-|  82 | Supervised Video Summarization                      | Video                                      |                 16 |
-|  83 | Few-Shot Semantic Segmentation                      | Few-Shot Learning                          |                 16 |
-|  84 | Single Image Deraining                              | Rain Removal                               |                 16 |
-|  85 | Supervised Video Summarization                      | Video Summarization                        |                 16 |
-|  86 | Sequential Image Classification                     | Image Classification                       |                 15 |
-|  87 | Out-of-Distribution Detection                       | Out-of-Distribution Detection              |                 15 |
-|  88 | Multi-Person Pose Estimation                        | Pose Estimation                            |                 14 |
-|  89 | Visual Object Tracking                              | Video                                      |                 14 |
-|  90 | Visual Object Tracking                              | Object Tracking                            |                 14 |
-|  91 | Visual Reasoning                                    | Visual Reasoning                           |                 14 |
-|  92 | Visual Place Recognition                            | Visual Place Recognition                   |                 14 |
-|  93 | Person Search                                       | Person Search                              |                 14 |
-|  94 | Unsupervised Semantic Segmentation                  | Semantic Segmentation                      |                 13 |
-|  95 | Face Recognition                                    | Facial Recognition and Modelling           |                 13 |
-|  96 | Temporal Action Localization                        | Zero-Shot Learning                         |                 13 |
-|  97 | Temporal Action Localization                        | Action Localization                        |                 13 |
-|  98 | Metric Learning                                     | Metric Learning                            |                 13 |
-|  99 | Interactive Segmentation                            | Interactive Segmentation                   |                 13 |
-| 100 | Anomaly Detection In Surveillance Videos            | Video                                      |                 12 |
-| 101 | Anomaly Detection In Surveillance Videos            | Anomaly Detection                          |                 12 |
-| 102 | Unsupervised Person Re-Identification               | Person Re-Identification                   |                 12 |
-| 103 | LIDAR Semantic Segmentation                         | LIDAR Semantic Segmentation                |                 12 |
-| 104 | Document Image Classification                       | Image Classification                       |                 11 |
-| 105 | Video Frame Interpolation                           | Video                                      |                 11 |
-| 106 | Document Image Classification                       | Document Image Classification              |                 11 |
-| 107 | Real-Time Semantic Segmentation                     | Semantic Segmentation                      |                 10 |
-| 108 | RGB-D Salient Object Detection                      | Object Detection                           |                 10 |
-| 109 | Autonomous Driving                                  | Autonomous Vehicles                        |                 10 |
-| 110 | Video Denoising                                     | Video                                      |                 10 |
-| 111 | Video Reconstruction                                | 3D                                         |                 10 |
-| 112 | 3D Multi-Person Pose Estimation                     | 3D Human Pose Estimation                   |                 10 |
-| 113 | Semantic correspondence                             | Image Matching                             |                 10 |
-| 114 | 3D Multi-Person Pose Estimation                     | 3D Multi-Person Pose Estimation            |                 10 |
-| 115 | Action Anticipation                                 | Action Anticipation                        |                 10 |
-| 116 | Video Reconstruction                                | Video Reconstruction                       |                 10 |
-| 117 | Pedestrian Detection                                | Autonomous Vehicles                        |                  9 |
-| 118 | Audio-Visual Active Speaker Detection               | Action Detection                           |                  9 |
-| 119 | Robot Navigation                                    | Robot Navigation                           |                  9 |
-| 120 | Line Segment Detection                              | Line Segment Detection                     |                  9 |
-| 121 | Dense Pixel Correspondence Estimation               | Dense Pixel Correspondence Estimation      |                  9 |
-| 122 | Partial Point Cloud Matching                        | Partial Point Cloud Matching               |                  9 |
-| 123 | Knowledge Distillation                              | Image Classification                       |                  8 |
-| 124 | Open World Object Detection                         | Object Detection                           |                  8 |
-| 125 | Conditional Image Generation                        | Image Generation                           |                  8 |
-| 126 | Face Swapping                                       | Facial Recognition and Modelling           |                  8 |
-| 127 | Knowledge Distillation                              | Knowledge Distillation                     |                  8 |
-| 128 | Text-Image Retrieval                                | Image Retrieval                            |                  8 |
-| 129 | Speech Emotion Recognition                          | Emotion Recognition                        |                  8 |
-| 130 | Unsupervised Video Object Segmentation              | Video Object Segmentation                  |                  8 |
-| 131 | Sign Language Recognition                           | Sign Language Recognition                  |                  8 |
-| 132 | Lipreading                                          | Lipreading                                 |                  8 |
-| 133 | Weakly-supervised instance segmentation             | Weakly-supervised instance segmentation    |                  8 |
-| 134 | Image Denoising                                     | Denoising                                  |                  7 |
-| 135 | Image Super-Resolution                              | Super-Resolution                           |                  7 |
-| 136 | Video Generation                                    | Video                                      |                  7 |
-| 137 | Image Super-Resolution                              | Image Super-Resolution                     |                  7 |
-| 138 | Image Compression                                   | Image Compression                          |                  7 |
-| 139 | Novel View Synthesis                                | Novel View Synthesis                       |                  7 |
-| 140 | Video Quality Assessment                            | Video Quality Assessment                   |                  7 |
-| 141 | Action Quality Assessment                           | Action Quality Assessment                  |                  7 |
-| 142 | Blind Face Restoration                              | Blind Face Restoration                     |                  7 |
-| 143 | Multi-Object Tracking and Segmentation              | Multi-Object Tracking and Segmentation     |                  7 |
-| 144 | 3D Part Segmentation                                | Semantic Segmentation                      |                  6 |
-| 145 | Hyperspectral Image Classification                  | Image Classification                       |                  6 |
-| 146 | Partial Domain Adaptation                           | Domain Adaptation                          |                  6 |
-| 147 | Keypoint Detection                                  | Pose Estimation                            |                  6 |
-| 148 | Animal Pose Estimation                              | Pose Estimation                            |                  6 |
-| 149 | 3D Face Reconstruction                              | Facial Recognition and Modelling           |                  6 |
-| 150 | 3D Instance Segmentation                            | Instance Segmentation                      |                  6 |
-| 151 | Multi-label zero-shot learning                      | Zero-Shot Learning                         |                  6 |
-| 152 | Retinal Vessel Segmentation                         | Medical Image Segmentation                 |                  6 |
-| 153 | 3D Face Reconstruction                              | 3D                                         |                  6 |
-| 154 | Face Parsing                                        | Scene Parsing                              |                  6 |
-| 155 | Object Recognition                                  | Object Recognition                         |                  6 |
-| 156 | Emotion Recognition                                 | Emotion Recognition                        |                  6 |
-| 157 | Continuous Control                                  | Continuous Control                         |                  6 |
-| 158 | Video Semantic Segmentation                         | Video Semantic Segmentation                |                  6 |
-| 159 | 3D Face Reconstruction                              | 3D Character Animation From A Single Photo |                  6 |
-| 160 | Point Cloud Registration                            | Point Cloud Registration                   |                  6 |
-| 161 | Hyperspectral Image Classification                  | Hyperspectral                              |                  6 |
-| 162 | 3D Face Reconstruction                              | 3D Absolute Human Pose Estimation          |                  6 |
-| 163 | 3D Face Reconstruction                              | 3D Object Reconstruction                   |                  6 |
-| 164 | 3D Face Reconstruction                              | 3D Face Reconstruction                     |                  6 |
-| 165 | 3D Face Reconstruction                              | Face Reconstruction                        |                  6 |
-| 166 | JPEG Decompression                                  | JPEG Decompression                         |                  6 |
-| 167 | Real-Time Object Detection                          | Object Detection                           |                  5 |
-| 168 | Video Object Detection                              | Object Detection                           |                  5 |
-| 169 | Class-agnostic Object Detection                     | Object Detection                           |                  5 |
-| 170 | 2D Human Pose Estimation                            | 2D Human Pose Estimation                   |                  5 |
-| 171 | Super-Resolution                                    | Super-Resolution                           |                  5 |
-| 172 | Video Prediction                                    | Video                                      |                  5 |
-| 173 | Stereo Depth Estimation                             | Depth Estimation                           |                  5 |
-| 174 | Optical Flow Estimation                             | Optical Flow Estimation                    |                  5 |
-| 175 | Underwater Image Restoration                        | Image Restoration                          |                  5 |
-| 176 | Low-Light Image Enhancement                         | Image Enhancement                          |                  5 |
-| 177 | Building change detection for remote sensing images | Remote Sensing                             |                  5 |
-| 178 | Depth Completion                                    | Depth Completion                           |                  5 |
-| 179 | Image Matting                                       | Image Matting                              |                  5 |
-| 180 | 2D Human Pose Estimation                            | Keypoint Detection                         |                  5 |
-| 181 | 3D Semantic Segmentation                            | Semantic Segmentation                      |                  4 |
-| 182 | Unsupervised Image Classification                   | Image Classification                       |                  4 |
-| 183 | Object Proposal Generation                          | Object Detection                           |                  4 |
-| 184 | 3D-Aware Image Synthesis                            | Image Generation                           |                  4 |
-| 185 | 6D Pose Estimation using RGB                        | Pose Estimation                            |                  4 |
-| 186 | Video Object Segmentation                           | Video                                      |                  4 |
-| 187 | Group Activity Recognition                          | Activity Recognition                       |                  4 |
-| 188 | Human action generation                             | Activity Recognition                       |                  4 |
-| 189 | Face Verification                                   | Facial Recognition and Modelling           |                  4 |
-| 190 | Depth Estimation                                    | Depth Estimation                           |                  4 |
-| 191 | Handwriting Recognition                             | Optical Character Recognition              |                  4 |
-| 192 | Brain Tumor Segmentation                            | Medical Image Segmentation                 |                  4 |
-| 193 | Face Verification                                   | 3D                                         |                  4 |
-| 194 | Scene Graph Generation                              | Scene Parsing                              |                  4 |
-| 195 | Image Retrieval                                     | Image Retrieval                            |                  4 |
-| 196 | Continual Learning                                  | Continual Learning                         |                  4 |
-| 197 | Video Object Segmentation                           | Video Object Segmentation                  |                  4 |
-| 198 | Visual Commonsense Reasoning                        | Visual Reasoning                           |                  4 |
-| 199 | 3D Semantic Segmentation                            | 3D Semantic Segmentation                   |                  4 |
-| 200 | Emotion Classification                              | Emotion Classification                     |                  4 |
-| 201 | Homography Estimation                               | Interest Point Detection                   |                  4 |
-| 202 | Multimodal Lexical Translation                      | Multimodal Machine Translation             |                  4 |
-| 203 | Font Recognition                                    | Font Recognition                           |                  4 |
-| 204 | Image Similarity Detection                          | Image Similarity Detection                 |                  4 |
-| 205 | Partially View-aligned Multi-view Learning          | Partially View-aligned Multi-view Learning |                  4 |
-| 206 | Medical Object Detection                            | Object Detection                           |                  3 |
-| 207 | Camouflaged Object Segmentation                     | Object Detection                           |                  3 |
-| 208 | Universal Domain Adaptation                         | Domain Adaptation                          |                  3 |
-| 209 | Image Inpainting                                    | Image Generation                           |                  3 |
-| 210 | Image Inpainting                                    | 2D Human Pose Estimation                   |                  3 |
-| 211 | Hand Pose Estimation                                | Pose Estimation                            |                  3 |
-| 212 | Human Pose Forecasting                              | Pose Estimation                            |                  3 |
-| 213 | Color Image Denoising                               | Denoising                                  |                  3 |
-| 214 | Grayscale Image Denoising                           | Denoising                                  |                  3 |
-| 215 | Video Super-Resolution                              | Super-Resolution                           |                  3 |
-| 216 | Video Super-Resolution                              | Video                                      |                  3 |
-| 217 | Multiple Object Tracking                            | Video                                      |                  3 |
-| 218 | Action Spotting                                     | Video                                      |                  3 |
-| 219 | Natural Language Moment Retrieval                   | Video                                      |                  3 |
-| 220 | Real-time Instance Segmentation                     | Instance Segmentation                      |                  3 |
-| 221 | Multiple Object Tracking                            | Object Tracking                            |                  3 |
-| 222 | Lesion Segmentation                                 | Medical Image Segmentation                 |                  3 |
-| 223 | 3D Object Classification                            | 3D                                         |                  3 |
-| 224 | Active Object Detection                             | Active Learning                            |                  3 |
-| 225 | MRI Reconstruction                                  | Image Reconstruction                       |                  3 |
-| 226 | Monocular Cross-View Road Scene Parsing(Road)       | Scene Understanding                        |                  3 |
-| 227 | Interactive Video Object Segmentation               | Video Object Segmentation                  |                  3 |
-| 228 | Image Inpainting                                    | Image Inpainting                           |                  3 |
-| 229 | Hand Pose Estimation                                | Hand                                       |                  3 |
-| 230 | Weakly-supervised 3D Human Pose Estimation          | 3D Human Pose Estimation                   |                  3 |
-| 231 | Image Manipulation                                  | Image Manipulation                         |                  3 |
-| 232 | Medical Diagnosis                                   | Medical Diagnosis                          |                  3 |
-| 233 | Edge Detection                                      | Edge Detection                             |                  3 |
-| 234 | Point Cloud Generation                              | Point Cloud Generation                     |                  3 |
-| 235 | Visual Keyword Spotting                             | Keyword Spotting                           |                  3 |
-| 236 | 3D Human Reconstruction                             | Reconstruction                             |                  3 |
-| 237 | Video Question Answering                            | Video Question Answering                   |                  3 |
-| 238 | 3D Hand Pose Estimation                             | Hand Pose Estimation                       |                  3 |
-| 239 | Scene Generation                                    | Scene Generation                           |                  3 |
-| 240 | Camouflaged Object Segmentation                     | Object Segmentation                        |                  3 |
-| 241 | Table Recognition                                   | Table Recognition                          |                  3 |
-| 242 | Camouflaged Object Segmentation                     | Camouflaged Object Segmentation            |                  3 |
-| 243 | Multi-target Domain Adaptation                      | Multi-target Domain Adaptation             |                  3 |
-| 244 | Universal Domain Adaptation                         | Universal Domain Adaptation                |                  3 |
-| 245 | Monocular Cross-View Road Scene Parsing(Road)       | road scene understanding                   |                  3 |
-| 246 | IFC Entity Classification                           | IFC Entity Classification                  |                  3 |
-| 247 | Thermal Image Segmentation                          | Scene Segmentation                         |                  3 |
-| 248 | Road Segementation                                  | Semantic Segmentation                      |                  2 |
-| 249 | Scale Generalisation                                | Image Classification                       |                  2 |
-| 250 | Pose Transfer                                       | Image Generation                           |                  2 |
-| 251 | 3D Pose Estimation                                  | Pose Estimation                            |                  2 |
-| 252 | Head Pose Estimation                                | Pose Estimation                            |                  2 |
-| 253 | Vehicle Pose Estimation                             | Pose Estimation                            |                  2 |
-| 254 | Video Classification                                | Video                                      |                  2 |
-| 255 | Face Detection                                      | Facial Recognition and Modelling           |                  2 |
-| 256 | Facial Landmark Detection                           | Facial Recognition and Modelling           |                  2 |
-| 257 | Age Estimation                                      | Facial Recognition and Modelling           |                  2 |
-| 258 | Age And Gender Classification                       | Facial Recognition and Modelling           |                  2 |
-| 259 | Age-Invariant Face Recognition                      | Facial Recognition and Modelling           |                  2 |
-| 260 | Unsupervised Anomaly Detection                      | Anomaly Detection                          |                  2 |
-| 261 | Few Shot Anomaly Detection                          | Anomaly Detection                          |                  2 |
-| 262 | Cell Segmentation                                   | Medical Image Segmentation                 |                  2 |
-| 263 | 3D Pose Estimation                                  | 3D                                         |                  2 |
-| 264 | Quantization                                        | Quantization                               |                  2 |
-| 265 | Machine Reading Comprehension                       | Visual Question Answering                  |                  2 |
-| 266 | Scene Recognition                                   | Scene Parsing                              |                  2 |
-| 267 | Spatio-Temporal Action Localization                 | Action Localization                        |                  2 |
-| 268 | Adversarial Attack                                  | Adversarial Attack                         |                  2 |
-| 269 | Facial Emotion Recognition                          | Emotion Recognition                        |                  2 |
-| 270 | Hindi Image Captioning                              | Image Captioning                           |                  2 |
-| 271 | Few Shot Temporal Action Localization               | Action Detection                           |                  2 |
-| 272 | Image Relighting                                    | Image Enhancement                          |                  2 |
-| 273 | Facial Makeup Transfer                              | Image-to-Image Translation                 |                  2 |
-| 274 | Dense Video Captioning                              | Video Captioning                           |                  2 |
-| 275 | Monocular 3D Human Pose Estimation                  | 3D Human Pose Estimation                   |                  2 |
-| 276 | Colorization                                        | Colorization                               |                  2 |
-| 277 | Scene Recognition                                   | 3D Character Animation From A Single Photo |                  2 |
-| 278 | Image Matching                                      | Image Matching                             |                  2 |
-| 279 | Visual Localization                                 | Visual Localization                        |                  2 |
-| 280 | Scene Text Detection                                | Scene Text Detection                       |                  2 |
-| 281 | Point Cloud Completion                              | Point Cloud Generation                     |                  2 |
-| 282 | 3D Object Reconstruction From A Single Image        | 3D Object Reconstruction                   |                  2 |
-| 283 | Facial Landmark Detection                           | Facial Landmark Detection                  |                  2 |
-| 284 | Change detection for remote sensing images          | Remote Sensing                             |                  2 |
-| 285 | Document Layout Analysis                            | Document Layout Analysis                   |                  2 |
-| 286 | DeepFake Detection                                  | DeepFake Detection                         |                  2 |
-| 287 | Scene Flow Estimation                               | Scene Flow Estimation                      |                  2 |
-| 288 | Semi-supervised Anomaly Detection                   | Abnormal Event Detection In Video          |                  2 |
-| 289 | Spoof Detection                                     | Spoof Detection                            |                  2 |
-| 290 | 2D Semantic Segmentation                            | 2D Semantic Segmentation                   |                  2 |
-| 291 | Sign Language Translation                           | Sign Language Translation                  |                  2 |
-| 292 | Age-Invariant Face Recognition                      | Face Recognition                           |                  2 |
-| 293 | 3D Dense Shape Correspondence                       | 3D Shape Representation                    |                  2 |
-| 294 | Birds Eye View Object Detection                     | Birds Eye View Object Detection            |                  2 |
-| 295 | Scene Change Detection                              | Scene Change Detection                     |                  2 |
-| 296 | Video Matting                                       | Video Matting                              |                  2 |
-| 297 | Physical Video Anomaly Detection                    | Semi-supervised Anomaly Detection          |                  2 |
-| 298 | General Action Video Anomaly Detection              | Semi-supervised Anomaly Detection          |                  2 |
-| 299 | Monocular Cross-View Road Scene Parsing(Vehicle)    | road scene understanding                   |                  2 |
-| 300 | Video Visual Relation Detection                     | Visual Relationship Detection              |                  2 |
-| 301 | Infrared image super-resolution                     | Infrared image super-resolution            |                  2 |
-| 302 | Neural Stylization                                  | Neural Stylization                         |                  2 |
-| 303 | Thermal Infrared Pedestrian Detection               | Pedestrian Detection                       |                  2 |
-| 304 | Multi-Label Image Classification                    | Image Classification                       |                  1 |
-| 305 | Small Object Detection                              | Object Detection                           |                  1 |
-| 306 | Semi-Supervised Human Pose Estimation               | 2D Human Pose Estimation                   |                  1 |
-| 307 | 6D Pose Estimation                                  | Pose Estimation                            |                  1 |
-| 308 | Car Pose Estimation                                 | Pose Estimation                            |                  1 |
-| 309 | Traffic Sign Recognition                            | Autonomous Vehicles                        |                  1 |
-| 310 | Multi-Frame Super-Resolution                        | Super-Resolution                           |                  1 |
-| 311 | Activity Recognition                                | Activity Recognition                       |                  1 |
-| 312 | Recognizing And Localizing Human Actions            | Activity Recognition                       |                  1 |
-| 313 | Unsupervised Facial Landmark Detection              | Facial Recognition and Modelling           |                  1 |
-| 314 | Stereo-LiDAR Fusion                                 | Depth Estimation                           |                  1 |
-| 315 | Semi-Supervised Person Instance Segmentation        | Instance Segmentation                      |                  1 |
-| 316 | Weakly-supervised Temporal Action Localization      | Action Recognition                         |                  1 |
-| 317 | Online Multi-Object Tracking                        | Object Tracking                            |                  1 |
-| 318 | Liver Segmentation                                  | Medical Image Segmentation                 |                  1 |
-| 319 | Electron Microscopy Image Segmentation              | Medical Image Segmentation                 |                  1 |
-| 320 | 3D Reconstruction                                   | 3D                                         |                  1 |
-| 321 | Medical Image Retrieval                             | Image Retrieval                            |                  1 |
-| 322 | Video-to-Shop                                       | Image Retrieval                            |                  1 |
-| 323 | Self-Supervised Person Re-Identification            | Person Re-Identification                   |                  1 |
-| 324 | Multi-Frame Super-Resolution                        | Image Super-Resolution                     |                  1 |
-| 325 | Semi Supervised Learning for Image Captioning       | Image Captioning                           |                  1 |
-| 326 | Action Detection                                    | Action Detection                           |                  1 |
-| 327 | Medical Code Prediction                             | Multi-Label Classification                 |                  1 |
-| 328 | Trajectory Forecasting                              | Trajectory Prediction                      |                  1 |
-| 329 | Weakly-Supervised Object Localization               | Object Localization                        |                  1 |
-| 330 | Image Enhancement                                   | Image Enhancement                          |                  1 |
-| 331 | Image Quality Assessment                            | Image Quality Assessment                   |                  1 |
-| 332 | Aesthetics Quality Assessment                       | Image Quality Assessment                   |                  1 |
-| 333 | Fundus to Angiography Generation                    | Image-to-Image Translation                 |                  1 |
-| 334 | Image Registration                                  | Image Registration                         |                  1 |
-| 335 | One-Shot 3D Action Recognition                      | Human Interaction Recognition              |                  1 |
-| 336 | Video Captioning                                    | Video Captioning                           |                  1 |
-| 337 | Multi-Hypotheses 3D Human Pose Estimation           | 3D Human Pose Estimation                   |                  1 |
-| 338 | Patch Matching                                      | Image Matching                             |                  1 |
-| 339 | Scene Classification                                | Scene Classification                       |                  1 |
-| 340 | Boundary Detection                                  | Boundary Detection                         |                  1 |
-| 341 | Unsupervised Facial Landmark Detection              | Facial Landmark Detection                  |                  1 |
-| 342 | Single-View 3D Reconstruction                       | Reconstruction                             |                  1 |
-| 343 | MS-SSIM                                             | Document Layout Analysis                   |                  1 |
-| 344 | Semantic Image Matting                              | Image Matting                              |                  1 |
-| 345 | Gaze Estimation                                     | Gaze Estimation                            |                  1 |
-| 346 | Incomplete multi-view clustering                    | MULTI-VIEW LEARNING                        |                  1 |
-| 347 | Pose Tracking                                       | Pose Tracking                              |                  1 |
-| 348 | 3D Human Pose Tracking                              | Pose Tracking                              |                  1 |
-| 349 | Virtual Try-on                                      | Virtual Try-on                             |                  1 |
-| 350 | 3D Multi-Person Pose Estimation (root-relative)     | 3D Multi-Person Pose Estimation            |                  1 |
-| 351 | 3D Multi-Person Mesh Recovery                       | 3D Multi-Person Pose Estimation            |                  1 |
-| 352 | 3D Multi-Person Pose Estimation (absolute)          | 3D Multi-Person Pose Estimation            |                  1 |
-| 353 | Multi-Label Image Classification                    | Multi-Label Image Classification           |                  1 |
-| 354 | Multiview Gait Recognition                          | Gait Recognition                           |                  1 |
-| 355 | Object Counting                                     | Object Counting                            |                  1 |
-| 356 | Face Presentation Attack Detection                  | Spoof Detection                            |                  1 |
-| 357 | Action Understanding                                | Action Understanding                       |                  1 |
-| 358 | Skills Assessment                                   | Skills Assessment                          |                  1 |
-| 359 | VGSI                                                | Text-To-Image                              |                  1 |
-| 360 | Point Cloud Super Resolution                        | Point Cloud Super Resolution               |                  1 |
-| 361 | Muscle Tendon Junction Identification               | Landmark Tracking                          |                  1 |
-| 362 | Accident Anticipation                               | Traffic Accident Detection                 |                  1 |
-| 363 | Weakly Supervised Action Segmentation (Transcript)  | Action Segmentation                        |                  1 |
-| 364 | Semi-Supervised Human Pose Estimation               | Multi-Person Pose Estimation               |                  1 |
-| 365 | Multimodal Patch Matching                           | Patch Matching                             |                  1 |
-| 366 | Plan2Scene                                          | Indoor Scene Reconstruction                |                  1 |
-| 367 | Multiple Object Track and Segmentation              | Multiple Object Tracking                   |                  1 |
-| 368 | Uncropping                                          | Uncropping                                 |                  1 |
-| 369 | Person-centric Visual Grounding                     | Visual Grounding                           |                  1 |
+|     | Task                                                                                                                                       | Field                                      |   Number of Papers |
+|----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|-------------------:|
+|   0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                                               | Image Classification                       |                474 |
+|   1 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                                       | Object Detection                           |                128 |
+|   2 | [Action Classification](https://paperswithcode.com/task/action-classification)                                                             | Video                                      |                126 |
+|   3 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                                             | Semantic Segmentation                      |                115 |
+|   4 | [Motion Forecasting](https://paperswithcode.com/task/motion-forecasting)                                                                   | Autonomous Driving                         |                103 |
+|   5 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                                       | Image Generation                           |                101 |
+|   6 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                                                 | Object Detection                           |                 91 |
+|   7 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                                                   | Activity Recognition                       |                 88 |
+|   8 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                                             | Domain Adaptation                          |                 85 |
+|   9 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                                             | Image Classification                       |                 65 |
+|  10 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation)                     | Video Object Segmentation                  |                 63 |
+|  11 | [Medical Image Segmentation](https://paperswithcode.com/task/medical-image-segmentation)                                                   | Semantic Segmentation                      |                 57 |
+|  12 | [Semi-Supervised Semantic Segmentation](https://paperswithcode.com/task/semi-supervised-semantic-segmentation)                             | Semantic Segmentation                      |                 55 |
+|  13 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                                       | Person Re-Identification                   |                 55 |
+|  14 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                                     | Image Classification                       |                 54 |
+|  15 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification)                               | Image Classification                       |                 54 |
+|  16 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                                             | Instance Segmentation                      |                 53 |
+|  17 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                                                   | Multi-Label Classification                 |                 53 |
+|  18 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                                     | Anomaly Detection                          |                 51 |
+|  19 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                                     | Instance Segmentation                      |                 51 |
+|  20 | [Weakly-Supervised Semantic Segmentation](https://paperswithcode.com/task/weakly-supervised-semantic-segmentation)                         | Semantic Segmentation                      |                 46 |
+|  21 | [Image Captioning](https://paperswithcode.com/task/image-captioning)                                                                       | Image Captioning                           |                 46 |
+|  22 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                                         | Video                                      |                 44 |
+|  23 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                                     | Visual Question Answering                  |                 40 |
+|  24 | [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)                                 | Emotion Recognition                        |                 40 |
+|  25 | [3D Multi-Object Tracking](https://paperswithcode.com/task/3d-multi-object-tracking)                                                       | Multi-Object Tracking                      |                 33 |
+|  26 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)                               | Image Classification                       |                 32 |
+|  27 | [Small Data Image Classification](https://paperswithcode.com/task/small-data-image-classification)                                         | Image Classification                       |                 31 |
+|  28 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                                             | Image-to-Image Translation                 |                 31 |
+|  29 | [Semi-Supervised Object Detection](https://paperswithcode.com/task/semi-supervised-object-detection)                                       | Semi-Supervised Object Detection           |                 31 |
+|  30 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                                             | Facial Recognition and Modelling           |                 30 |
+|  31 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                                                   | 2D Human Pose Estimation                   |                 29 |
+|  32 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                                           | Scene Parsing                              |                 29 |
+|  33 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                                       | Image Generation                           |                 28 |
+|  34 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                                       | Image Clustering                           |                 28 |
+|  35 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                                       | Pose Estimation                            |                 26 |
+|  36 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                                                   | Image Classification                       |                 25 |
+|  37 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                                                   | Depth Estimation                           |                 25 |
+|  38 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                                             | Trajectory Prediction                      |                 25 |
+|  39 | [Zero-Shot Transfer Image Classification](https://paperswithcode.com/task/zero-shot-transfer-image-classification)                         | Zero-Shot Transfer Image Classification    |                 25 |
+|  40 | [Few-Shot Object Detection](https://paperswithcode.com/task/few-shot-object-detection)                                                     | Object Detection                           |                 23 |
+|  41 | [Monocular 3D Object Detection](https://paperswithcode.com/task/monocular-3d-object-detection)                                             | 3D Object Detection                        |                 23 |
+|  42 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)                                   | Human-Object Interaction Detection         |                 23 |
+|  43 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                                             | 3D Point Cloud Classification              |                 23 |
+|  44 | [Vehicle Re-Identification](https://paperswithcode.com/task/vehicle-re-identification)                                                     | Intelligent Surveillance                   |                 23 |
+|  45 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                                           | Facial Recognition and Modelling           |                 22 |
+|  46 | [Unsupervised Object Segmentation](https://paperswithcode.com/task/unsupervised-object-segmentation)                                       | Instance Segmentation                      |                 22 |
+|  47 | [Video Instance Segmentation](https://paperswithcode.com/task/video-instance-segmentation)                                                 | Video Instance Segmentation                |                 22 |
+|  48 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                                           | Domain Adaptation                          |                 21 |
+|  49 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                                                   | Image Generation                           |                 21 |
+|  50 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                                     | Action Recognition                         |                 21 |
+|  51 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)                             | Action Recognition                         |                 21 |
+|  52 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                                                 | Action Localization                        |                 20 |
+|  53 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                                       | Keyword Spotting                           |                 20 |
+|  54 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                                     | Domain Adaptation                          |                 18 |
+|  55 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                                             | Object Tracking                            |                 18 |
+|  56 | [3D Object Tracking](https://paperswithcode.com/task/3d-object-tracking)                                                                   | 3D Object Tracking                         |                 18 |
+|  57 | [Panoptic Segmentation](https://paperswithcode.com/task/panoptic-segmentation)                                                             | Semantic Segmentation                      |                 17 |
+|  58 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                                               | Object Detection                           |                 16 |
+|  59 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                                         | 2D Human Pose Estimation                   |                 16 |
+|  60 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                                           | Autonomous Vehicles                        |                 16 |
+|  61 | [Supervised Video Summarization](https://paperswithcode.com/task/supervised-video-summarization)                                           | Video                                      |                 16 |
+|  62 | [Few-Shot Semantic Segmentation](https://paperswithcode.com/task/few-shot-semantic-segmentation)                                           | Few-Shot Learning                          |                 16 |
+|  63 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                                                           | Rain Removal                               |                 16 |
+|  64 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                                         | Image Classification                       |                 15 |
+|  65 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                                             | Out-of-Distribution Detection              |                 15 |
+|  66 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                                               | Pose Estimation                            |                 14 |
+|  67 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                                           | Video                                      |                 14 |
+|  68 | [Visual Reasoning](https://paperswithcode.com/task/visual-reasoning)                                                                       | Visual Reasoning                           |                 14 |
+|  69 | [Visual Place Recognition](https://paperswithcode.com/task/visual-place-recognition)                                                       | Visual Place Recognition                   |                 14 |
+|  70 | [Person Search](https://paperswithcode.com/task/person-search)                                                                             | Person Search                              |                 14 |
+|  71 | [Unsupervised Semantic Segmentation](https://paperswithcode.com/task/unsupervised-semantic-segmentation)                                   | Semantic Segmentation                      |                 13 |
+|  72 | [Face Recognition](https://paperswithcode.com/task/face-recognition)                                                                       | Facial Recognition and Modelling           |                 13 |
+|  73 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                                               | Zero-Shot Learning                         |                 13 |
+|  74 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                                         | Metric Learning                            |                 13 |
+|  75 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                                       | Interactive Segmentation                   |                 13 |
+|  76 | [Anomaly Detection In Surveillance Videos](https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos)                       | Video                                      |                 12 |
+|  77 | [Unsupervised Person Re-Identification](https://paperswithcode.com/task/unsupervised-person-re-identification)                             | Person Re-Identification                   |                 12 |
+|  78 | [LIDAR Semantic Segmentation](https://paperswithcode.com/task/lidar-semantic-segmentation)                                                 | LIDAR Semantic Segmentation                |                 12 |
+|  79 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                                             | Image Classification                       |                 11 |
+|  80 | [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)                                                     | Video                                      |                 11 |
+|  81 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                                         | Semantic Segmentation                      |                 10 |
+|  82 | [RGB-D Salient Object Detection](https://paperswithcode.com/task/rgb-d-salient-object-detection)                                           | Object Detection                           |                 10 |
+|  83 | [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving)                                                                   | Autonomous Vehicles                        |                 10 |
+|  84 | [Video Denoising](https://paperswithcode.com/task/video-denoising)                                                                         | Video                                      |                 10 |
+|  85 | [Video Reconstruction](https://paperswithcode.com/task/video-reconstruction)                                                               | 3D                                         |                 10 |
+|  86 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                                         | 3D Human Pose Estimation                   |                 10 |
+|  87 | [Semantic correspondence](https://paperswithcode.com/task/semantic-correspondence)                                                         | Image Matching                             |                 10 |
+|  88 | [Action Anticipation](https://paperswithcode.com/task/action-anticipation)                                                                 | Action Anticipation                        |                 10 |
+|  89 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                                               | Autonomous Vehicles                        |                  9 |
+|  90 | [Audio-Visual Active Speaker Detection](https://paperswithcode.com/task/audio-visual-active-speaker-detection)                             | Action Detection                           |                  9 |
+|  91 | [Robot Navigation](https://paperswithcode.com/task/robot-navigation)                                                                       | Robot Navigation                           |                  9 |
+|  92 | [Line Segment Detection](https://paperswithcode.com/task/line-segment-detection)                                                           | Line Segment Detection                     |                  9 |
+|  93 | [Dense Pixel Correspondence Estimation](https://paperswithcode.com/task/dense-pixel-correspondence-estimation)                             | Dense Pixel Correspondence Estimation      |                  9 |
+|  94 | [Partial Point Cloud Matching](https://paperswithcode.com/task/partial-point-cloud-matching)                                               | Partial Point Cloud Matching               |                  9 |
+|  95 | [Knowledge Distillation](https://paperswithcode.com/task/knowledge-distillation)                                                           | Image Classification                       |                  8 |
+|  96 | [Open World Object Detection](https://paperswithcode.com/task/open-world-object-detection)                                                 | Object Detection                           |                  8 |
+|  97 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                                               | Image Generation                           |                  8 |
+|  98 | [Face Swapping](https://paperswithcode.com/task/face-swapping)                                                                             | Facial Recognition and Modelling           |                  8 |
+|  99 | [Text-Image Retrieval](https://paperswithcode.com/task/text-image-retrieval)                                                               | Image Retrieval                            |                  8 |
+| 100 | [Speech Emotion Recognition](https://paperswithcode.com/task/speech-emotion-recognition)                                                   | Emotion Recognition                        |                  8 |
+| 101 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)                           | Video Object Segmentation                  |                  8 |
+| 102 | [Sign Language Recognition](https://paperswithcode.com/task/sign-language-recognition)                                                     | Sign Language Recognition                  |                  8 |
+| 103 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                                                   | Lipreading                                 |                  8 |
+| 104 | [Weakly-supervised instance segmentation](https://paperswithcode.com/task/weakly-supervised-instance-segmentation)                         | Weakly-supervised instance segmentation    |                  8 |
+| 105 | [Image Denoising](https://paperswithcode.com/task/image-denoising)                                                                         | Denoising                                  |                  7 |
+| 106 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                                           | Super-Resolution                           |                  7 |
+| 107 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                                       | Video                                      |                  7 |
+| 108 | [Image Compression](https://paperswithcode.com/task/image-compression)                                                                     | Image Compression                          |                  7 |
+| 109 | [Novel View Synthesis](https://paperswithcode.com/task/novel-view-synthesis)                                                               | Novel View Synthesis                       |                  7 |
+| 110 | [Video Quality Assessment](https://paperswithcode.com/task/video-quality-assessment)                                                       | Video Quality Assessment                   |                  7 |
+| 111 | [Action Quality Assessment](https://paperswithcode.com/task/action-quality-assessment)                                                     | Action Quality Assessment                  |                  7 |
+| 112 | [Blind Face Restoration](https://paperswithcode.com/task/blind-face-restoration)                                                           | Blind Face Restoration                     |                  7 |
+| 113 | [Multi-Object Tracking and Segmentation](https://paperswithcode.com/task/multi-object-tracking-and-segmentation)                           | Multi-Object Tracking and Segmentation     |                  7 |
+| 114 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                                               | Semantic Segmentation                      |                  6 |
+| 115 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)                                   | Image Classification                       |                  6 |
+| 116 | [Partial Domain Adaptation](https://paperswithcode.com/task/partial-domain-adaptation)                                                     | Domain Adaptation                          |                  6 |
+| 117 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                                                   | Pose Estimation                            |                  6 |
+| 118 | [Animal Pose Estimation](https://paperswithcode.com/task/animal-pose-estimation)                                                           | Pose Estimation                            |                  6 |
+| 119 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                                           | Facial Recognition and Modelling           |                  6 |
+| 120 | [3D Instance Segmentation](https://paperswithcode.com/task/3d-instance-segmentation)                                                       | Instance Segmentation                      |                  6 |
+| 121 | [Multi-label zero-shot learning](https://paperswithcode.com/task/multi-label-zero-shot-learning)                                           | Zero-Shot Learning                         |                  6 |
+| 122 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                                                 | Medical Image Segmentation                 |                  6 |
+| 123 | [Face Parsing](https://paperswithcode.com/task/face-parsing)                                                                               | Scene Parsing                              |                  6 |
+| 124 | [Object Recognition](https://paperswithcode.com/task/object-recognition)                                                                   | Object Recognition                         |                  6 |
+| 125 | [Emotion Recognition](https://paperswithcode.com/task/emotion-recognition)                                                                 | Emotion Recognition                        |                  6 |
+| 126 | [Continuous Control](https://paperswithcode.com/task/continuous-control)                                                                   | Continuous Control                         |                  6 |
+| 127 | [Video Semantic Segmentation](https://paperswithcode.com/task/video-semantic-segmentation)                                                 | Video Semantic Segmentation                |                  6 |
+| 128 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                                       | Point Cloud Registration                   |                  6 |
+| 129 | [JPEG Decompression](https://paperswithcode.com/task/jpeg-decompression)                                                                   | JPEG Decompression                         |                  6 |
+| 130 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                                                   | Object Detection                           |                  5 |
+| 131 | [Video Object Detection](https://paperswithcode.com/task/video-object-detection)                                                           | Object Detection                           |                  5 |
+| 132 | [Class-agnostic Object Detection](https://paperswithcode.com/task/class-agnostic-object-detection)                                         | Object Detection                           |                  5 |
+| 133 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                                       | 2D Human Pose Estimation                   |                  5 |
+| 134 | [Super-Resolution](https://paperswithcode.com/task/super-resolution)                                                                       | Super-Resolution                           |                  5 |
+| 135 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                                       | Video                                      |                  5 |
+| 136 | [Stereo Depth Estimation](https://paperswithcode.com/task/stereo-depth-estimation)                                                         | Depth Estimation                           |                  5 |
+| 137 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                                         | Image Retrieval                            |                  5 |
+| 138 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                                         | Optical Flow Estimation                    |                  5 |
+| 139 | [Underwater Image Restoration](https://paperswithcode.com/task/underwater-image-restoration)                                               | Image Restoration                          |                  5 |
+| 140 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                                                 | Image Enhancement                          |                  5 |
+| 141 | [Building change detection for remote sensing images](https://paperswithcode.com/task/building-change-detection-for-remote-sensing-images) | Remote Sensing                             |                  5 |
+| 142 | [Depth Completion](https://paperswithcode.com/task/depth-completion)                                                                       | Depth Completion                           |                  5 |
+| 143 | [Image Matting](https://paperswithcode.com/task/image-matting)                                                                             | Image Matting                              |                  5 |
+| 144 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                                       | Semantic Segmentation                      |                  4 |
+| 145 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                                     | Image Classification                       |                  4 |
+| 146 | [Object Proposal Generation](https://paperswithcode.com/task/object-proposal-generation)                                                   | Object Detection                           |                  4 |
+| 147 | [3D-Aware Image Synthesis](https://paperswithcode.com/task/3d-aware-image-synthesis)                                                       | Image Generation                           |                  4 |
+| 148 | [6D Pose Estimation using RGB](https://paperswithcode.com/task/6d-pose-estimation-using-rgb)                                               | Pose Estimation                            |                  4 |
+| 149 | [Video Object Segmentation](https://paperswithcode.com/task/video-object-segmentation)                                                     | Video                                      |                  4 |
+| 150 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                                                   | Activity Recognition                       |                  4 |
+| 151 | [Human action generation](https://paperswithcode.com/task/human-action-generation)                                                         | Activity Recognition                       |                  4 |
+| 152 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                                     | Facial Recognition and Modelling           |                  4 |
+| 153 | [Depth Estimation](https://paperswithcode.com/task/depth-estimation)                                                                       | Depth Estimation                           |                  4 |
+| 154 | [Handwriting Recognition](https://paperswithcode.com/task/handwriting-recognition)                                                         | Optical Character Recognition              |                  4 |
+| 155 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                                       | Medical Image Segmentation                 |                  4 |
+| 156 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                                           | Scene Parsing                              |                  4 |
+| 157 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                                                   | Continual Learning                         |                  4 |
+| 158 | [Visual Commonsense Reasoning](https://paperswithcode.com/task/visual-commonsense-reasoning)                                               | Visual Reasoning                           |                  4 |
+| 159 | [Emotion Classification](https://paperswithcode.com/task/emotion-classification)                                                           | Emotion Classification                     |                  4 |
+| 160 | [Homography Estimation](https://paperswithcode.com/task/homography-estimation)                                                             | Interest Point Detection                   |                  4 |
+| 161 | [Multimodal Lexical Translation](https://paperswithcode.com/task/multimodal-lexical-translation)                                           | Multimodal Machine Translation             |                  4 |
+| 162 | [Font Recognition](https://paperswithcode.com/task/font-recognition)                                                                       | Font Recognition                           |                  4 |
+| 163 | [Image Similarity Detection](https://paperswithcode.com/task/image-similarity-detection)                                                   | Image Similarity Detection                 |                  4 |
+| 164 | [Partially View-aligned Multi-view Learning](https://paperswithcode.com/task/partially-view-aligned-multi-view-learning)                   | Partially View-aligned Multi-view Learning |                  4 |
+| 165 | [Medical Object Detection](https://paperswithcode.com/task/medical-object-detection)                                                       | Object Detection                           |                  3 |
+| 166 | [Camouflaged Object Segmentation](https://paperswithcode.com/task/camouflaged-object-segmentation)                                         | Object Detection                           |                  3 |
+| 167 | [Universal Domain Adaptation](https://paperswithcode.com/task/universal-domain-adaptation)                                                 | Domain Adaptation                          |                  3 |
+| 168 | [Image Inpainting](https://paperswithcode.com/task/image-inpainting)                                                                       | Image Generation                           |                  3 |
+| 169 | [Hand Pose Estimation](https://paperswithcode.com/task/hand-pose-estimation)                                                               | Pose Estimation                            |                  3 |
+| 170 | [Human Pose Forecasting](https://paperswithcode.com/task/human-pose-forecasting)                                                           | Pose Estimation                            |                  3 |
+| 171 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                                             | Denoising                                  |                  3 |
+| 172 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                                     | Denoising                                  |                  3 |
+| 173 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                                           | Super-Resolution                           |                  3 |
+| 174 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                                       | Video                                      |                  3 |
+| 175 | [Action Spotting](https://paperswithcode.com/task/action-spotting)                                                                         | Video                                      |                  3 |
+| 176 | [Natural Language Moment Retrieval](https://paperswithcode.com/task/natural-language-moment-retrieval)                                     | Video                                      |                  3 |
+| 177 | [Real-time Instance Segmentation](https://paperswithcode.com/task/real-time-instance-segmentation)                                         | Instance Segmentation                      |                  3 |
+| 178 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                                                 | Medical Image Segmentation                 |                  3 |
+| 179 | [3D Object Classification](https://paperswithcode.com/task/3d-object-classification)                                                       | 3D                                         |                  3 |
+| 180 | [Active Object Detection](https://paperswithcode.com/task/active-object-detection)                                                         | Active Learning                            |                  3 |
+| 181 | [MRI Reconstruction](https://paperswithcode.com/task/mri-reconstruction)                                                                   | Image Reconstruction                       |                  3 |
+| 182 | [Monocular Cross-View Road Scene Parsing(Road)](https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing(road))             | Scene Understanding                        |                  3 |
+| 183 | [Interactive Video Object Segmentation](https://paperswithcode.com/task/interactive-video-object-segmentation)                             | Video Object Segmentation                  |                  3 |
+| 184 | [Weakly-supervised 3D Human Pose Estimation](https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation)                   | 3D Human Pose Estimation                   |                  3 |
+| 185 | [Image Manipulation](https://paperswithcode.com/task/image-manipulation)                                                                   | Image Manipulation                         |                  3 |
+| 186 | [Medical Diagnosis](https://paperswithcode.com/task/medical-diagnosis)                                                                     | Medical Diagnosis                          |                  3 |
+| 187 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                                           | Edge Detection                             |                  3 |
+| 188 | [Point Cloud Generation](https://paperswithcode.com/task/point-cloud-generation)                                                           | Point Cloud Generation                     |                  3 |
+| 189 | [Visual Keyword Spotting](https://paperswithcode.com/task/visual-keyword-spotting)                                                         | Keyword Spotting                           |                  3 |
+| 190 | [3D Human Reconstruction](https://paperswithcode.com/task/3d-human-reconstruction)                                                         | Reconstruction                             |                  3 |
+| 191 | [Video Question Answering](https://paperswithcode.com/task/video-question-answering)                                                       | Video Question Answering                   |                  3 |
+| 192 | [3D Hand Pose Estimation](https://paperswithcode.com/task/3d-hand-pose-estimation)                                                         | Hand Pose Estimation                       |                  3 |
+| 193 | [Scene Generation](https://paperswithcode.com/task/scene-generation)                                                                       | Scene Generation                           |                  3 |
+| 194 | [Table Recognition](https://paperswithcode.com/task/table-recognition)                                                                     | Table Recognition                          |                  3 |
+| 195 | [Multi-target Domain Adaptation](https://paperswithcode.com/task/multi-target-domain-adaptation)                                           | Multi-target Domain Adaptation             |                  3 |
+| 196 | [IFC Entity Classification](https://paperswithcode.com/task/ifc-entity-classification)                                                     | IFC Entity Classification                  |                  3 |
+| 197 | [Thermal Image Segmentation](https://paperswithcode.com/task/thermal-image-segmentation)                                                   | Scene Segmentation                         |                  3 |
+| 198 | [Road Segementation](https://paperswithcode.com/task/road-segementation)                                                                   | Semantic Segmentation                      |                  2 |
+| 199 | [Scale Generalisation](https://paperswithcode.com/task/scale-generalisation)                                                               | Image Classification                       |                  2 |
+| 200 | [Pose Transfer](https://paperswithcode.com/task/pose-transfer)                                                                             | Image Generation                           |                  2 |
+| 201 | [3D Pose Estimation](https://paperswithcode.com/task/3d-pose-estimation)                                                                   | Pose Estimation                            |                  2 |
+| 202 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                                               | Pose Estimation                            |                  2 |
+| 203 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                                         | Pose Estimation                            |                  2 |
+| 204 | [Video Classification](https://paperswithcode.com/task/video-classification)                                                               | Video                                      |                  2 |
+| 205 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                                           | Facial Recognition and Modelling           |                  2 |
+| 206 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                                     | Facial Recognition and Modelling           |                  2 |
+| 207 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                                           | Facial Recognition and Modelling           |                  2 |
+| 208 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                                             | Facial Recognition and Modelling           |                  2 |
+| 209 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                                           | Facial Recognition and Modelling           |                  2 |
+| 210 | [Unsupervised Anomaly Detection](https://paperswithcode.com/task/unsupervised-anomaly-detection)                                           | Anomaly Detection                          |                  2 |
+| 211 | [Few Shot Anomaly Detection](https://paperswithcode.com/task/few-shot-anomaly-detection)                                                   | Anomaly Detection                          |                  2 |
+| 212 | [Cell Segmentation](https://paperswithcode.com/task/cell-segmentation)                                                                     | Medical Image Segmentation                 |                  2 |
+| 213 | [Quantization](https://paperswithcode.com/task/quantization)                                                                               | Quantization                               |                  2 |
+| 214 | [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)                                             | Visual Question Answering                  |                  2 |
+| 215 | [Scene Recognition](https://paperswithcode.com/task/scene-recognition)                                                                     | Scene Parsing                              |                  2 |
+| 216 | [Spatio-Temporal Action Localization](https://paperswithcode.com/task/spatio-temporal-action-localization)                                 | Action Localization                        |                  2 |
+| 217 | [Adversarial Attack](https://paperswithcode.com/task/adversarial-attack)                                                                   | Adversarial Attack                         |                  2 |
+| 218 | [Facial Emotion Recognition](https://paperswithcode.com/task/facial-emotion-recognition)                                                   | Emotion Recognition                        |                  2 |
+| 219 | [Hindi Image Captioning](https://paperswithcode.com/task/hindi-image-captioning)                                                           | Image Captioning                           |                  2 |
+| 220 | [Few Shot Temporal Action Localization](https://paperswithcode.com/task/few-shot-temporal-action-localization)                             | Action Detection                           |                  2 |
+| 221 | [Image Relighting](https://paperswithcode.com/task/image-relighting)                                                                       | Image Enhancement                          |                  2 |
+| 222 | [Facial Makeup Transfer](https://paperswithcode.com/task/facial-makeup-transfer)                                                           | Image-to-Image Translation                 |                  2 |
+| 223 | [Dense Video Captioning](https://paperswithcode.com/task/dense-video-captioning)                                                           | Video Captioning                           |                  2 |
+| 224 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)                                   | 3D Human Pose Estimation                   |                  2 |
+| 225 | [Colorization](https://paperswithcode.com/task/colorization)                                                                               | Colorization                               |                  2 |
+| 226 | [Image Matching](https://paperswithcode.com/task/image-matching)                                                                           | Image Matching                             |                  2 |
+| 227 | [Visual Localization](https://paperswithcode.com/task/visual-localization)                                                                 | Visual Localization                        |                  2 |
+| 228 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                                               | Scene Text Detection                       |                  2 |
+| 229 | [Point Cloud Completion](https://paperswithcode.com/task/point-cloud-completion)                                                           | Point Cloud Generation                     |                  2 |
+| 230 | [3D Object Reconstruction From A Single Image](https://paperswithcode.com/task/3d-object-reconstruction-from-a-single-image)               | 3D Object Reconstruction                   |                  2 |
+| 231 | [Change detection for remote sensing images](https://paperswithcode.com/task/change-detection-for-remote-sensing-images)                   | Remote Sensing                             |                  2 |
+| 232 | [Document Layout Analysis](https://paperswithcode.com/task/document-layout-analysis)                                                       | Document Layout Analysis                   |                  2 |
+| 233 | [DeepFake Detection](https://paperswithcode.com/task/deepfake-detection)                                                                   | DeepFake Detection                         |                  2 |
+| 234 | [Scene Flow Estimation](https://paperswithcode.com/task/scene-flow-estimation)                                                             | Scene Flow Estimation                      |                  2 |
+| 235 | [Semi-supervised Anomaly Detection](https://paperswithcode.com/task/semi-supervised-anomaly-detection)                                     | Abnormal Event Detection In Video          |                  2 |
+| 236 | [Spoof Detection](https://paperswithcode.com/task/spoof-detection)                                                                         | Spoof Detection                            |                  2 |
+| 237 | [2D Semantic Segmentation](https://paperswithcode.com/task/2d-semantic-segmentation)                                                       | 2D Semantic Segmentation                   |                  2 |
+| 238 | [Sign Language Translation](https://paperswithcode.com/task/sign-language-translation)                                                     | Sign Language Translation                  |                  2 |
+| 239 | [3D Dense Shape Correspondence](https://paperswithcode.com/task/3d-dense-shape-correspondence)                                             | 3D Shape Representation                    |                  2 |
+| 240 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                                         | Birds Eye View Object Detection            |                  2 |
+| 241 | [Scene Change Detection](https://paperswithcode.com/task/scene-change-detection)                                                           | Scene Change Detection                     |                  2 |
+| 242 | [Video Matting](https://paperswithcode.com/task/video-matting)                                                                             | Video Matting                              |                  2 |
+| 243 | [Physical Video Anomaly Detection](https://paperswithcode.com/task/physical-video-anomaly-detection)                                       | Semi-supervised Anomaly Detection          |                  2 |
+| 244 | [General Action Video Anomaly Detection](https://paperswithcode.com/task/general-action-video-anomaly-detection)                           | Semi-supervised Anomaly Detection          |                  2 |
+| 245 | [Monocular Cross-View Road Scene Parsing(Vehicle)](https://paperswithcode.com/task/monocular-cross-view-road-scene-parsing(vehicle))       | road scene understanding                   |                  2 |
+| 246 | [Video Visual Relation Detection](https://paperswithcode.com/task/video-visual-relation-detection)                                         | Visual Relationship Detection              |                  2 |
+| 247 | [Infrared image super-resolution](https://paperswithcode.com/task/infrared-image-super-resolution)                                         | Infrared image super-resolution            |                  2 |
+| 248 | [Neural Stylization](https://paperswithcode.com/task/neural-stylization)                                                                   | Neural Stylization                         |                  2 |
+| 249 | [Thermal Infrared Pedestrian Detection](https://paperswithcode.com/task/thermal-infrared-pedestrian-detection)                             | Pedestrian Detection                       |                  2 |
+| 250 | [Multi-Label Image Classification](https://paperswithcode.com/task/multi-label-image-classification)                                       | Image Classification                       |                  1 |
+| 251 | [Small Object Detection](https://paperswithcode.com/task/small-object-detection)                                                           | Object Detection                           |                  1 |
+| 252 | [Semi-Supervised Human Pose Estimation](https://paperswithcode.com/task/semi-supervised-human-pose-estimation)                             | 2D Human Pose Estimation                   |                  1 |
+| 253 | [6D Pose Estimation](https://paperswithcode.com/task/6d-pose-estimation)                                                                   | Pose Estimation                            |                  1 |
+| 254 | [Car Pose Estimation](https://paperswithcode.com/task/car-pose-estimation)                                                                 | Pose Estimation                            |                  1 |
+| 255 | [Traffic Sign Recognition](https://paperswithcode.com/task/traffic-sign-recognition)                                                       | Autonomous Vehicles                        |                  1 |
+| 256 | [Multi-Frame Super-Resolution](https://paperswithcode.com/task/multi-frame-super-resolution)                                               | Super-Resolution                           |                  1 |
+| 257 | [Activity Recognition](https://paperswithcode.com/task/activity-recognition)                                                               | Activity Recognition                       |                  1 |
+| 258 | [Recognizing And Localizing Human Actions](https://paperswithcode.com/task/recognizing-and-localizing-human-actions)                       | Activity Recognition                       |                  1 |
+| 259 | [Unsupervised Facial Landmark Detection](https://paperswithcode.com/task/unsupervised-facial-landmark-detection)                           | Facial Recognition and Modelling           |                  1 |
+| 260 | [Stereo-LiDAR Fusion](https://paperswithcode.com/task/stereo-lidar-fusion)                                                                 | Depth Estimation                           |                  1 |
+| 261 | [Semi-Supervised Person Instance Segmentation](https://paperswithcode.com/task/semi-supervised-person-instance-segmentation)               | Instance Segmentation                      |                  1 |
+| 262 | [Weakly-supervised Temporal Action Localization](https://paperswithcode.com/task/weakly-supervised-temporal-action-localization)           | Action Recognition                         |                  1 |
+| 263 | [Online Multi-Object Tracking](https://paperswithcode.com/task/online-multi-object-tracking)                                               | Object Tracking                            |                  1 |
+| 264 | [Liver Segmentation](https://paperswithcode.com/task/liver-segmentation)                                                                   | Medical Image Segmentation                 |                  1 |
+| 265 | [Electron Microscopy Image Segmentation](https://paperswithcode.com/task/electron-microscopy-image-segmentation)                           | Medical Image Segmentation                 |                  1 |
+| 266 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                                     | 3D                                         |                  1 |
+| 267 | [Medical Image Retrieval](https://paperswithcode.com/task/medical-image-retrieval)                                                         | Image Retrieval                            |                  1 |
+| 268 | [Video-to-Shop](https://paperswithcode.com/task/video-to-shop)                                                                             | Image Retrieval                            |                  1 |
+| 269 | [Self-Supervised Person Re-Identification](https://paperswithcode.com/task/self-supervised-person-re-identification)                       | Person Re-Identification                   |                  1 |
+| 270 | [Semi Supervised Learning for Image Captioning](https://paperswithcode.com/task/semi-supervised-learning-for-image-captioning)             | Image Captioning                           |                  1 |
+| 271 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                                       | Action Detection                           |                  1 |
+| 272 | [Medical Code Prediction](https://paperswithcode.com/task/medical-code-prediction)                                                         | Multi-Label Classification                 |                  1 |
+| 273 | [Trajectory Forecasting](https://paperswithcode.com/task/trajectory-forecasting)                                                           | Trajectory Prediction                      |                  1 |
+| 274 | [Weakly-Supervised Object Localization](https://paperswithcode.com/task/weakly-supervised-object-localization)                             | Object Localization                        |                  1 |
+| 275 | [Image Enhancement](https://paperswithcode.com/task/image-enhancement)                                                                     | Image Enhancement                          |                  1 |
+| 276 | [Image Quality Assessment](https://paperswithcode.com/task/image-quality-assessment)                                                       | Image Quality Assessment                   |                  1 |
+| 277 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                                             | Image Quality Assessment                   |                  1 |
+| 278 | [Fundus to Angiography Generation](https://paperswithcode.com/task/fundus-to-angiography-generation)                                       | Image-to-Image Translation                 |                  1 |
+| 279 | [Image Registration](https://paperswithcode.com/task/image-registration)                                                                   | Image Registration                         |                  1 |
+| 280 | [One-Shot 3D Action Recognition](https://paperswithcode.com/task/one-shot-3d-action-recognition)                                           | Human Interaction Recognition              |                  1 |
+| 281 | [Video Captioning](https://paperswithcode.com/task/video-captioning)                                                                       | Video Captioning                           |                  1 |
+| 282 | [Multi-Hypotheses 3D Human Pose Estimation](https://paperswithcode.com/task/multi-hypotheses-3d-human-pose-estimation)                     | 3D Human Pose Estimation                   |                  1 |
+| 283 | [Patch Matching](https://paperswithcode.com/task/patch-matching)                                                                           | Image Matching                             |                  1 |
+| 284 | [Scene Classification](https://paperswithcode.com/task/scene-classification)                                                               | Scene Classification                       |                  1 |
+| 285 | [Boundary Detection](https://paperswithcode.com/task/boundary-detection)                                                                   | Boundary Detection                         |                  1 |
+| 286 | [Single-View 3D Reconstruction](https://paperswithcode.com/task/single-view-3d-reconstruction)                                             | Reconstruction                             |                  1 |
+| 287 | [MS-SSIM](https://paperswithcode.com/task/ms-ssim)                                                                                         | Document Layout Analysis                   |                  1 |
+| 288 | [Semantic Image Matting](https://paperswithcode.com/task/semantic-image-matting)                                                           | Image Matting                              |                  1 |
+| 289 | [Gaze Estimation](https://paperswithcode.com/task/gaze-estimation)                                                                         | Gaze Estimation                            |                  1 |
+| 290 | [Incomplete multi-view clustering](https://paperswithcode.com/task/incomplete-multi-view-clustering)                                       | MULTI-VIEW LEARNING                        |                  1 |
+| 291 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                                             | Pose Tracking                              |                  1 |
+| 292 | [3D Human Pose Tracking](https://paperswithcode.com/task/3d-human-pose-tracking)                                                           | Pose Tracking                              |                  1 |
+| 293 | [Virtual Try-on](https://paperswithcode.com/task/virtual-try-on)                                                                           | Virtual Try-on                             |                  1 |
+| 294 | [3D Multi-Person Pose Estimation (root-relative)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(root-relative))         | 3D Multi-Person Pose Estimation            |                  1 |
+| 295 | [3D Multi-Person Mesh Recovery](https://paperswithcode.com/task/3d-multi-person-mesh-recovery)                                             | 3D Multi-Person Pose Estimation            |                  1 |
+| 296 | [3D Multi-Person Pose Estimation (absolute)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(absolute))                   | 3D Multi-Person Pose Estimation            |                  1 |
+| 297 | [Multiview Gait Recognition](https://paperswithcode.com/task/multiview-gait-recognition)                                                   | Gait Recognition                           |                  1 |
+| 298 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                                         | Object Counting                            |                  1 |
+| 299 | [Face Presentation Attack Detection](https://paperswithcode.com/task/face-presentation-attack-detection)                                   | Spoof Detection                            |                  1 |
+| 300 | [Action Understanding](https://paperswithcode.com/task/action-understanding)                                                               | Action Understanding                       |                  1 |
+| 301 | [Skills Assessment](https://paperswithcode.com/task/skills-assessment)                                                                     | Skills Assessment                          |                  1 |
+| 302 | [VGSI](https://paperswithcode.com/task/vgsi)                                                                                               | Text-To-Image                              |                  1 |
+| 303 | [Point Cloud Super Resolution](https://paperswithcode.com/task/point-cloud-super-resolution)                                               | Point Cloud Super Resolution               |                  1 |
+| 304 | [Muscle Tendon Junction Identification](https://paperswithcode.com/task/muscle-tendon-junction-identification)                             | Landmark Tracking                          |                  1 |
+| 305 | [Accident Anticipation](https://paperswithcode.com/task/accident-anticipation)                                                             | Traffic Accident Detection                 |                  1 |
+| 306 | [Weakly Supervised Action Segmentation (Transcript)](https://paperswithcode.com/task/weakly-supervised-action-segmentation-(transcript))   | Action Segmentation                        |                  1 |
+| 307 | [Multimodal Patch Matching](https://paperswithcode.com/task/multimodal-patch-matching)                                                     | Patch Matching                             |                  1 |
+| 308 | [Plan2Scene](https://paperswithcode.com/task/plan2scene)                                                                                   | Indoor Scene Reconstruction                |                  1 |
+| 309 | [Multiple Object Track and Segmentation](https://paperswithcode.com/task/multiple-object-track-and-segmentation)                           | Multiple Object Tracking                   |                  1 |
+| 310 | [Uncropping](https://paperswithcode.com/task/uncropping)                                                                                   | Uncropping                                 |                  1 |
+| 311 | [Person-centric Visual Grounding](https://paperswithcode.com/task/person-centric-visual-grounding)                                         | Visual Grounding                           |                  1 |
 
 ## 2020
 
-|     | Field                                               | Type                                         |   Number of Papers |
-|----:|:----------------------------------------------------|:---------------------------------------------|-------------------:|
-|   0 | Image Classification                                | Image Classification                         |                252 |
-|   1 | Few-Shot Image Classification                       | Image Classification                         |                111 |
-|   2 | Few-Shot Image Classification                       | Few-Shot Learning                            |                111 |
-|   3 | Fine-Grained Image Classification                   | Image Classification                         |                 98 |
-|   4 | Object Detection                                    | Object Detection                             |                 84 |
-|   5 | 3D Object Tracking                                  | 3D Object Tracking                           |                 82 |
-|   6 | Motion Forecasting                                  | Autonomous Driving                           |                 80 |
-|   7 | Motion Forecasting                                  | Motion Forecasting                           |                 80 |
-|   8 | Image Generation                                    | Image Generation                             |                 75 |
-|   9 | Image Generation                                    | 3D Face Animation                            |                 75 |
-|  10 | 3D Object Detection                                 | Object Detection                             |                 66 |
-|  11 | 3D Object Detection                                 | 3D Object Detection                          |                 66 |
-|  12 | Action Recognition                                  | Activity Recognition                         |                 59 |
-|  13 | Action Recognition                                  | Action Recognition                           |                 59 |
-|  14 | Action Recognition                                  | Video Classification                         |                 59 |
-|  15 | Person Re-Identification                            | Person Re-Identification                     |                 59 |
-|  16 | Semantic Segmentation                               | Semantic Segmentation                        |                 58 |
-|  17 | RGB-D Salient Object Detection                      | Object Detection                             |                 58 |
-|  18 | Semi-Supervised Image Classification                | Image Classification                         |                 55 |
-|  19 | Multi-Label Classification                          | Multi-Label Classification                   |                 53 |
-|  20 | Visual Question Answering                           | Visual Question Answering                    |                 51 |
-|  21 | Learning with noisy labels                          | Image Classification                         |                 48 |
-|  22 | Learning with noisy labels                          | Document Text Classification                 |                 48 |
-|  23 | Panoptic Segmentation                               | Semantic Segmentation                        |                 47 |
-|  24 | Image Captioning                                    | Image Captioning                             |                 45 |
-|  25 | Skeleton Based Action Recognition                   | Action Recognition                           |                 44 |
-|  26 | Skeleton Based Action Recognition                   | Action Detection                             |                 44 |
-|  27 | Skeleton Based Action Recognition                   | Gesture Recognition                          |                 44 |
-|  28 | Skeleton Based Action Recognition                   | Human Interaction Recognition                |                 44 |
-|  29 | Skeleton Based Action Recognition                   | Action Classification                        |                 44 |
-|  30 | Skeleton Based Action Recognition                   | Hand Gesture Recognition                     |                 44 |
-|  31 | Domain Generalization                               | Domain Adaptation                            |                 43 |
-|  32 | Image Clustering                                    | Image Clustering                             |                 42 |
-|  33 | Domain Adaptation                                   | Domain Adaptation                            |                 41 |
-|  34 | Unsupervised Domain Adaptation                      | Domain Adaptation                            |                 40 |
-|  35 | Anomaly Detection                                   | Anomaly Detection                            |                 38 |
-|  36 | Action Classification                               | Video                                        |                 37 |
-|  37 | Emotion Recognition in Conversation                 | Emotion Recognition                          |                 37 |
-|  38 | Image Super-Resolution                              | Super-Resolution                             |                 36 |
-|  39 | Image Super-Resolution                              | Image Super-Resolution                       |                 36 |
-|  40 | Robot Navigation                                    | Robot Navigation                             |                 36 |
-|  41 | 3D Human Pose Estimation                            | Pose Estimation                              |                 35 |
-|  42 | Continuous Control                                  | Continuous Control                           |                 35 |
-|  43 | Self-Supervised Image Classification                | Image Classification                         |                 33 |
-|  44 | Semi-Supervised Video Object Segmentation           | Video Object Segmentation                    |                 33 |
-|  45 | Instance Segmentation                               | Instance Segmentation                        |                 32 |
-|  46 | Referring Expression Segmentation                   | Instance Segmentation                        |                 31 |
-|  47 | Referring Expression Segmentation                   | Referring Expression Segmentation            |                 31 |
-|  48 | Trajectory Prediction                               | Trajectory Prediction                        |                 30 |
-|  49 | Semi-Supervised Semantic Segmentation               | Semantic Segmentation                        |                 29 |
-|  50 | Few-Shot Semantic Segmentation                      | Few-Shot Learning                            |                 29 |
-|  51 | Lane Detection                                      | Autonomous Vehicles                          |                 28 |
-|  52 | Optical Flow Estimation                             | Optical Flow Estimation                      |                 25 |
-|  53 | Video Super-Resolution                              | Super-Resolution                             |                 24 |
-|  54 | Video Super-Resolution                              | Video                                        |                 24 |
-|  55 | Weakly Supervised Action Localization               | Action Recognition                           |                 24 |
-|  56 | Weakly Supervised Action Localization               | Weakly Supervised Action Localization        |                 24 |
-|  57 | 3D Multi-Object Tracking                            | Multi-Object Tracking                        |                 23 |
-|  58 | 3D Multi-Object Tracking                            | 3D Multi-Object Tracking                     |                 23 |
-|  59 | Multi-Object Tracking                               | Object Tracking                              |                 22 |
-|  60 | Image-to-Image Translation                          | Image Generation                             |                 20 |
-|  61 | Human-Object Interaction Detection                  | Human-Object Interaction Detection           |                 20 |
-|  62 | Lipreading                                          | Lipreading                                   |                 20 |
-|  63 | Action Segmentation                                 | Action Localization                          |                 19 |
-|  64 | 3D Semantic Segmentation                            | Semantic Segmentation                        |                 18 |
-|  65 | Real-Time Semantic Segmentation                     | Semantic Segmentation                        |                 18 |
-|  66 | Conditional Image Generation                        | Image Generation                             |                 18 |
-|  67 | 3D Semantic Segmentation                            | 3D Semantic Segmentation                     |                 18 |
-|  68 | Monocular Depth Estimation                          | Depth Estimation                             |                 17 |
-|  69 | Metric Learning                                     | Metric Learning                              |                 17 |
-|  70 | Point Cloud Registration                            | Point Cloud Registration                     |                 17 |
-|  71 | Unsupervised Image Classification                   | Image Classification                         |                 16 |
-|  72 | Image Matting                                       | Image Matting                                |                 16 |
-|  73 | Image Denoising                                     | Denoising                                    |                 15 |
-|  74 | Facial Expression Recognition                       | Facial Recognition and Modelling             |                 15 |
-|  75 | Unsupervised Video Object Segmentation              | Video Object Segmentation                    |                 15 |
-|  76 | Weakly-Supervised Semantic Segmentation             | Semantic Segmentation                        |                 14 |
-|  77 | Few-Shot Object Detection                           | Object Detection                             |                 14 |
-|  78 | Weakly Supervised Object Detection                  | Object Detection                             |                 14 |
-|  79 | Video Frame Interpolation                           | Video                                        |                 14 |
-|  80 | Few-Shot Object Detection                           | Few-Shot Object Detection                    |                 14 |
-|  81 | LIDAR Semantic Segmentation                         | LIDAR Semantic Segmentation                  |                 14 |
-|  82 | Head Pose Estimation                                | Pose Estimation                              |                 13 |
-|  83 | Visual Object Tracking                              | Video                                        |                 13 |
-|  84 | Video Retrieval                                     | Video                                        |                 13 |
-|  85 | Face Alignment                                      | Facial Recognition and Modelling             |                 13 |
-|  86 | Visual Object Tracking                              | Object Tracking                              |                 13 |
-|  87 | Synthetic-to-Real Translation                       | Image-to-Image Translation                   |                 13 |
-|  88 | 3D Point Cloud Classification                       | 3D Point Cloud Classification                |                 13 |
-|  89 | Pose Estimation                                     | 2D Human Pose Estimation                     |                 12 |
-|  90 | Pose Estimation                                     | Pose Estimation                              |                 12 |
-|  91 | Unsupervised Person Re-Identification               | Person Re-Identification                     |                 12 |
-|  92 | Monocular 3D Object Detection                       | 3D Object Detection                          |                 12 |
-|  93 | Keyword Spotting                                    | Keyword Spotting                             |                 12 |
-|  94 | Medical Image Segmentation                          | Semantic Segmentation                        |                 11 |
-|  95 | Multi-Person Pose Estimation                        | Pose Estimation                              |                 11 |
-|  96 | Medical Image Segmentation                          | Medical Image Segmentation                   |                 11 |
-|  97 | Visual Reasoning                                    | Visual Reasoning                             |                 11 |
-|  98 | Line Segment Detection                              | Line Segment Detection                       |                 11 |
-|  99 | Layout-to-Image Generation                          | Image Generation                             |                 10 |
-| 100 | Deblurring                                          | 2D Human Pose Estimation                     |                 10 |
-| 101 | 3D Face Reconstruction                              | Facial Recognition and Modelling             |                 10 |
-| 102 | 3D Instance Segmentation                            | Instance Segmentation                        |                 10 |
-| 103 | Temporal Action Localization                        | Zero-Shot Learning                           |                 10 |
-| 104 | 3D Face Reconstruction                              | 3D                                           |                 10 |
-| 105 | Temporal Action Localization                        | Action Localization                          |                 10 |
-| 106 | Continual Learning                                  | Continual Learning                           |                 10 |
-| 107 | JPEG Artifact Correction                            | Image Restoration                            |                 10 |
-| 108 | Deblurring                                          | Deblurring                                   |                 10 |
-| 109 | Out-of-Distribution Detection                       | Out-of-Distribution Detection                |                 10 |
-| 110 | 3D Multi-Person Pose Estimation                     | 3D Human Pose Estimation                     |                 10 |
-| 111 | 3D Face Reconstruction                              | 3D Character Animation From A Single Photo   |                 10 |
-| 112 | 3D Face Reconstruction                              | 3D Absolute Human Pose Estimation            |                 10 |
-| 113 | 3D Face Reconstruction                              | 3D Object Reconstruction                     |                 10 |
-| 114 | 3D Face Reconstruction                              | 3D Face Reconstruction                       |                 10 |
-| 115 | 3D Face Reconstruction                              | Face Reconstruction                          |                 10 |
-| 116 | Video Instance Segmentation                         | Video Instance Segmentation                  |                 10 |
-| 117 | Vehicle Re-Identification                           | Intelligent Surveillance                     |                 10 |
-| 118 | Vehicle Re-Identification                           | Vehicle Re-Identification                    |                 10 |
-| 119 | 3D Multi-Person Pose Estimation                     | 3D Multi-Person Pose Estimation              |                 10 |
-| 120 | 3D Part Segmentation                                | Semantic Segmentation                        |                  9 |
-| 121 | RGB Salient Object Detection                        | Object Detection                             |                  9 |
-| 122 | Partial Domain Adaptation                           | Domain Adaptation                            |                  9 |
-| 123 | Hand Pose Estimation                                | Pose Estimation                              |                  9 |
-| 124 | Pedestrian Detection                                | Autonomous Vehicles                          |                  9 |
-| 125 | Video Prediction                                    | Video                                        |                  9 |
-| 126 | Depth Estimation                                    | Depth Estimation                             |                  9 |
-| 127 | Zero-Shot Learning                                  | Zero-Shot Learning                           |                  9 |
-| 128 | Generalized Zero-Shot Learning                      | Zero-Shot Learning                           |                  9 |
-| 129 | Scene Text Recognition                              | Scene Parsing                                |                  9 |
-| 130 | Image Retrieval                                     | Image Retrieval                              |                  9 |
-| 131 | Hand Pose Estimation                                | Hand                                         |                  9 |
-| 132 | Semantic correspondence                             | Image Matching                               |                  9 |
-| 133 | Depth Completion                                    | Depth Completion                             |                  9 |
-| 134 | Interactive Segmentation                            | Interactive Segmentation                     |                  9 |
-| 135 | Spatial Relation Recognition                        | Spatial Relation Recognition                 |                  9 |
-| 136 | Vehicle Pose Estimation                             | Pose Estimation                              |                  8 |
-| 137 | Video Denoising                                     | Video                                        |                  8 |
-| 138 | Face Recognition                                    | Facial Recognition and Modelling             |                  8 |
-| 139 | Action Detection                                    | Action Detection                             |                  8 |
-| 140 | Video Quality Assessment                            | Video Quality Assessment                     |                  8 |
-| 141 | Sequential Image Classification                     | Image Classification                         |                  7 |
-| 142 | Video Object Detection                              | Object Detection                             |                  7 |
-| 143 | Camouflaged Object Segmentation                     | Object Detection                             |                  7 |
-| 144 | Image Inpainting                                    | Image Generation                             |                  7 |
-| 145 | Image Inpainting                                    | 2D Human Pose Estimation                     |                  7 |
-| 146 | Multiple Object Tracking                            | Video                                        |                  7 |
-| 147 | Multiple Object Tracking                            | Object Tracking                              |                  7 |
-| 148 | Image Inpainting                                    | Image Inpainting                             |                  7 |
-| 149 | Dense Video Captioning                              | Video Captioning                             |                  7 |
-| 150 | Retinal OCT Disease Classification                  | Medical Diagnosis                            |                  7 |
-| 151 | Retinal OCT Disease Classification                  | Disease Prediction                           |                  7 |
-| 152 | Sign Language Recognition                           | Sign Language Recognition                    |                  7 |
-| 153 | Action Quality Assessment                           | Action Quality Assessment                    |                  7 |
-| 154 | Camouflaged Object Segmentation                     | Object Segmentation                          |                  7 |
-| 155 | Camouflaged Object Segmentation                     | Camouflaged Object Segmentation              |                  7 |
-| 156 | Single-object discovery                             | Single-object discovery                      |                  7 |
-| 157 | Speaker-Specific Lip to Speech Synthesis            | Lip to Speech Synthesis                      |                  7 |
-| 158 | Hyperspectral Image Classification                  | Image Classification                         |                  6 |
-| 159 | Co-Salient Object Detection                         | Object Detection                             |                  6 |
-| 160 | Text-to-Image Generation                            | Image Generation                             |                  6 |
-| 161 | 6D Pose Estimation using RGB                        | Pose Estimation                              |                  6 |
-| 162 | Anomaly Detection In Surveillance Videos            | Video                                        |                  6 |
-| 163 | Face Detection                                      | Facial Recognition and Modelling             |                  6 |
-| 164 | Anomaly Detection In Surveillance Videos            | Anomaly Detection                            |                  6 |
-| 165 | Talking Head Generation                             | 3D                                           |                  6 |
-| 166 | Generalizable Person Re-identification              | Person Re-Identification                     |                  6 |
-| 167 | MRI Reconstruction                                  | Image Reconstruction                         |                  6 |
-| 168 | Emotion-Cause Pair Extraction                       | Emotion Recognition                          |                  6 |
-| 169 | Co-Salient Object Detection                         | Saliency Detection                           |                  6 |
-| 170 | Co-Salient Object Detection                         | Salient Object Detection                     |                  6 |
-| 171 | Video Captioning                                    | Video Captioning                             |                  6 |
-| 172 | Crowd Counting                                      | Crowds                                       |                  6 |
-| 173 | Hyperspectral Image Classification                  | Hyperspectral                                |                  6 |
-| 174 | Talking Head Generation                             | 3D Absolute Human Pose Estimation            |                  6 |
-| 175 | Emotion Classification                              | Emotion Classification                       |                  6 |
-| 176 | Video Question Answering                            | Video Question Answering                     |                  6 |
-| 177 | Scene Generation                                    | Scene Generation                             |                  6 |
-| 178 | Talking Head Generation                             | Face Generation                              |                  6 |
-| 179 | Talking Head Generation                             | Talking Head Generation                      |                  6 |
-| 180 | Unconstrained Lip-synchronization                   | Talking Head Generation                      |                  6 |
-| 181 | Weakly-supervised instance segmentation             | Weakly-supervised instance segmentation      |                  6 |
-| 182 | Small Data Image Classification                     | Image Classification                         |                  5 |
-| 183 | Real-Time Object Detection                          | Object Detection                             |                  5 |
-| 184 | Pose Transfer                                       | Image Generation                             |                  5 |
-| 185 | 3D Pose Estimation                                  | Pose Estimation                              |                  5 |
-| 186 | Action Spotting                                     | Video                                        |                  5 |
-| 187 | 3D Pose Estimation                                  | 3D                                           |                  5 |
-| 188 | Scene Understanding                                 | Scene Parsing                                |                  5 |
-| 189 | Face Parsing                                        | Scene Parsing                                |                  5 |
-| 190 | Text-Image Retrieval                                | Image Retrieval                              |                  5 |
-| 191 | Scene Understanding                                 | Scene Understanding                          |                  5 |
-| 192 | Trajectory Forecasting                              | Trajectory Prediction                        |                  5 |
-| 193 | Low-Light Image Enhancement                         | Image Enhancement                            |                  5 |
-| 194 | Saliency Detection                                  | Saliency Detection                           |                  5 |
-| 195 | Video Saliency Detection                            | Saliency Detection                           |                  5 |
-| 196 | Image Dehazing                                      | Dehazing                                     |                  5 |
-| 197 | Single Image Deraining                              | Rain Removal                                 |                  5 |
-| 198 | Scene Text Detection                                | Scene Text Detection                         |                  5 |
-| 199 | Few-Shot Transfer Learning for Saliency Prediction  | Saliency Prediction                          |                  5 |
-| 200 | 3D Object Reconstruction From A Single Image        | 3D Object Reconstruction                     |                  5 |
-| 201 | Image Dehazing                                      | Image Dehazing                               |                  5 |
-| 202 | Document Layout Analysis                            | Document Layout Analysis                     |                  5 |
-| 203 | Motion Segmentation                                 | Motion Segmentation                          |                  5 |
-| 204 | 3D Multi-Person Pose Estimation (root-relative)     | 3D Multi-Person Pose Estimation              |                  5 |
-| 205 | Semi-Supervised Object Detection                    | Semi-Supervised Object Detection             |                  5 |
-| 206 | Skills Evaluation                                   | Skills Evaluation                            |                  5 |
-| 207 | Multi-object discovery                              | Multi-object discovery                       |                  5 |
-| 208 | Continuously Indexed Domain Adaptation              | Domain Adaptation                            |                  4 |
-| 209 | Autonomous Driving                                  | Autonomous Vehicles                          |                  4 |
-| 210 | Object Tracking                                     | Video                                        |                  4 |
-| 211 | Video Generation                                    | Video                                        |                  4 |
-| 212 | Multimodal Activity Recognition                     | Activity Recognition                         |                  4 |
-| 213 | Face Verification                                   | Facial Recognition and Modelling             |                  4 |
-| 214 | Facial Landmark Detection                           | Facial Recognition and Modelling             |                  4 |
-| 215 | Age Estimation                                      | Facial Recognition and Modelling             |                  4 |
-| 216 | Real-time Instance Segmentation                     | Instance Segmentation                        |                  4 |
-| 217 | Object Tracking                                     | Object Tracking                              |                  4 |
-| 218 | Face Verification                                   | 3D                                           |                  4 |
-| 219 | Quantization                                        | Quantization                                 |                  4 |
-| 220 | Scene Graph Generation                              | Scene Parsing                                |                  4 |
-| 221 | Cross-Modal Person Re-Identification                | Person Re-Identification                     |                  4 |
-| 222 | 3D Object Recognition                               | Object Recognition                           |                  4 |
-| 223 | Hand Gesture Recognition                            | Gesture Recognition                          |                  4 |
-| 224 | Fundus to Angiography Generation                    | Image-to-Image Translation                   |                  4 |
-| 225 | Hand Gesture Recognition                            | Hand                                         |                  4 |
-| 226 | Monocular 3D Human Pose Estimation                  | 3D Human Pose Estimation                     |                  4 |
-| 227 | Real-Time 3D Semantic Segmentation                  | 3D Semantic Segmentation                     |                  4 |
-| 228 | Compressive Sensing                                 | Compressive Sensing                          |                  4 |
-| 229 | Facial Landmark Detection                           | Facial Landmark Detection                    |                  4 |
-| 230 | Disparity Estimation                                | Disparity Estimation                         |                  4 |
-| 231 | 3D Hand Pose Estimation                             | Hand Pose Estimation                         |                  4 |
-| 232 | 3D Multi-Person Pose Estimation (absolute)          | 3D Multi-Person Pose Estimation              |                  4 |
-| 233 | Hand Gesture Recognition                            | 3D Car Instance Understanding                |                  4 |
-| 234 | Table Recognition                                   | Table Recognition                            |                  4 |
-| 235 | Birds Eye View Object Detection                     | Birds Eye View Object Detection              |                  4 |
-| 236 | Camera shot boundary detection                      | Video Segmentation                           |                  4 |
-| 237 | Superpixel Image Classification                     | Image Classification                         |                  3 |
-| 238 | Universal Domain Adaptation                         | Domain Adaptation                            |                  3 |
-| 239 | Keypoint Detection                                  | Pose Estimation                              |                  3 |
-| 240 | Multi-Frame Super-Resolution                        | Super-Resolution                             |                  3 |
-| 241 | Video Object Segmentation                           | Video                                        |                  3 |
-| 242 | Natural Language Moment Retrieval                   | Video                                        |                  3 |
-| 243 | Egocentric Activity Recognition                     | Activity Recognition                         |                  3 |
-| 244 | Face Swapping                                       | Facial Recognition and Modelling             |                  3 |
-| 245 | Heterogeneous Face Recognition                      | Facial Recognition and Modelling             |                  3 |
-| 246 | Unsupervised Anomaly Detection                      | Anomaly Detection                            |                  3 |
-| 247 | Multi-label zero-shot learning                      | Zero-Shot Learning                           |                  3 |
-| 248 | Compositional Zero-Shot Learning                    | Zero-Shot Learning                           |                  3 |
-| 249 | Temporal Action Proposal Generation                 | Action Recognition                           |                  3 |
-| 250 | 3D Reconstruction                                   | 3D                                           |                  3 |
-| 251 | Self-Supervised Person Re-Identification            | Person Re-Identification                     |                  3 |
-| 252 | Multi-Frame Super-Resolution                        | Image Super-Resolution                       |                  3 |
-| 253 | Video Object Segmentation                           | Video Object Segmentation                    |                  3 |
-| 254 | Medical Code Prediction                             | Multi-Label Classification                   |                  3 |
-| 255 | Imputation                                          | Imputation                                   |                  3 |
-| 256 | Point Cloud Generation                              | Point Cloud Generation                       |                  3 |
-| 257 | Change detection for remote sensing images          | Remote Sensing                               |                  3 |
-| 258 | 3D Human Reconstruction                             | Reconstruction                               |                  3 |
-| 259 | DeepFake Detection                                  | DeepFake Detection                           |                  3 |
-| 260 | Surface Normals Estimation                          | Surface Normals Estimation                   |                  3 |
-| 261 | Universal Domain Adaptation                         | Universal Domain Adaptation                  |                  3 |
-| 262 | 3D Canonical Hand Pose Estimation                   | 3D Hand Pose Estimation                      |                  3 |
-| 263 | 3D Dense Shape Correspondence                       | 3D Shape Representation                      |                  3 |
-| 264 | Medical Image Denoising                             | Medical Image Denoising                      |                  3 |
-| 265 | 3D Canonical Hand Pose Estimation                   | 3D Canonical Hand Pose Estimation            |                  3 |
-| 266 | Document Image Classification                       | Image Classification                         |                  2 |
-| 267 | Zero-Shot Object Detection                          | Object Detection                             |                  2 |
-| 268 | 2D Human Pose Estimation                            | 2D Human Pose Estimation                     |                  2 |
-| 269 | 6D Pose Estimation                                  | Pose Estimation                              |                  2 |
-| 270 | Video Classification                                | Video                                        |                  2 |
-| 271 | Video Summarization                                 | Video                                        |                  2 |
-| 272 | Unsupervised Video Summarization                    | Video                                        |                  2 |
-| 273 | Supervised Video Summarization                      | Video                                        |                  2 |
-| 274 | Few-Shot Learning                                   | Few-Shot Learning                            |                  2 |
-| 275 | Human action generation                             | Activity Recognition                         |                  2 |
-| 276 | Face Identification                                 | Facial Recognition and Modelling             |                  2 |
-| 277 | Stereo-LiDAR Fusion                                 | Depth Estimation                             |                  2 |
-| 278 | Lesion Segmentation                                 | Medical Image Segmentation                   |                  2 |
-| 279 | Brain Tumor Segmentation                            | Medical Image Segmentation                   |                  2 |
-| 280 | Retinal Vessel Segmentation                         | Medical Image Segmentation                   |                  2 |
-| 281 | Liver Segmentation                                  | Medical Image Segmentation                   |                  2 |
-| 282 | 3D Object Retrieval                                 | 3D                                           |                  2 |
-| 283 | Scene Recognition                                   | Scene Parsing                                |                  2 |
-| 284 | Spatio-Temporal Action Localization                 | Action Localization                          |                  2 |
-| 285 | Speech Emotion Recognition                          | Emotion Recognition                          |                  2 |
-| 286 | Emotion Recognition in Context                      | Emotion Recognition                          |                  2 |
-| 287 | Interactive Video Object Segmentation               | Video Object Segmentation                    |                  2 |
-| 288 | Image Relighting                                    | Image Enhancement                            |                  2 |
-| 289 | Video Semantic Segmentation                         | Video Semantic Segmentation                  |                  2 |
-| 290 | Camera shot segmentation                            | Video Semantic Segmentation                  |                  2 |
-| 291 | Weakly-supervised 3D Human Pose Estimation          | 3D Human Pose Estimation                     |                  2 |
-| 292 | 3D Absolute Human Pose Estimation                   | 3D Human Pose Estimation                     |                  2 |
-| 293 | Multi-Hypotheses 3D Human Pose Estimation           | 3D Human Pose Estimation                     |                  2 |
-| 294 | Scene Recognition                                   | 3D Character Animation From A Single Photo   |                  2 |
-| 295 | Single Image Dehazing                               | Dehazing                                     |                  2 |
-| 296 | 3D Object Reconstruction                            | Object Reconstruction                        |                  2 |
-| 297 | Video Summarization                                 | Video Summarization                          |                  2 |
-| 298 | Unsupervised Video Summarization                    | Video Summarization                          |                  2 |
-| 299 | Supervised Video Summarization                      | Video Summarization                          |                  2 |
-| 300 | 3D Absolute Human Pose Estimation                   | 3D Absolute Human Pose Estimation            |                  2 |
-| 301 | Edge Detection                                      | Edge Detection                               |                  2 |
-| 302 | Point Cloud Completion                              | Point Cloud Generation                       |                  2 |
-| 303 | Building change detection for remote sensing images | Remote Sensing                               |                  2 |
-| 304 | 2D Human Pose Estimation                            | Keypoint Detection                           |                  2 |
-| 305 | Pose Tracking                                       | Pose Tracking                                |                  2 |
-| 306 | Scene Flow Estimation                               | Scene Flow Estimation                        |                  2 |
-| 307 | Multiview Gait Recognition                          | Gait Recognition                             |                  2 |
-| 308 | Action Anticipation                                 | Action Anticipation                          |                  2 |
-| 309 | Face Presentation Attack Detection                  | Spoof Detection                              |                  2 |
-| 310 | Replay Grounding                                    | Video Retrieval                              |                  2 |
-| 311 | 2D Semantic Segmentation                            | 2D Semantic Segmentation                     |                  2 |
-| 312 | Blind Face Restoration                              | Blind Face Restoration                       |                  2 |
-| 313 | Document Image Classification                       | Document Image Classification                |                  2 |
-| 314 | Story Visualization                                 | Text-To-Image                                |                  2 |
-| 315 | Sign Language Translation                           | Sign Language Translation                    |                  2 |
-| 316 | Face Quality Assessement                            | Face Recognition                             |                  2 |
-| 317 | Handwriting Verification                            | Handwriting Verification                     |                  2 |
-| 318 | Personality Trait Recognition                       | Personality Trait Recognition                |                  2 |
-| 319 | Multi-object colocalization                         | Multi-object colocalization                  |                  2 |
-| 320 | Unsupervised Semantic Segmentation                  | Semantic Segmentation                        |                  1 |
-| 321 | Knowledge Distillation                              | Image Classification                         |                  1 |
-| 322 | Satellite Image Classification                      | Image Classification                         |                  1 |
-| 323 | Medical Object Detection                            | Object Detection                             |                  1 |
-| 324 | Dense Object Detection                              | Object Detection                             |                  1 |
-| 325 | One-Shot Object Detection                           | Object Detection                             |                  1 |
-| 326 | Semantic Part Detection                             | Object Detection                             |                  1 |
-| 327 | Facial Inpainting                                   | Image Generation                             |                  1 |
-| 328 | Activeness Detection                                | Pose Estimation                              |                  1 |
-| 329 | Autonomous Vehicles                                 | Autonomous Vehicles                          |                  1 |
-| 330 | Pedestrian Attribute Recognition                    | Autonomous Vehicles                          |                  1 |
-| 331 | 3D Car Instance Understanding                       | Autonomous Vehicles                          |                  1 |
-| 332 | Denoising                                           | Denoising                                    |                  1 |
-| 333 | Vehicle Speed Estimation                            | Video                                        |                  1 |
-| 334 | One-Shot Learning                                   | Few-Shot Learning                            |                  1 |
-| 335 | Cross-Domain Few-Shot                               | Few-Shot Learning                            |                  1 |
-| 336 | Group Activity Recognition                          | Activity Recognition                         |                  1 |
-| 337 | Face Anti-Spoofing                                  | Facial Recognition and Modelling             |                  1 |
-| 338 | Age And Gender Classification                       | Facial Recognition and Modelling             |                  1 |
-| 339 | Face Hallucination                                  | Facial Recognition and Modelling             |                  1 |
-| 340 | Facial Inpainting                                   | Facial Recognition and Modelling             |                  1 |
-| 341 | Abnormal Event Detection In Video                   | Anomaly Detection                            |                  1 |
-| 342 | Stereo Depth Estimation                             | Depth Estimation                             |                  1 |
-| 343 | Indoor Monocular Depth Estimation                   | Depth Estimation                             |                  1 |
-| 344 | Handwriting Recognition                             | Optical Character Recognition                |                  1 |
-| 345 | Handwritten Digit Recognition                       | Optical Character Recognition                |                  1 |
-| 346 | Knowledge Graph Embedding                           | Contrastive Learning                         |                  1 |
-| 347 | Self-Supervised Learning                            | Self-Supervised Learning                     |                  1 |
-| 348 | Weakly-supervised Temporal Action Localization      | Action Recognition                           |                  1 |
-| 349 | 3D Action Recognition                               | Action Recognition                           |                  1 |
-| 350 | Brain Segmentation                                  | Medical Image Segmentation                   |                  1 |
-| 351 | Lung Nodule Segmentation                            | Medical Image Segmentation                   |                  1 |
-| 352 | Electron Microscopy Image Segmentation              | Medical Image Segmentation                   |                  1 |
-| 353 | 3D Shape Reconstruction                             | 3D                                           |                  1 |
-| 354 | 3D Scene Reconstruction                             | 3D                                           |                  1 |
-| 355 | 3D Shape Reconstruction From A Single 2D Image      | 3D                                           |                  1 |
-| 356 | Knowledge Distillation                              | Knowledge Distillation                       |                  1 |
-| 357 | Object Recognition                                  | Object Recognition                           |                  1 |
-| 358 | Relational Captioning                               | Image Captioning                             |                  1 |
-| 359 | Audio-Visual Active Speaker Detection               | Action Detection                             |                  1 |
-| 360 | Hand-Gesture Recognition                            | Gesture Recognition                          |                  1 |
-| 361 | Image-Based Localization                            | Object Localization                          |                  1 |
-| 362 | Image Enhancement                                   | Image Enhancement                            |                  1 |
-| 363 | Facial Inpainting                                   | Image Inpainting                             |                  1 |
-| 364 | Image Outpainting                                   | Image Inpainting                             |                  1 |
-| 365 | Cloud Removal                                       | Image Inpainting                             |                  1 |
-| 366 | Cross-View Image-to-Image Translation               | Image-to-Image Translation                   |                  1 |
-| 367 | Image Compression                                   | Image Compression                            |                  1 |
-| 368 | Face Anti-Spoofing                                  | Visual Odometry                              |                  1 |
-| 369 | Hand-Gesture Recognition                            | Hand                                         |                  1 |
-| 370 | One-Shot 3D Action Recognition                      | Human Interaction Recognition                |                  1 |
-| 371 | Pose Prediction                                     | 3D Human Pose Estimation                     |                  1 |
-| 372 | Patch Matching                                      | Image Matching                               |                  1 |
-| 373 | Image Matching                                      | Image Matching                               |                  1 |
-| 374 | Multi-Oriented Scene Text Detection                 | Scene Text Detection                         |                  1 |
-| 375 | One-Shot Learning                                   | One-Shot Learning                            |                  1 |
-| 376 | Scene Classification                                | Scene Classification                         |                  1 |
-| 377 | Multi-Label Classification Of Biomedical Texts      | Document Text Classification                 |                  1 |
-| 378 | MS-SSIM                                             | Document Layout Analysis                     |                  1 |
-| 379 | Semantic Image Matting                              | Image Matting                                |                  1 |
-| 380 | Face Anti-Spoofing                                  | Depth And Camera Motion                      |                  1 |
-| 381 | Image Recognition                                   | Image Recognition                            |                  1 |
-| 382 | 3D Multi-Person Mesh Recovery                       | 3D Multi-Person Pose Estimation              |                  1 |
-| 383 | Shadow Detection                                    | Shadow Detection                             |                  1 |
-| 384 | Event-based vision                                  | Event-based vision                           |                  1 |
-| 385 | Image Stitching                                     | Image Stitching                              |                  1 |
-| 386 | Intubation Support Prediction                       | severity prediction                          |                  1 |
-| 387 | Multi-target Domain Adaptation                      | Multi-target Domain Adaptation               |                  1 |
-| 388 | Symmetry Detection                                  | Symmetry Detection                           |                  1 |
-| 389 | Video Alignment                                     | Video Understanding                          |                  1 |
-| 390 | Drone navigation                                    | Content-Based Image Retrieval                |                  1 |
-| 391 | Drone-view target localization                      | Content-Based Image Retrieval                |                  1 |
-| 392 | Muscle Tendon Junction Identification               | Landmark Tracking                            |                  1 |
-| 393 | Scene Change Detection                              | Scene Change Detection                       |                  1 |
-| 394 | Physical Video Anomaly Detection                    | Semi-supervised Anomaly Detection            |                  1 |
-| 395 | General Action Video Anomaly Detection              | Semi-supervised Anomaly Detection            |                  1 |
-| 396 | 3D Shape Reconstruction From A Single 2D Image      | 3D Shape Reconstruction                      |                  1 |
-| 397 | Accident Anticipation                               | Traffic Accident Detection                   |                  1 |
-| 398 | Vehicle Speed Estimation                            | Vehicle Speed Estimation                     |                  1 |
-| 399 | intensity image denoising                           | Image Denoising                              |                  1 |
-| 400 | Event data classification                           | Event data classification                    |                  1 |
-| 401 | Historical Color Image Dating                       | Historical Color Image Dating                |                  1 |
-| 402 | Vehicle Key-Point and Orientation Estimation        | Vehicle Key-Point and Orientation Estimation |                  1 |
-| 403 | Occluded 3D Object Symmetry Detection               | Occluded 3D Object Symmetry Detection        |                  1 |
-| 404 | Lip to Speech Synthesis                             | Visual Speech Recognition                    |                  1 |
-| 405 | Rice Grain Disease Detection                        | Small Object Detection                       |                  1 |
+|     | Task                                                                                                                                       | Field                                        |   Number of Papers |
+|----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------|-------------------:|
+|   0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                                               | Image Classification                         |                252 |
+|   1 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                                             | Image Classification                         |                111 |
+|   2 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                                     | Image Classification                         |                 98 |
+|   3 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                                       | Object Detection                             |                 84 |
+|   4 | [3D Object Tracking](https://paperswithcode.com/task/3d-object-tracking)                                                                   | 3D Object Tracking                           |                 82 |
+|   5 | [Motion Forecasting](https://paperswithcode.com/task/motion-forecasting)                                                                   | Autonomous Driving                           |                 80 |
+|   6 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                                       | Image Generation                             |                 75 |
+|   7 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                                                 | Object Detection                             |                 66 |
+|   8 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                                                   | Activity Recognition                         |                 59 |
+|   9 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                                       | Person Re-Identification                     |                 59 |
+|  10 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                                             | Semantic Segmentation                        |                 58 |
+|  11 | [RGB-D Salient Object Detection](https://paperswithcode.com/task/rgb-d-salient-object-detection)                                           | Object Detection                             |                 58 |
+|  12 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)                               | Image Classification                         |                 55 |
+|  13 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                                                   | Multi-Label Classification                   |                 53 |
+|  14 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                                     | Visual Question Answering                    |                 51 |
+|  15 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                                                   | Image Classification                         |                 48 |
+|  16 | [Panoptic Segmentation](https://paperswithcode.com/task/panoptic-segmentation)                                                             | Semantic Segmentation                        |                 47 |
+|  17 | [Image Captioning](https://paperswithcode.com/task/image-captioning)                                                                       | Image Captioning                             |                 45 |
+|  18 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                                     | Action Recognition                           |                 44 |
+|  19 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                                             | Domain Adaptation                            |                 43 |
+|  20 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                                       | Image Clustering                             |                 42 |
+|  21 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                                     | Domain Adaptation                            |                 41 |
+|  22 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                                           | Domain Adaptation                            |                 40 |
+|  23 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                                     | Anomaly Detection                            |                 38 |
+|  24 | [Action Classification](https://paperswithcode.com/task/action-classification)                                                             | Video                                        |                 37 |
+|  25 | [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)                                 | Emotion Recognition                          |                 37 |
+|  26 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                                           | Super-Resolution                             |                 36 |
+|  27 | [Robot Navigation](https://paperswithcode.com/task/robot-navigation)                                                                       | Robot Navigation                             |                 36 |
+|  28 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                                       | Pose Estimation                              |                 35 |
+|  29 | [Continuous Control](https://paperswithcode.com/task/continuous-control)                                                                   | Continuous Control                           |                 35 |
+|  30 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification)                               | Image Classification                         |                 33 |
+|  31 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation)                     | Video Object Segmentation                    |                 33 |
+|  32 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                                             | Instance Segmentation                        |                 32 |
+|  33 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                                     | Instance Segmentation                        |                 31 |
+|  34 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                                             | Trajectory Prediction                        |                 30 |
+|  35 | [Semi-Supervised Semantic Segmentation](https://paperswithcode.com/task/semi-supervised-semantic-segmentation)                             | Semantic Segmentation                        |                 29 |
+|  36 | [Few-Shot Semantic Segmentation](https://paperswithcode.com/task/few-shot-semantic-segmentation)                                           | Few-Shot Learning                            |                 29 |
+|  37 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                                           | Autonomous Vehicles                          |                 28 |
+|  38 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                                         | Optical Flow Estimation                      |                 25 |
+|  39 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                                           | Super-Resolution                             |                 24 |
+|  40 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)                             | Action Recognition                           |                 24 |
+|  41 | [3D Multi-Object Tracking](https://paperswithcode.com/task/3d-multi-object-tracking)                                                       | Multi-Object Tracking                        |                 23 |
+|  42 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                                             | Object Tracking                              |                 22 |
+|  43 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                                                   | Image Generation                             |                 20 |
+|  44 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)                                   | Human-Object Interaction Detection           |                 20 |
+|  45 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                                                   | Lipreading                                   |                 20 |
+|  46 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                                                 | Action Localization                          |                 19 |
+|  47 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                                       | Semantic Segmentation                        |                 18 |
+|  48 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                                         | Semantic Segmentation                        |                 18 |
+|  49 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                                               | Image Generation                             |                 18 |
+|  50 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                                                   | Depth Estimation                             |                 18 |
+|  51 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                                         | Metric Learning                              |                 17 |
+|  52 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                                       | Point Cloud Registration                     |                 17 |
+|  53 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                                     | Image Classification                         |                 16 |
+|  54 | [Image Matting](https://paperswithcode.com/task/image-matting)                                                                             | Image Matting                                |                 16 |
+|  55 | [Image Denoising](https://paperswithcode.com/task/image-denoising)                                                                         | Denoising                                    |                 15 |
+|  56 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                                             | Facial Recognition and Modelling             |                 15 |
+|  57 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)                           | Video Object Segmentation                    |                 15 |
+|  58 | [Weakly-Supervised Semantic Segmentation](https://paperswithcode.com/task/weakly-supervised-semantic-segmentation)                         | Semantic Segmentation                        |                 14 |
+|  59 | [Few-Shot Object Detection](https://paperswithcode.com/task/few-shot-object-detection)                                                     | Object Detection                             |                 14 |
+|  60 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)                                   | Object Detection                             |                 14 |
+|  61 | [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)                                                     | Video                                        |                 14 |
+|  62 | [LIDAR Semantic Segmentation](https://paperswithcode.com/task/lidar-semantic-segmentation)                                                 | LIDAR Semantic Segmentation                  |                 14 |
+|  63 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                                               | Pose Estimation                              |                 13 |
+|  64 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                                           | Video                                        |                 13 |
+|  65 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                                         | Video                                        |                 13 |
+|  66 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                                           | Facial Recognition and Modelling             |                 13 |
+|  67 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                                             | Image-to-Image Translation                   |                 13 |
+|  68 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                                             | 3D Point Cloud Classification                |                 13 |
+|  69 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                                         | 2D Human Pose Estimation                     |                 12 |
+|  70 | [Unsupervised Person Re-Identification](https://paperswithcode.com/task/unsupervised-person-re-identification)                             | Person Re-Identification                     |                 12 |
+|  71 | [Monocular 3D Object Detection](https://paperswithcode.com/task/monocular-3d-object-detection)                                             | 3D Object Detection                          |                 12 |
+|  72 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                                       | Keyword Spotting                             |                 12 |
+|  73 | [Medical Image Segmentation](https://paperswithcode.com/task/medical-image-segmentation)                                                   | Semantic Segmentation                        |                 11 |
+|  74 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                                               | Pose Estimation                              |                 11 |
+|  75 | [Visual Reasoning](https://paperswithcode.com/task/visual-reasoning)                                                                       | Visual Reasoning                             |                 11 |
+|  76 | [Line Segment Detection](https://paperswithcode.com/task/line-segment-detection)                                                           | Line Segment Detection                       |                 11 |
+|  77 | [Layout-to-Image Generation](https://paperswithcode.com/task/layout-to-image-generation)                                                   | Image Generation                             |                 10 |
+|  78 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                                                   | 2D Human Pose Estimation                     |                 10 |
+|  79 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                                           | Facial Recognition and Modelling             |                 10 |
+|  80 | [3D Instance Segmentation](https://paperswithcode.com/task/3d-instance-segmentation)                                                       | Instance Segmentation                        |                 10 |
+|  81 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                                               | Zero-Shot Learning                           |                 10 |
+|  82 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                                                   | Continual Learning                           |                 10 |
+|  83 | [JPEG Artifact Correction](https://paperswithcode.com/task/jpeg-artifact-correction)                                                       | Image Restoration                            |                 10 |
+|  84 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                                             | Out-of-Distribution Detection                |                 10 |
+|  85 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                                         | 3D Human Pose Estimation                     |                 10 |
+|  86 | [Video Instance Segmentation](https://paperswithcode.com/task/video-instance-segmentation)                                                 | Video Instance Segmentation                  |                 10 |
+|  87 | [Vehicle Re-Identification](https://paperswithcode.com/task/vehicle-re-identification)                                                     | Intelligent Surveillance                     |                 10 |
+|  88 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                                               | Semantic Segmentation                        |                  9 |
+|  89 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                                               | Object Detection                             |                  9 |
+|  90 | [Partial Domain Adaptation](https://paperswithcode.com/task/partial-domain-adaptation)                                                     | Domain Adaptation                            |                  9 |
+|  91 | [Hand Pose Estimation](https://paperswithcode.com/task/hand-pose-estimation)                                                               | Pose Estimation                              |                  9 |
+|  92 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                                               | Autonomous Vehicles                          |                  9 |
+|  93 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                                       | Video                                        |                  9 |
+|  94 | [Depth Estimation](https://paperswithcode.com/task/depth-estimation)                                                                       | Depth Estimation                             |                  9 |
+|  95 | [Zero-Shot Learning](https://paperswithcode.com/task/zero-shot-learning)                                                                   | Zero-Shot Learning                           |                  9 |
+|  96 | [Generalized Zero-Shot Learning](https://paperswithcode.com/task/generalized-zero-shot-learning)                                           | Zero-Shot Learning                           |                  9 |
+|  97 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                                           | Scene Parsing                                |                  9 |
+|  98 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                                         | Image Retrieval                              |                  9 |
+|  99 | [Semantic correspondence](https://paperswithcode.com/task/semantic-correspondence)                                                         | Image Matching                               |                  9 |
+| 100 | [Depth Completion](https://paperswithcode.com/task/depth-completion)                                                                       | Depth Completion                             |                  9 |
+| 101 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                                       | Interactive Segmentation                     |                  9 |
+| 102 | [Spatial Relation Recognition](https://paperswithcode.com/task/spatial-relation-recognition)                                               | Spatial Relation Recognition                 |                  9 |
+| 103 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                                         | Pose Estimation                              |                  8 |
+| 104 | [Video Denoising](https://paperswithcode.com/task/video-denoising)                                                                         | Video                                        |                  8 |
+| 105 | [Face Recognition](https://paperswithcode.com/task/face-recognition)                                                                       | Facial Recognition and Modelling             |                  8 |
+| 106 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                                       | Action Detection                             |                  8 |
+| 107 | [Video Quality Assessment](https://paperswithcode.com/task/video-quality-assessment)                                                       | Video Quality Assessment                     |                  8 |
+| 108 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                                         | Image Classification                         |                  7 |
+| 109 | [Video Object Detection](https://paperswithcode.com/task/video-object-detection)                                                           | Object Detection                             |                  7 |
+| 110 | [Camouflaged Object Segmentation](https://paperswithcode.com/task/camouflaged-object-segmentation)                                         | Object Detection                             |                  7 |
+| 111 | [Image Inpainting](https://paperswithcode.com/task/image-inpainting)                                                                       | Image Generation                             |                  7 |
+| 112 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                                       | Video                                        |                  7 |
+| 113 | [Dense Video Captioning](https://paperswithcode.com/task/dense-video-captioning)                                                           | Video Captioning                             |                  7 |
+| 114 | [Retinal OCT Disease Classification](https://paperswithcode.com/task/retinal-oct-disease-classification)                                   | Medical Diagnosis                            |                  7 |
+| 115 | [Sign Language Recognition](https://paperswithcode.com/task/sign-language-recognition)                                                     | Sign Language Recognition                    |                  7 |
+| 116 | [Action Quality Assessment](https://paperswithcode.com/task/action-quality-assessment)                                                     | Action Quality Assessment                    |                  7 |
+| 117 | [Single-object discovery](https://paperswithcode.com/task/single-object-discovery)                                                         | Single-object discovery                      |                  7 |
+| 118 | [Speaker-Specific Lip to Speech Synthesis](https://paperswithcode.com/task/speaker-specific-lip-to-speech-synthesis)                       | Lip to Speech Synthesis                      |                  7 |
+| 119 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)                                   | Image Classification                         |                  6 |
+| 120 | [Co-Salient Object Detection](https://paperswithcode.com/task/co-salient-object-detection)                                                 | Object Detection                             |                  6 |
+| 121 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                                       | Image Generation                             |                  6 |
+| 122 | [6D Pose Estimation using RGB](https://paperswithcode.com/task/6d-pose-estimation-using-rgb)                                               | Pose Estimation                              |                  6 |
+| 123 | [Anomaly Detection In Surveillance Videos](https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos)                       | Video                                        |                  6 |
+| 124 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                                           | Facial Recognition and Modelling             |                  6 |
+| 125 | [Talking Head Generation](https://paperswithcode.com/task/talking-head-generation)                                                         | 3D                                           |                  6 |
+| 126 | [Generalizable Person Re-identification](https://paperswithcode.com/task/generalizable-person-re-identification)                           | Person Re-Identification                     |                  6 |
+| 127 | [MRI Reconstruction](https://paperswithcode.com/task/mri-reconstruction)                                                                   | Image Reconstruction                         |                  6 |
+| 128 | [Emotion-Cause Pair Extraction](https://paperswithcode.com/task/emotion-cause-pair-extraction)                                             | Emotion Recognition                          |                  6 |
+| 129 | [Video Captioning](https://paperswithcode.com/task/video-captioning)                                                                       | Video Captioning                             |                  6 |
+| 130 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                                           | Crowds                                       |                  6 |
+| 131 | [Emotion Classification](https://paperswithcode.com/task/emotion-classification)                                                           | Emotion Classification                       |                  6 |
+| 132 | [Video Question Answering](https://paperswithcode.com/task/video-question-answering)                                                       | Video Question Answering                     |                  6 |
+| 133 | [Scene Generation](https://paperswithcode.com/task/scene-generation)                                                                       | Scene Generation                             |                  6 |
+| 134 | [Unconstrained Lip-synchronization](https://paperswithcode.com/task/unconstrained-lip-synchronization)                                     | Talking Head Generation                      |                  6 |
+| 135 | [Weakly-supervised instance segmentation](https://paperswithcode.com/task/weakly-supervised-instance-segmentation)                         | Weakly-supervised instance segmentation      |                  6 |
+| 136 | [Small Data Image Classification](https://paperswithcode.com/task/small-data-image-classification)                                         | Image Classification                         |                  5 |
+| 137 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                                                   | Object Detection                             |                  5 |
+| 138 | [Pose Transfer](https://paperswithcode.com/task/pose-transfer)                                                                             | Image Generation                             |                  5 |
+| 139 | [3D Pose Estimation](https://paperswithcode.com/task/3d-pose-estimation)                                                                   | Pose Estimation                              |                  5 |
+| 140 | [Action Spotting](https://paperswithcode.com/task/action-spotting)                                                                         | Video                                        |                  5 |
+| 141 | [Scene Understanding](https://paperswithcode.com/task/scene-understanding)                                                                 | Scene Parsing                                |                  5 |
+| 142 | [Face Parsing](https://paperswithcode.com/task/face-parsing)                                                                               | Scene Parsing                                |                  5 |
+| 143 | [Text-Image Retrieval](https://paperswithcode.com/task/text-image-retrieval)                                                               | Image Retrieval                              |                  5 |
+| 144 | [Trajectory Forecasting](https://paperswithcode.com/task/trajectory-forecasting)                                                           | Trajectory Prediction                        |                  5 |
+| 145 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                                                 | Image Enhancement                            |                  5 |
+| 146 | [Saliency Detection](https://paperswithcode.com/task/saliency-detection)                                                                   | Saliency Detection                           |                  5 |
+| 147 | [Video Saliency Detection](https://paperswithcode.com/task/video-saliency-detection)                                                       | Saliency Detection                           |                  5 |
+| 148 | [Image Dehazing](https://paperswithcode.com/task/image-dehazing)                                                                           | Dehazing                                     |                  5 |
+| 149 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                                                           | Rain Removal                                 |                  5 |
+| 150 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                                               | Scene Text Detection                         |                  5 |
+| 151 | [Few-Shot Transfer Learning for Saliency Prediction](https://paperswithcode.com/task/few-shot-transfer-learning-for-saliency-prediction)   | Saliency Prediction                          |                  5 |
+| 152 | [3D Object Reconstruction From A Single Image](https://paperswithcode.com/task/3d-object-reconstruction-from-a-single-image)               | 3D Object Reconstruction                     |                  5 |
+| 153 | [Document Layout Analysis](https://paperswithcode.com/task/document-layout-analysis)                                                       | Document Layout Analysis                     |                  5 |
+| 154 | [Motion Segmentation](https://paperswithcode.com/task/motion-segmentation)                                                                 | Motion Segmentation                          |                  5 |
+| 155 | [3D Multi-Person Pose Estimation (root-relative)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(root-relative))         | 3D Multi-Person Pose Estimation              |                  5 |
+| 156 | [Semi-Supervised Object Detection](https://paperswithcode.com/task/semi-supervised-object-detection)                                       | Semi-Supervised Object Detection             |                  5 |
+| 157 | [Skills Evaluation](https://paperswithcode.com/task/skills-evaluation)                                                                     | Skills Evaluation                            |                  5 |
+| 158 | [Multi-object discovery](https://paperswithcode.com/task/multi-object-discovery)                                                           | Multi-object discovery                       |                  5 |
+| 159 | [Continuously Indexed Domain Adaptation](https://paperswithcode.com/task/continuously-indexed-domain-adaptation)                           | Domain Adaptation                            |                  4 |
+| 160 | [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving)                                                                   | Autonomous Vehicles                          |                  4 |
+| 161 | [Object Tracking](https://paperswithcode.com/task/object-tracking)                                                                         | Video                                        |                  4 |
+| 162 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                                       | Video                                        |                  4 |
+| 163 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                                         | Activity Recognition                         |                  4 |
+| 164 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                                     | Facial Recognition and Modelling             |                  4 |
+| 165 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                                     | Facial Recognition and Modelling             |                  4 |
+| 166 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                                           | Facial Recognition and Modelling             |                  4 |
+| 167 | [Real-time Instance Segmentation](https://paperswithcode.com/task/real-time-instance-segmentation)                                         | Instance Segmentation                        |                  4 |
+| 168 | [Quantization](https://paperswithcode.com/task/quantization)                                                                               | Quantization                                 |                  4 |
+| 169 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                                           | Scene Parsing                                |                  4 |
+| 170 | [Cross-Modal Person Re-Identification](https://paperswithcode.com/task/cross-modal-person-re-identification)                               | Person Re-Identification                     |                  4 |
+| 171 | [3D Object Recognition](https://paperswithcode.com/task/3d-object-recognition)                                                             | Object Recognition                           |                  4 |
+| 172 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                       | Gesture Recognition                          |                  4 |
+| 173 | [Fundus to Angiography Generation](https://paperswithcode.com/task/fundus-to-angiography-generation)                                       | Image-to-Image Translation                   |                  4 |
+| 174 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)                                   | 3D Human Pose Estimation                     |                  4 |
+| 175 | [Real-Time 3D Semantic Segmentation](https://paperswithcode.com/task/real-time-3d-semantic-segmentation)                                   | 3D Semantic Segmentation                     |                  4 |
+| 176 | [Compressive Sensing](https://paperswithcode.com/task/compressive-sensing)                                                                 | Compressive Sensing                          |                  4 |
+| 177 | [Disparity Estimation](https://paperswithcode.com/task/disparity-estimation)                                                               | Disparity Estimation                         |                  4 |
+| 178 | [3D Hand Pose Estimation](https://paperswithcode.com/task/3d-hand-pose-estimation)                                                         | Hand Pose Estimation                         |                  4 |
+| 179 | [3D Multi-Person Pose Estimation (absolute)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(absolute))                   | 3D Multi-Person Pose Estimation              |                  4 |
+| 180 | [Table Recognition](https://paperswithcode.com/task/table-recognition)                                                                     | Table Recognition                            |                  4 |
+| 181 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                                         | Birds Eye View Object Detection              |                  4 |
+| 182 | [Camera shot boundary detection](https://paperswithcode.com/task/camera-shot-boundary-detection)                                           | Video Segmentation                           |                  4 |
+| 183 | [Superpixel Image Classification](https://paperswithcode.com/task/superpixel-image-classification)                                         | Image Classification                         |                  3 |
+| 184 | [Universal Domain Adaptation](https://paperswithcode.com/task/universal-domain-adaptation)                                                 | Domain Adaptation                            |                  3 |
+| 185 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                                                   | Pose Estimation                              |                  3 |
+| 186 | [Multi-Frame Super-Resolution](https://paperswithcode.com/task/multi-frame-super-resolution)                                               | Super-Resolution                             |                  3 |
+| 187 | [Video Object Segmentation](https://paperswithcode.com/task/video-object-segmentation)                                                     | Video                                        |                  3 |
+| 188 | [Natural Language Moment Retrieval](https://paperswithcode.com/task/natural-language-moment-retrieval)                                     | Video                                        |                  3 |
+| 189 | [Egocentric Activity Recognition](https://paperswithcode.com/task/egocentric-activity-recognition)                                         | Activity Recognition                         |                  3 |
+| 190 | [Face Swapping](https://paperswithcode.com/task/face-swapping)                                                                             | Facial Recognition and Modelling             |                  3 |
+| 191 | [Heterogeneous Face Recognition](https://paperswithcode.com/task/heterogeneous-face-recognition)                                           | Facial Recognition and Modelling             |                  3 |
+| 192 | [Unsupervised Anomaly Detection](https://paperswithcode.com/task/unsupervised-anomaly-detection)                                           | Anomaly Detection                            |                  3 |
+| 193 | [Multi-label zero-shot learning](https://paperswithcode.com/task/multi-label-zero-shot-learning)                                           | Zero-Shot Learning                           |                  3 |
+| 194 | [Compositional Zero-Shot Learning](https://paperswithcode.com/task/compositional-zero-shot-learning)                                       | Zero-Shot Learning                           |                  3 |
+| 195 | [Temporal Action Proposal Generation](https://paperswithcode.com/task/temporal-action-proposal-generation)                                 | Action Recognition                           |                  3 |
+| 196 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                                     | 3D                                           |                  3 |
+| 197 | [Self-Supervised Person Re-Identification](https://paperswithcode.com/task/self-supervised-person-re-identification)                       | Person Re-Identification                     |                  3 |
+| 198 | [Medical Code Prediction](https://paperswithcode.com/task/medical-code-prediction)                                                         | Multi-Label Classification                   |                  3 |
+| 199 | [Imputation](https://paperswithcode.com/task/imputation)                                                                                   | Imputation                                   |                  3 |
+| 200 | [Point Cloud Generation](https://paperswithcode.com/task/point-cloud-generation)                                                           | Point Cloud Generation                       |                  3 |
+| 201 | [Change detection for remote sensing images](https://paperswithcode.com/task/change-detection-for-remote-sensing-images)                   | Remote Sensing                               |                  3 |
+| 202 | [3D Human Reconstruction](https://paperswithcode.com/task/3d-human-reconstruction)                                                         | Reconstruction                               |                  3 |
+| 203 | [DeepFake Detection](https://paperswithcode.com/task/deepfake-detection)                                                                   | DeepFake Detection                           |                  3 |
+| 204 | [Surface Normals Estimation](https://paperswithcode.com/task/surface-normals-estimation)                                                   | Surface Normals Estimation                   |                  3 |
+| 205 | [3D Canonical Hand Pose Estimation](https://paperswithcode.com/task/3d-canonical-hand-pose-estimation)                                     | 3D Hand Pose Estimation                      |                  3 |
+| 206 | [3D Dense Shape Correspondence](https://paperswithcode.com/task/3d-dense-shape-correspondence)                                             | 3D Shape Representation                      |                  3 |
+| 207 | [Medical Image Denoising](https://paperswithcode.com/task/medical-image-denoising)                                                         | Medical Image Denoising                      |                  3 |
+| 208 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                                             | Image Classification                         |                  2 |
+| 209 | [Zero-Shot Object Detection](https://paperswithcode.com/task/zero-shot-object-detection)                                                   | Object Detection                             |                  2 |
+| 210 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                                       | 2D Human Pose Estimation                     |                  2 |
+| 211 | [6D Pose Estimation](https://paperswithcode.com/task/6d-pose-estimation)                                                                   | Pose Estimation                              |                  2 |
+| 212 | [Video Classification](https://paperswithcode.com/task/video-classification)                                                               | Video                                        |                  2 |
+| 213 | [Video Summarization](https://paperswithcode.com/task/video-summarization)                                                                 | Video                                        |                  2 |
+| 214 | [Unsupervised Video Summarization](https://paperswithcode.com/task/unsupervised-video-summarization)                                       | Video                                        |                  2 |
+| 215 | [Supervised Video Summarization](https://paperswithcode.com/task/supervised-video-summarization)                                           | Video                                        |                  2 |
+| 216 | [Few-Shot Learning](https://paperswithcode.com/task/few-shot-learning)                                                                     | Few-Shot Learning                            |                  2 |
+| 217 | [Human action generation](https://paperswithcode.com/task/human-action-generation)                                                         | Activity Recognition                         |                  2 |
+| 218 | [Face Identification](https://paperswithcode.com/task/face-identification)                                                                 | Facial Recognition and Modelling             |                  2 |
+| 219 | [Stereo-LiDAR Fusion](https://paperswithcode.com/task/stereo-lidar-fusion)                                                                 | Depth Estimation                             |                  2 |
+| 220 | [Indoor Monocular Depth Estimation](https://paperswithcode.com/task/indoor-monocular-depth-estimation)                                     | Depth Estimation                             |                  2 |
+| 221 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                                                 | Medical Image Segmentation                   |                  2 |
+| 222 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                                       | Medical Image Segmentation                   |                  2 |
+| 223 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                                                 | Medical Image Segmentation                   |                  2 |
+| 224 | [Liver Segmentation](https://paperswithcode.com/task/liver-segmentation)                                                                   | Medical Image Segmentation                   |                  2 |
+| 225 | [3D Object Retrieval](https://paperswithcode.com/task/3d-object-retrieval)                                                                 | 3D                                           |                  2 |
+| 226 | [Scene Recognition](https://paperswithcode.com/task/scene-recognition)                                                                     | Scene Parsing                                |                  2 |
+| 227 | [Spatio-Temporal Action Localization](https://paperswithcode.com/task/spatio-temporal-action-localization)                                 | Action Localization                          |                  2 |
+| 228 | [Speech Emotion Recognition](https://paperswithcode.com/task/speech-emotion-recognition)                                                   | Emotion Recognition                          |                  2 |
+| 229 | [Emotion Recognition in Context](https://paperswithcode.com/task/emotion-recognition-in-context)                                           | Emotion Recognition                          |                  2 |
+| 230 | [Interactive Video Object Segmentation](https://paperswithcode.com/task/interactive-video-object-segmentation)                             | Video Object Segmentation                    |                  2 |
+| 231 | [Image Relighting](https://paperswithcode.com/task/image-relighting)                                                                       | Image Enhancement                            |                  2 |
+| 232 | [Video Semantic Segmentation](https://paperswithcode.com/task/video-semantic-segmentation)                                                 | Video Semantic Segmentation                  |                  2 |
+| 233 | [Camera shot segmentation](https://paperswithcode.com/task/camera-shot-segmentation)                                                       | Video Semantic Segmentation                  |                  2 |
+| 234 | [Weakly-supervised 3D Human Pose Estimation](https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation)                   | 3D Human Pose Estimation                     |                  2 |
+| 235 | [3D Absolute Human Pose Estimation](https://paperswithcode.com/task/3d-absolute-human-pose-estimation)                                     | 3D Human Pose Estimation                     |                  2 |
+| 236 | [Multi-Hypotheses 3D Human Pose Estimation](https://paperswithcode.com/task/multi-hypotheses-3d-human-pose-estimation)                     | 3D Human Pose Estimation                     |                  2 |
+| 237 | [Single Image Dehazing](https://paperswithcode.com/task/single-image-dehazing)                                                             | Dehazing                                     |                  2 |
+| 238 | [3D Object Reconstruction](https://paperswithcode.com/task/3d-object-reconstruction)                                                       | Object Reconstruction                        |                  2 |
+| 239 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                                           | Edge Detection                               |                  2 |
+| 240 | [Point Cloud Completion](https://paperswithcode.com/task/point-cloud-completion)                                                           | Point Cloud Generation                       |                  2 |
+| 241 | [Building change detection for remote sensing images](https://paperswithcode.com/task/building-change-detection-for-remote-sensing-images) | Remote Sensing                               |                  2 |
+| 242 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                                             | Pose Tracking                                |                  2 |
+| 243 | [Scene Flow Estimation](https://paperswithcode.com/task/scene-flow-estimation)                                                             | Scene Flow Estimation                        |                  2 |
+| 244 | [Multiview Gait Recognition](https://paperswithcode.com/task/multiview-gait-recognition)                                                   | Gait Recognition                             |                  2 |
+| 245 | [Action Anticipation](https://paperswithcode.com/task/action-anticipation)                                                                 | Action Anticipation                          |                  2 |
+| 246 | [Face Presentation Attack Detection](https://paperswithcode.com/task/face-presentation-attack-detection)                                   | Spoof Detection                              |                  2 |
+| 247 | [Replay Grounding](https://paperswithcode.com/task/replay-grounding)                                                                       | Video Retrieval                              |                  2 |
+| 248 | [2D Semantic Segmentation](https://paperswithcode.com/task/2d-semantic-segmentation)                                                       | 2D Semantic Segmentation                     |                  2 |
+| 249 | [Blind Face Restoration](https://paperswithcode.com/task/blind-face-restoration)                                                           | Blind Face Restoration                       |                  2 |
+| 250 | [Story Visualization](https://paperswithcode.com/task/story-visualization)                                                                 | Text-To-Image                                |                  2 |
+| 251 | [Sign Language Translation](https://paperswithcode.com/task/sign-language-translation)                                                     | Sign Language Translation                    |                  2 |
+| 252 | [Face Quality Assessement](https://paperswithcode.com/task/face-quality-assessement)                                                       | Face Recognition                             |                  2 |
+| 253 | [Handwriting Verification](https://paperswithcode.com/task/handwriting-verification)                                                       | Handwriting Verification                     |                  2 |
+| 254 | [Personality Trait Recognition](https://paperswithcode.com/task/personality-trait-recognition)                                             | Personality Trait Recognition                |                  2 |
+| 255 | [Multi-object colocalization](https://paperswithcode.com/task/multi-object-colocalization)                                                 | Multi-object colocalization                  |                  2 |
+| 256 | [Unsupervised Semantic Segmentation](https://paperswithcode.com/task/unsupervised-semantic-segmentation)                                   | Semantic Segmentation                        |                  1 |
+| 257 | [Knowledge Distillation](https://paperswithcode.com/task/knowledge-distillation)                                                           | Image Classification                         |                  1 |
+| 258 | [Satellite Image Classification](https://paperswithcode.com/task/satellite-image-classification)                                           | Image Classification                         |                  1 |
+| 259 | [Medical Object Detection](https://paperswithcode.com/task/medical-object-detection)                                                       | Object Detection                             |                  1 |
+| 260 | [Dense Object Detection](https://paperswithcode.com/task/dense-object-detection)                                                           | Object Detection                             |                  1 |
+| 261 | [One-Shot Object Detection](https://paperswithcode.com/task/one-shot-object-detection)                                                     | Object Detection                             |                  1 |
+| 262 | [Semantic Part Detection](https://paperswithcode.com/task/semantic-part-detection)                                                         | Object Detection                             |                  1 |
+| 263 | [Facial Inpainting](https://paperswithcode.com/task/facial-inpainting)                                                                     | Image Generation                             |                  1 |
+| 264 | [Activeness Detection](https://paperswithcode.com/task/activeness-detection)                                                               | Pose Estimation                              |                  1 |
+| 265 | [Autonomous Vehicles](https://paperswithcode.com/task/autonomous-vehicles)                                                                 | Autonomous Vehicles                          |                  1 |
+| 266 | [Pedestrian Attribute Recognition](https://paperswithcode.com/task/pedestrian-attribute-recognition)                                       | Autonomous Vehicles                          |                  1 |
+| 267 | [3D Car Instance Understanding](https://paperswithcode.com/task/3d-car-instance-understanding)                                             | Autonomous Vehicles                          |                  1 |
+| 268 | [Denoising](https://paperswithcode.com/task/denoising)                                                                                     | Denoising                                    |                  1 |
+| 269 | [Vehicle Speed Estimation](https://paperswithcode.com/task/vehicle-speed-estimation)                                                       | Video                                        |                  1 |
+| 270 | [One-Shot Learning](https://paperswithcode.com/task/one-shot-learning)                                                                     | Few-Shot Learning                            |                  1 |
+| 271 | [Cross-Domain Few-Shot](https://paperswithcode.com/task/cross-domain-few-shot)                                                             | Few-Shot Learning                            |                  1 |
+| 272 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                                                   | Activity Recognition                         |                  1 |
+| 273 | [Face Anti-Spoofing](https://paperswithcode.com/task/face-anti-spoofing)                                                                   | Facial Recognition and Modelling             |                  1 |
+| 274 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                                             | Facial Recognition and Modelling             |                  1 |
+| 275 | [Face Hallucination](https://paperswithcode.com/task/face-hallucination)                                                                   | Facial Recognition and Modelling             |                  1 |
+| 276 | [Abnormal Event Detection In Video](https://paperswithcode.com/task/abnormal-event-detection-in-video)                                     | Anomaly Detection                            |                  1 |
+| 277 | [Stereo Depth Estimation](https://paperswithcode.com/task/stereo-depth-estimation)                                                         | Depth Estimation                             |                  1 |
+| 278 | [Handwriting Recognition](https://paperswithcode.com/task/handwriting-recognition)                                                         | Optical Character Recognition                |                  1 |
+| 279 | [Handwritten Digit Recognition](https://paperswithcode.com/task/handwritten-digit-recognition)                                             | Optical Character Recognition                |                  1 |
+| 280 | [Knowledge Graph Embedding](https://paperswithcode.com/task/knowledge-graph-embedding)                                                     | Contrastive Learning                         |                  1 |
+| 281 | [Self-Supervised Learning](https://paperswithcode.com/task/self-supervised-learning)                                                       | Self-Supervised Learning                     |                  1 |
+| 282 | [Weakly-supervised Temporal Action Localization](https://paperswithcode.com/task/weakly-supervised-temporal-action-localization)           | Action Recognition                           |                  1 |
+| 283 | [3D Action Recognition](https://paperswithcode.com/task/3d-action-recognition)                                                             | Action Recognition                           |                  1 |
+| 284 | [Brain Segmentation](https://paperswithcode.com/task/brain-segmentation)                                                                   | Medical Image Segmentation                   |                  1 |
+| 285 | [Lung Nodule Segmentation](https://paperswithcode.com/task/lung-nodule-segmentation)                                                       | Medical Image Segmentation                   |                  1 |
+| 286 | [Electron Microscopy Image Segmentation](https://paperswithcode.com/task/electron-microscopy-image-segmentation)                           | Medical Image Segmentation                   |                  1 |
+| 287 | [3D Shape Reconstruction](https://paperswithcode.com/task/3d-shape-reconstruction)                                                         | 3D                                           |                  1 |
+| 288 | [3D Scene Reconstruction](https://paperswithcode.com/task/3d-scene-reconstruction)                                                         | 3D                                           |                  1 |
+| 289 | [3D Shape Reconstruction From A Single 2D Image](https://paperswithcode.com/task/3d-shape-reconstruction-from-a-single-2d-image)           | 3D                                           |                  1 |
+| 290 | [Object Recognition](https://paperswithcode.com/task/object-recognition)                                                                   | Object Recognition                           |                  1 |
+| 291 | [Relational Captioning](https://paperswithcode.com/task/relational-captioning)                                                             | Image Captioning                             |                  1 |
+| 292 | [Audio-Visual Active Speaker Detection](https://paperswithcode.com/task/audio-visual-active-speaker-detection)                             | Action Detection                             |                  1 |
+| 293 | [Hand-Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                       | Gesture Recognition                          |                  1 |
+| 294 | [Image-Based Localization](https://paperswithcode.com/task/image-based-localization)                                                       | Object Localization                          |                  1 |
+| 295 | [Image Enhancement](https://paperswithcode.com/task/image-enhancement)                                                                     | Image Enhancement                            |                  1 |
+| 296 | [Image Outpainting](https://paperswithcode.com/task/image-outpainting)                                                                     | Image Inpainting                             |                  1 |
+| 297 | [Cloud Removal](https://paperswithcode.com/task/cloud-removal)                                                                             | Image Inpainting                             |                  1 |
+| 298 | [Cross-View Image-to-Image Translation](https://paperswithcode.com/task/cross-view-image-to-image-translation)                             | Image-to-Image Translation                   |                  1 |
+| 299 | [Image Compression](https://paperswithcode.com/task/image-compression)                                                                     | Image Compression                            |                  1 |
+| 300 | [One-Shot 3D Action Recognition](https://paperswithcode.com/task/one-shot-3d-action-recognition)                                           | Human Interaction Recognition                |                  1 |
+| 301 | [Pose Prediction](https://paperswithcode.com/task/pose-prediction)                                                                         | 3D Human Pose Estimation                     |                  1 |
+| 302 | [Patch Matching](https://paperswithcode.com/task/patch-matching)                                                                           | Image Matching                               |                  1 |
+| 303 | [Image Matching](https://paperswithcode.com/task/image-matching)                                                                           | Image Matching                               |                  1 |
+| 304 | [Multi-Oriented Scene Text Detection](https://paperswithcode.com/task/multi-oriented-scene-text-detection)                                 | Scene Text Detection                         |                  1 |
+| 305 | [Scene Classification](https://paperswithcode.com/task/scene-classification)                                                               | Scene Classification                         |                  1 |
+| 306 | [Multi-Label Classification Of Biomedical Texts](https://paperswithcode.com/task/multi-label-classification-of-biomedical-texts)           | Document Text Classification                 |                  1 |
+| 307 | [MS-SSIM](https://paperswithcode.com/task/ms-ssim)                                                                                         | Document Layout Analysis                     |                  1 |
+| 308 | [Semantic Image Matting](https://paperswithcode.com/task/semantic-image-matting)                                                           | Image Matting                                |                  1 |
+| 309 | [Image Recognition](https://paperswithcode.com/task/image-recognition)                                                                     | Image Recognition                            |                  1 |
+| 310 | [3D Multi-Person Mesh Recovery](https://paperswithcode.com/task/3d-multi-person-mesh-recovery)                                             | 3D Multi-Person Pose Estimation              |                  1 |
+| 311 | [Shadow Detection](https://paperswithcode.com/task/shadow-detection)                                                                       | Shadow Detection                             |                  1 |
+| 312 | [Event-based vision](https://paperswithcode.com/task/event-based-vision)                                                                   | Event-based vision                           |                  1 |
+| 313 | [Image Stitching](https://paperswithcode.com/task/image-stitching)                                                                         | Image Stitching                              |                  1 |
+| 314 | [Intubation Support Prediction](https://paperswithcode.com/task/intubation-support-prediction)                                             | severity prediction                          |                  1 |
+| 315 | [Multi-target Domain Adaptation](https://paperswithcode.com/task/multi-target-domain-adaptation)                                           | Multi-target Domain Adaptation               |                  1 |
+| 316 | [Symmetry Detection](https://paperswithcode.com/task/symmetry-detection)                                                                   | Symmetry Detection                           |                  1 |
+| 317 | [Video Alignment](https://paperswithcode.com/task/video-alignment)                                                                         | Video Understanding                          |                  1 |
+| 318 | [Drone navigation](https://paperswithcode.com/task/drone-navigation)                                                                       | Content-Based Image Retrieval                |                  1 |
+| 319 | [Drone-view target localization](https://paperswithcode.com/task/drone-view-target-localization)                                           | Content-Based Image Retrieval                |                  1 |
+| 320 | [Muscle Tendon Junction Identification](https://paperswithcode.com/task/muscle-tendon-junction-identification)                             | Landmark Tracking                            |                  1 |
+| 321 | [Scene Change Detection](https://paperswithcode.com/task/scene-change-detection)                                                           | Scene Change Detection                       |                  1 |
+| 322 | [Physical Video Anomaly Detection](https://paperswithcode.com/task/physical-video-anomaly-detection)                                       | Semi-supervised Anomaly Detection            |                  1 |
+| 323 | [General Action Video Anomaly Detection](https://paperswithcode.com/task/general-action-video-anomaly-detection)                           | Semi-supervised Anomaly Detection            |                  1 |
+| 324 | [Accident Anticipation](https://paperswithcode.com/task/accident-anticipation)                                                             | Traffic Accident Detection                   |                  1 |
+| 325 | [intensity image denoising](https://paperswithcode.com/task/intensity-image-denoising)                                                     | Image Denoising                              |                  1 |
+| 326 | [Event data classification](https://paperswithcode.com/task/event-data-classification)                                                     | Event data classification                    |                  1 |
+| 327 | [Historical Color Image Dating](https://paperswithcode.com/task/historical-color-image-dating)                                             | Historical Color Image Dating                |                  1 |
+| 328 | [Vehicle Key-Point and Orientation Estimation](https://paperswithcode.com/task/vehicle-key-point-and-orientation-estimation)               | Vehicle Key-Point and Orientation Estimation |                  1 |
+| 329 | [Occluded 3D Object Symmetry Detection](https://paperswithcode.com/task/occluded-3d-object-symmetry-detection)                             | Occluded 3D Object Symmetry Detection        |                  1 |
+| 330 | [Lip to Speech Synthesis](https://paperswithcode.com/task/lip-to-speech-synthesis)                                                         | Visual Speech Recognition                    |                  1 |
+| 331 | [Rice Grain Disease Detection](https://paperswithcode.com/task/rice-grain-disease-detection)                                               | Small Object Detection                       |                  1 |
 
 ## 2019
 
-|     | Field                                              | Type                                       |   Number of Papers |
-|----:|:---------------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Image Classification                               | Image Classification                       |                207 |
-|   1 | Object Detection                                   | Object Detection                           |                147 |
-|   2 | Multi-Label Classification                         | Multi-Label Classification                 |                132 |
-|   3 | Semantic Segmentation                              | Semantic Segmentation                      |                124 |
-|   4 | Image Super-Resolution                             | Super-Resolution                           |                111 |
-|   5 | Image Super-Resolution                             | Image Super-Resolution                     |                111 |
-|   6 | Few-Shot Image Classification                      | Image Classification                       |                108 |
-|   7 | Few-Shot Image Classification                      | Few-Shot Learning                          |                108 |
-|   8 | Semi-Supervised Image Classification               | Image Classification                       |                 77 |
-|   9 | Action Recognition                                 | Activity Recognition                       |                 75 |
-|  10 | Action Recognition                                 | Action Recognition                         |                 75 |
-|  11 | Action Recognition                                 | Video Classification                       |                 75 |
-|  12 | Person Re-Identification                           | Person Re-Identification                   |                 73 |
-|  13 | Skeleton Based Action Recognition                  | Action Recognition                         |                 55 |
-|  14 | Skeleton Based Action Recognition                  | Action Detection                           |                 55 |
-|  15 | Skeleton Based Action Recognition                  | Gesture Recognition                        |                 55 |
-|  16 | Skeleton Based Action Recognition                  | Human Interaction Recognition              |                 55 |
-|  17 | Skeleton Based Action Recognition                  | Action Classification                      |                 55 |
-|  18 | Skeleton Based Action Recognition                  | Hand Gesture Recognition                   |                 55 |
-|  19 | Image Generation                                   | Image Generation                           |                 53 |
-|  20 | Image Generation                                   | 3D Face Animation                          |                 53 |
-|  21 | 3D Object Detection                                | Object Detection                           |                 50 |
-|  22 | Instance Segmentation                              | Instance Segmentation                      |                 50 |
-|  23 | 3D Object Detection                                | 3D Object Detection                        |                 50 |
-|  24 | Domain Adaptation                                  | Domain Adaptation                          |                 48 |
-|  25 | Fine-Grained Image Classification                  | Image Classification                       |                 44 |
-|  26 | 3D Human Pose Estimation                           | Pose Estimation                            |                 39 |
-|  27 | Scene Text Detection                               | Scene Text Detection                       |                 39 |
-|  28 | Semi-Supervised Video Object Segmentation          | Video Object Segmentation                  |                 38 |
-|  29 | Action Classification                              | Video                                      |                 37 |
-|  30 | Monocular Depth Estimation                         | Depth Estimation                           |                 35 |
-|  31 | Image Captioning                                   | Image Captioning                           |                 34 |
-|  32 | Visual Question Answering                          | Visual Question Answering                  |                 32 |
-|  33 | Domain Generalization                              | Domain Adaptation                          |                 31 |
-|  34 | RGB Salient Object Detection                       | Object Detection                           |                 26 |
-|  35 | Visual Object Tracking                             | Video                                      |                 26 |
-|  36 | Visual Object Tracking                             | Object Tracking                            |                 26 |
-|  37 | Self-Supervised Image Classification               | Image Classification                       |                 25 |
-|  38 | Motion Forecasting                                 | Autonomous Driving                         |                 24 |
-|  39 | Motion Forecasting                                 | Motion Forecasting                         |                 24 |
-|  40 | Panoptic Segmentation                              | Semantic Segmentation                      |                 23 |
-|  41 | Weakly Supervised Object Detection                 | Object Detection                           |                 23 |
-|  42 | Color Image Denoising                              | Denoising                                  |                 23 |
-|  43 | Unsupervised Domain Adaptation                     | Domain Adaptation                          |                 22 |
-|  44 | Image Clustering                                   | Image Clustering                           |                 22 |
-|  45 | Grayscale Image Denoising                          | Denoising                                  |                 21 |
-|  46 | Video Denoising                                    | Video                                      |                 20 |
-|  47 | Face Alignment                                     | Facial Recognition and Modelling           |                 20 |
-|  48 | Learning with noisy labels                         | Image Classification                       |                 19 |
-|  49 | Emotion Recognition in Conversation                | Emotion Recognition                        |                 19 |
-|  50 | Learning with noisy labels                         | Document Text Classification               |                 19 |
-|  51 | Image-to-Image Translation                         | Image Generation                           |                 18 |
-|  52 | Anomaly Detection                                  | Anomaly Detection                          |                 18 |
-|  53 | Referring Expression Segmentation                  | Instance Segmentation                      |                 18 |
-|  54 | Out-of-Distribution Detection                      | Out-of-Distribution Detection              |                 18 |
-|  55 | Referring Expression Segmentation                  | Referring Expression Segmentation          |                 18 |
-|  56 | Few-Shot Semantic Segmentation                     | Few-Shot Learning                          |                 17 |
-|  57 | Face Verification                                  | Facial Recognition and Modelling           |                 17 |
-|  58 | Weakly Supervised Action Localization              | Action Recognition                         |                 17 |
-|  59 | Face Verification                                  | 3D                                         |                 17 |
-|  60 | Weakly Supervised Action Localization              | Weakly Supervised Action Localization      |                 17 |
-|  61 | Deblurring                                         | 2D Human Pose Estimation                   |                 16 |
-|  62 | Image Retrieval                                    | Image Retrieval                            |                 16 |
-|  63 | Deblurring                                         | Deblurring                                 |                 16 |
-|  64 | Synthetic-to-Real Translation                      | Image-to-Image Translation                 |                 16 |
-|  65 | Birds Eye View Object Detection                    | Birds Eye View Object Detection            |                 16 |
-|  66 | Real-Time Object Detection                         | Object Detection                           |                 15 |
-|  67 | Video Salient Object Detection                     | Object Detection                           |                 15 |
-|  68 | Face Detection                                     | Facial Recognition and Modelling           |                 15 |
-|  69 | Scene Text Recognition                             | Scene Parsing                              |                 15 |
-|  70 | Video Salient Object Detection                     | Video Object Segmentation                  |                 15 |
-|  71 | Trajectory Prediction                              | Trajectory Prediction                      |                 15 |
-|  72 | Video Salient Object Detection                     | Salient Object Detection                   |                 15 |
-|  73 | RGB-D Salient Object Detection                     | Object Detection                           |                 14 |
-|  74 | Text-to-Image Generation                           | Image Generation                           |                 14 |
-|  75 | Facial Expression Recognition                      | Facial Recognition and Modelling           |                 13 |
-|  76 | Continual Learning                                 | Continual Learning                         |                 13 |
-|  77 | Hand Gesture Recognition                           | Gesture Recognition                        |                 13 |
-|  78 | Hand Gesture Recognition                           | Hand                                       |                 13 |
-|  79 | Crowd Counting                                     | Crowds                                     |                 13 |
-|  80 | Hand Gesture Recognition                           | 3D Car Instance Understanding              |                 13 |
-|  81 | Pose Estimation                                    | 2D Human Pose Estimation                   |                 12 |
-|  82 | Pose Estimation                                    | Pose Estimation                            |                 12 |
-|  83 | Keypoint Detection                                 | Pose Estimation                            |                 12 |
-|  84 | Video Generation                                   | Video                                      |                 12 |
-|  85 | Multimodal Activity Recognition                    | Activity Recognition                       |                 12 |
-|  86 | Temporal Action Localization                       | Zero-Shot Learning                         |                 12 |
-|  87 | Temporal Action Localization                       | Action Localization                        |                 12 |
-|  88 | Unsupervised Video Object Segmentation             | Video Object Segmentation                  |                 12 |
-|  89 | Cross-View Image-to-Image Translation              | Image-to-Image Translation                 |                 12 |
-|  90 | 3D Part Segmentation                               | Semantic Segmentation                      |                 11 |
-|  91 | Semi-Supervised Semantic Segmentation              | Semantic Segmentation                      |                 11 |
-|  92 | 6D Pose Estimation using RGB                       | Pose Estimation                            |                 11 |
-|  93 | Video Retrieval                                    | Video                                      |                 11 |
-|  94 | 3D Instance Segmentation                           | Instance Segmentation                      |                 11 |
-|  95 | Interactive Segmentation                           | Interactive Segmentation                   |                 11 |
-|  96 | Lipreading                                         | Lipreading                                 |                 11 |
-|  97 | 6D Pose Estimation using RGBD                      | Pose Estimation                            |                 10 |
-|  98 | Video Super-Resolution                             | Super-Resolution                           |                 10 |
-|  99 | Video Super-Resolution                             | Video                                      |                 10 |
-| 100 | Unsupervised Person Re-Identification              | Person Re-Identification                   |                 10 |
-| 101 | Monocular 3D Human Pose Estimation                 | 3D Human Pose Estimation                   |                 10 |
-| 102 | Single Image Deraining                             | Rain Removal                               |                 10 |
-| 103 | License Plate Recognition                          | Image Recognition                          |                 10 |
-| 104 | 3D Semantic Segmentation                           | Semantic Segmentation                      |                  9 |
-| 105 | Multi-Person Pose Estimation                       | Pose Estimation                            |                  9 |
-| 106 | Video Frame Interpolation                          | Video                                      |                  9 |
-| 107 | Scene Recognition                                  | Scene Parsing                              |                  9 |
-| 108 | Optical Flow Estimation                            | Optical Flow Estimation                    |                  9 |
-| 109 | Metric Learning                                    | Metric Learning                            |                  9 |
-| 110 | Low-Light Image Enhancement                        | Image Enhancement                          |                  9 |
-| 111 | Scene Recognition                                  | 3D Character Animation From A Single Photo |                  9 |
-| 112 | 3D Semantic Segmentation                           | 3D Semantic Segmentation                   |                  9 |
-| 113 | Real-Time Semantic Segmentation                    | Semantic Segmentation                      |                  8 |
-| 114 | Sequential Image Classification                    | Image Classification                       |                  8 |
-| 115 | Conditional Image Generation                       | Image Generation                           |                  8 |
-| 116 | Layout-to-Image Generation                         | Image Generation                           |                  8 |
-| 117 | Depth Estimation                                   | Depth Estimation                           |                  8 |
-| 118 | Zero-Shot Learning                                 | Zero-Shot Learning                         |                  8 |
-| 119 | 3D Point Cloud Classification                      | 3D Point Cloud Classification              |                  8 |
-| 120 | Medical Image Segmentation                         | Semantic Segmentation                      |                  7 |
-| 121 | 6D Pose Estimation                                 | Pose Estimation                            |                  7 |
-| 122 | Facial Landmark Detection                          | Facial Recognition and Modelling           |                  7 |
-| 123 | Age Estimation                                     | Facial Recognition and Modelling           |                  7 |
-| 124 | Multi-Object Tracking                              | Object Tracking                            |                  7 |
-| 125 | Medical Image Segmentation                         | Medical Image Segmentation                 |                  7 |
-| 126 | Lung Nodule Segmentation                           | Medical Image Segmentation                 |                  7 |
-| 127 | Multivariate Time Series Imputation                | Imputation                                 |                  7 |
-| 128 | Visual Reasoning                                   | Visual Reasoning                           |                  7 |
-| 129 | Facial Landmark Detection                          | Facial Landmark Detection                  |                  7 |
-| 130 | Weakly-Supervised Semantic Segmentation            | Semantic Segmentation                      |                  6 |
-| 131 | Robust Object Detection                            | Object Detection                           |                  6 |
-| 132 | Co-Salient Object Detection                        | Object Detection                           |                  6 |
-| 133 | Partial Domain Adaptation                          | Domain Adaptation                          |                  6 |
-| 134 | Head Pose Estimation                               | Pose Estimation                            |                  6 |
-| 135 | Lane Detection                                     | Autonomous Vehicles                        |                  6 |
-| 136 | Traffic Sign Recognition                           | Autonomous Vehicles                        |                  6 |
-| 137 | Salt-And-Pepper Noise Removal                      | Denoising                                  |                  6 |
-| 138 | Video Prediction                                   | Video                                      |                  6 |
-| 139 | Unsupervised Video Summarization                   | Video                                      |                  6 |
-| 140 | Talking Head Generation                            | 3D                                         |                  6 |
-| 141 | Gesture Recognition                                | Gesture Recognition                        |                  6 |
-| 142 | Saliency Detection                                 | Saliency Detection                         |                  6 |
-| 143 | Co-Salient Object Detection                        | Saliency Detection                         |                  6 |
-| 144 | Co-Salient Object Detection                        | Salient Object Detection                   |                  6 |
-| 145 | Unsupervised Video Summarization                   | Video Summarization                        |                  6 |
-| 146 | Talking Head Generation                            | 3D Absolute Human Pose Estimation          |                  6 |
-| 147 | Image Matting                                      | Image Matting                              |                  6 |
-| 148 | Pose Tracking                                      | Pose Tracking                              |                  6 |
-| 149 | Talking Head Generation                            | Face Generation                            |                  6 |
-| 150 | 3D Multi-Object Tracking                           | Multi-Object Tracking                      |                  6 |
-| 151 | 3D Multi-Object Tracking                           | 3D Multi-Object Tracking                   |                  6 |
-| 152 | Talking Head Generation                            | Talking Head Generation                    |                  6 |
-| 153 | Action Quality Assessment                          | Action Quality Assessment                  |                  6 |
-| 154 | Unsupervised Semantic Segmentation                 | Semantic Segmentation                      |                  5 |
-| 155 | Few-Shot Object Detection                          | Object Detection                           |                  5 |
-| 156 | Camouflaged Object Segmentation                    | Object Detection                           |                  5 |
-| 157 | Hand Pose Estimation                               | Pose Estimation                            |                  5 |
-| 158 | Vehicle Pose Estimation                            | Pose Estimation                            |                  5 |
-| 159 | Pedestrian Detection                               | Autonomous Vehicles                        |                  5 |
-| 160 | Video Classification                               | Video                                      |                  5 |
-| 161 | Video Deinterlacing                                | Video                                      |                  5 |
-| 162 | 3D Face Reconstruction                             | Facial Recognition and Modelling           |                  5 |
-| 163 | Unsupervised Anomaly Detection                     | Anomaly Detection                          |                  5 |
-| 164 | Online Multi-Object Tracking                       | Object Tracking                            |                  5 |
-| 165 | Lesion Segmentation                                | Medical Image Segmentation                 |                  5 |
-| 166 | Brain Tumor Segmentation                           | Medical Image Segmentation                 |                  5 |
-| 167 | Retinal Vessel Segmentation                        | Medical Image Segmentation                 |                  5 |
-| 168 | 3D Face Reconstruction                             | 3D                                         |                  5 |
-| 169 | Action Segmentation                                | Action Localization                        |                  5 |
-| 170 | Image Reconstruction                               | Image Reconstruction                       |                  5 |
-| 171 | Emotion Recognition in Context                     | Emotion Recognition                        |                  5 |
-| 172 | Hand Pose Estimation                               | Hand                                       |                  5 |
-| 173 | 3D Multi-Person Pose Estimation                    | 3D Human Pose Estimation                   |                  5 |
-| 174 | Weakly-supervised 3D Human Pose Estimation         | 3D Human Pose Estimation                   |                  5 |
-| 175 | 3D Face Reconstruction                             | 3D Character Animation From A Single Photo |                  5 |
-| 176 | Point Cloud Registration                           | Point Cloud Registration                   |                  5 |
-| 177 | Image Dehazing                                     | Dehazing                                   |                  5 |
-| 178 | 3D Face Reconstruction                             | 3D Absolute Human Pose Estimation          |                  5 |
-| 179 | Keyword Spotting                                   | Keyword Spotting                           |                  5 |
-| 180 | 3D Face Reconstruction                             | 3D Object Reconstruction                   |                  5 |
-| 181 | Image Dehazing                                     | Image Dehazing                             |                  5 |
-| 182 | 3D Face Reconstruction                             | 3D Face Reconstruction                     |                  5 |
-| 183 | 3D Face Reconstruction                             | Face Reconstruction                        |                  5 |
-| 184 | Depth Completion                                   | Depth Completion                           |                  5 |
-| 185 | Few-Shot Object Detection                          | Few-Shot Object Detection                  |                  5 |
-| 186 | 3D Multi-Person Pose Estimation                    | 3D Multi-Person Pose Estimation            |                  5 |
-| 187 | Video Quality Assessment                           | Video Quality Assessment                   |                  5 |
-| 188 | Camouflaged Object Segmentation                    | Object Segmentation                        |                  5 |
-| 189 | Camouflaged Object Segmentation                    | Camouflaged Object Segmentation            |                  5 |
-| 190 | Semi-Supervised Object Detection                   | Semi-Supervised Object Detection           |                  5 |
-| 191 | Hyperspectral Image Classification                 | Image Classification                       |                  4 |
-| 192 | Document Image Classification                      | Image Classification                       |                  4 |
-| 193 | Wildly Unsupervised Domain Adaptation              | Domain Adaptation                          |                  4 |
-| 194 | Image Denoising                                    | Denoising                                  |                  4 |
-| 195 | Multiple Object Tracking                           | Video                                      |                  4 |
-| 196 | Egocentric Activity Recognition                    | Activity Recognition                       |                  4 |
-| 197 | Face Anti-Spoofing                                 | Facial Recognition and Modelling           |                  4 |
-| 198 | Age And Gender Classification                      | Facial Recognition and Modelling           |                  4 |
-| 199 | Unsupervised Facial Landmark Detection             | Facial Recognition and Modelling           |                  4 |
-| 200 | Stereo-LiDAR Fusion                                | Depth Estimation                           |                  4 |
-| 201 | Real-time Instance Segmentation                    | Instance Segmentation                      |                  4 |
-| 202 | 3D Semantic Instance Segmentation                  | Instance Segmentation                      |                  4 |
-| 203 | Multiple Object Tracking                           | Object Tracking                            |                  4 |
-| 204 | Quantization                                       | Quantization                               |                  4 |
-| 205 | Monocular 3D Object Detection                      | 3D Object Detection                        |                  4 |
-| 206 | Hand-Gesture Recognition                           | Gesture Recognition                        |                  4 |
-| 207 | Weakly-Supervised Object Localization              | Object Localization                        |                  4 |
-| 208 | Multimodal Unsupervised Image-To-Image Translation | Image-to-Image Translation                 |                  4 |
-| 209 | Face Anti-Spoofing                                 | Visual Odometry                            |                  4 |
-| 210 | Hand-Gesture Recognition                           | Hand                                       |                  4 |
-| 211 | Human Interaction Recognition                      | Human Interaction Recognition              |                  4 |
-| 212 | Video Captioning                                   | Video Captioning                           |                  4 |
-| 213 | Pose Prediction                                    | 3D Human Pose Estimation                   |                  4 |
-| 214 | Retinal OCT Disease Classification                 | Medical Diagnosis                          |                  4 |
-| 215 | Semantic correspondence                            | Image Matching                             |                  4 |
-| 216 | Image Matching                                     | Image Matching                             |                  4 |
-| 217 | 3D Object Reconstruction                           | Object Reconstruction                      |                  4 |
-| 218 | Hyperspectral Image Classification                 | Hyperspectral                              |                  4 |
-| 219 | Edge Detection                                     | Edge Detection                             |                  4 |
-| 220 | Unsupervised Facial Landmark Detection             | Facial Landmark Detection                  |                  4 |
-| 221 | Video Question Answering                           | Video Question Answering                   |                  4 |
-| 222 | Retinal OCT Disease Classification                 | Disease Prediction                         |                  4 |
-| 223 | Homography Estimation                              | Interest Point Detection                   |                  4 |
-| 224 | Face Anti-Spoofing                                 | Depth And Camera Motion                    |                  4 |
-| 225 | 3D Object Tracking                                 | 3D Object Tracking                         |                  4 |
-| 226 | Human Part Segmentation                            | Human Part Segmentation                    |                  4 |
-| 227 | Document Image Classification                      | Document Image Classification              |                  4 |
-| 228 | Multi-target Domain Adaptation                     | Multi-target Domain Adaptation             |                  4 |
-| 229 | Pulmonary Artery–Vein Classification               | Pulmorary Vessel Segmentation              |                  4 |
-| 230 | Scene Segmentation                                 | Semantic Segmentation                      |                  3 |
-| 231 | Medical Object Detection                           | Object Detection                           |                  3 |
-| 232 | Universal Domain Adaptation                        | Domain Adaptation                          |                  3 |
-| 233 | Image Inpainting                                   | Image Generation                           |                  3 |
-| 234 | Pose Transfer                                      | Image Generation                           |                  3 |
-| 235 | Image Inpainting                                   | 2D Human Pose Estimation                   |                  3 |
-| 236 | Pedestrian Attribute Recognition                   | Autonomous Vehicles                        |                  3 |
-| 237 | Multi-Frame Super-Resolution                       | Super-Resolution                           |                  3 |
-| 238 | Human action generation                            | Activity Recognition                       |                  3 |
-| 239 | Generalized Zero-Shot Learning                     | Zero-Shot Learning                         |                  3 |
-| 240 | Iris Segmentation                                  | Medical Image Segmentation                 |                  3 |
-| 241 | Electron Microscopy Image Segmentation             | Medical Image Segmentation                 |                  3 |
-| 242 | Machine Reading Comprehension                      | Visual Question Answering                  |                  3 |
-| 243 | Multi-Frame Super-Resolution                       | Image Super-Resolution                     |                  3 |
-| 244 | 3D Room Layouts From A Single RGB Panorama         | Scene Understanding                        |                  3 |
-| 245 | Action Detection                                   | Action Detection                           |                  3 |
-| 246 | Image Inpainting                                   | Image Inpainting                           |                  3 |
-| 247 | Human-Object Interaction Detection                 | Human-Object Interaction Detection         |                  3 |
-| 248 | Point Cloud Generation                             | Point Cloud Generation                     |                  3 |
-| 249 | Video Instance Segmentation                        | Video Instance Segmentation                |                  3 |
-| 250 | 3D Multi-Person Pose Estimation (root-relative)    | 3D Multi-Person Pose Estimation            |                  3 |
-| 251 | 3D Multi-Person Pose Estimation (absolute)         | 3D Multi-Person Pose Estimation            |                  3 |
-| 252 | 3D Room Layouts From A Single RGB Panorama         | 3D Reconstruction                          |                  3 |
-| 253 | Object Counting                                    | Object Counting                            |                  3 |
-| 254 | Surface Normals Estimation                         | Surface Normals Estimation                 |                  3 |
-| 255 | LIDAR Semantic Segmentation                        | LIDAR Semantic Segmentation                |                  3 |
-| 256 | Person Retrieval                                   | Person Retrieval                           |                  3 |
-| 257 | Universal Domain Adaptation                        | Universal Domain Adaptation                |                  3 |
-| 258 | Video Alignment                                    | Video Understanding                        |                  3 |
-| 259 | Defocus Estimation                                 | Defocus Estimation                         |                  3 |
-| 260 | Single-object discovery                            | Single-object discovery                    |                  3 |
-| 261 | Weakly Supervised Action Segmentation (Transcript) | Action Segmentation                        |                  3 |
-| 262 | Blink estimation                                   | Blink estimation                           |                  3 |
-| 263 | Polyp Segmentation                                 | Semantic Segmentation                      |                  2 |
-| 264 | Knowledge Distillation                             | Image Classification                       |                  2 |
-| 265 | Satellite Image Classification                     | Image Classification                       |                  2 |
-| 266 | Video Object Detection                             | Object Detection                           |                  2 |
-| 267 | Surgical tool detection                            | Object Detection                           |                  2 |
-| 268 | Video Inpainting                                   | 2D Human Pose Estimation                   |                  2 |
-| 269 | Human Pose Forecasting                             | Pose Estimation                            |                  2 |
-| 270 | Anomaly Detection In Surveillance Videos           | Video                                      |                  2 |
-| 271 | Video-to-Video Synthesis                           | Video                                      |                  2 |
-| 272 | Action Spotting                                    | Video                                      |                  2 |
-| 273 | Vehicle Speed Estimation                           | Video                                      |                  2 |
-| 274 | Heterogeneous Face Recognition                     | Facial Recognition and Modelling           |                  2 |
-| 275 | Anomaly Detection In Surveillance Videos           | Anomaly Detection                          |                  2 |
-| 276 | Temporal Action Proposal Generation                | Action Recognition                         |                  2 |
-| 277 | Brain Image Segmentation                           | Medical Image Segmentation                 |                  2 |
-| 278 | Face Parsing                                       | Scene Parsing                              |                  2 |
-| 279 | Knowledge Distillation                             | Knowledge Distillation                     |                  2 |
-| 280 | Speech Emotion Recognition                         | Emotion Recognition                        |                  2 |
-| 281 | Emotion Cause Extraction                           | Emotion Recognition                        |                  2 |
-| 282 | Interactive Video Object Segmentation              | Video Object Segmentation                  |                  2 |
-| 283 | Audio-Visual Active Speaker Detection              | Action Detection                           |                  2 |
-| 284 | Medical Code Prediction                            | Multi-Label Classification                 |                  2 |
-| 285 | Image Enhancement                                  | Image Enhancement                          |                  2 |
-| 286 | Fundus to Angiography Generation                   | Image-to-Image Translation                 |                  2 |
-| 287 | Image Registration                                 | Image Registration                         |                  2 |
-| 288 | Gesture-to-Gesture Translation                     | Hand                                       |                  2 |
-| 289 | Multi-Hypotheses 3D Human Pose Estimation          | 3D Human Pose Estimation                   |                  2 |
-| 290 | PointGoal Navigation                               | Robot Navigation                           |                  2 |
-| 291 | Patch Matching                                     | Image Matching                             |                  2 |
-| 292 | Point Cloud Completion                             | Point Cloud Generation                     |                  2 |
-| 293 | 3D Human Reconstruction                            | Reconstruction                             |                  2 |
-| 294 | Gaze Estimation                                    | Gaze Estimation                            |                  2 |
-| 295 | Virtual Try-on                                     | Virtual Try-on                             |                  2 |
-| 296 | Video Inpainting                                   | Video Inpainting                           |                  2 |
-| 297 | Line Segment Detection                             | Line Segment Detection                     |                  2 |
-| 298 | Action Anticipation                                | Action Anticipation                        |                  2 |
-| 299 | Face Presentation Attack Detection                 | Spoof Detection                            |                  2 |
-| 300 | Blind Face Restoration                             | Blind Face Restoration                     |                  2 |
-| 301 | 3D Shape Modeling                                  | 3D Shape Modeling                          |                  2 |
-| 302 | Horizon Line Estimation                            | Horizon Line Estimation                    |                  2 |
-| 303 | Pose Retrieval                                     | Pose Retrieval                             |                  2 |
-| 304 | Scanpath prediction                                | Scanpath prediction                        |                  2 |
-| 305 | Vehicle Speed Estimation                           | Vehicle Speed Estimation                   |                  2 |
-| 306 | Tumor Segmentation                                 | Semantic Segmentation                      |                  1 |
-| 307 | Sparse Representation-based Classification         | Image Classification                       |                  1 |
-| 308 | Superpixel Image Classification                    | Image Classification                       |                  1 |
-| 309 | Classification Consistency                         | Image Classification                       |                  1 |
-| 310 | Object Detection In Aerial Images                  | Object Detection                           |                  1 |
-| 311 | Dense Object Detection                             | Object Detection                           |                  1 |
-| 312 | Head Detection                                     | Object Detection                           |                  1 |
-| 313 | One-Shot Object Detection                          | Object Detection                           |                  1 |
-| 314 | 2D Human Pose Estimation                           | 2D Human Pose Estimation                   |                  1 |
-| 315 | Talking Face Generation                            | 2D Human Pose Estimation                   |                  1 |
-| 316 | 3D Pose Estimation                                 | Pose Estimation                            |                  1 |
-| 317 | RF-based Pose Estimation                           | Pose Estimation                            |                  1 |
-| 318 | Denoising                                          | Denoising                                  |                  1 |
-| 319 | Video Object Segmentation                          | Video                                      |                  1 |
-| 320 | Video Story QA                                     | Video                                      |                  1 |
-| 321 | Few-Shot Learning                                  | Few-Shot Learning                          |                  1 |
-| 322 | Group Activity Recognition                         | Activity Recognition                       |                  1 |
-| 323 | Gender Prediction                                  | Facial Recognition and Modelling           |                  1 |
-| 324 | Talking Face Generation                            | Facial Recognition and Modelling           |                  1 |
-| 325 | Age-Invariant Face Recognition                     | Facial Recognition and Modelling           |                  1 |
-| 326 | Facial Attribute Classification                    | Facial Recognition and Modelling           |                  1 |
-| 327 | Stereo Depth Estimation                            | Depth Estimation                           |                  1 |
-| 328 | Brain Segmentation                                 | Medical Image Segmentation                 |                  1 |
-| 329 | Liver Segmentation                                 | Medical Image Segmentation                 |                  1 |
-| 330 | Skin Cancer Segmentation                           | Medical Image Segmentation                 |                  1 |
-| 331 | 3D Reconstruction                                  | 3D                                         |                  1 |
-| 332 | 3D Pose Estimation                                 | 3D                                         |                  1 |
-| 333 | 3D Object Classification                           | 3D                                         |                  1 |
-| 334 | Video Reconstruction                               | 3D                                         |                  1 |
-| 335 | 3D Feature Matching                                | 3D                                         |                  1 |
-| 336 | Scene Parsing                                      | Scene Parsing                              |                  1 |
-| 337 | Scene Graph Generation                             | Scene Parsing                              |                  1 |
-| 338 | Content-Based Image Retrieval                      | Image Retrieval                            |                  1 |
-| 339 | Text-Image Retrieval                               | Image Retrieval                            |                  1 |
-| 340 | Adversarial Attack                                 | Adversarial Attack                         |                  1 |
-| 341 | Emotion Recognition                                | Emotion Recognition                        |                  1 |
-| 342 | Emotion-Cause Pair Extraction                      | Emotion Recognition                        |                  1 |
-| 343 | Relational Captioning                              | Image Captioning                           |                  1 |
-| 344 | Video Object Segmentation                          | Video Object Segmentation                  |                  1 |
-| 345 | Trajectory Forecasting                             | Trajectory Prediction                      |                  1 |
-| 346 | Image Relighting                                   | Image Enhancement                          |                  1 |
-| 347 | Video Saliency Detection                           | Saliency Detection                         |                  1 |
-| 348 | Image Outpainting                                  | Image Inpainting                           |                  1 |
-| 349 | Aesthetics Quality Assessment                      | Image Quality Assessment                   |                  1 |
-| 350 | One-Shot 3D Action Recognition                     | Human Interaction Recognition              |                  1 |
-| 351 | Multi-view Subspace Clustering                     | Image Clustering                           |                  1 |
-| 352 | 3D Absolute Human Pose Estimation                  | 3D Human Pose Estimation                   |                  1 |
-| 353 | Curved Text Detection                              | Scene Text Detection                       |                  1 |
-| 354 | Visual Place Recognition                           | Visual Place Recognition                   |                  1 |
-| 355 | 3D Absolute Human Pose Estimation                  | 3D Absolute Human Pose Estimation          |                  1 |
-| 356 | Emotion Classification                             | Emotion Classification                     |                  1 |
-| 357 | Change detection for remote sensing images         | Remote Sensing                             |                  1 |
-| 358 | Single-View 3D Reconstruction                      | Reconstruction                             |                  1 |
-| 359 | Single-Image-Based Hdr Reconstruction              | Reconstruction                             |                  1 |
-| 360 | MS-SSIM                                            | Document Layout Analysis                   |                  1 |
-| 361 | Semantic Image Matting                             | Image Matting                              |                  1 |
-| 362 | DeepFake Detection                                 | DeepFake Detection                         |                  1 |
-| 363 | 2D Human Pose Estimation                           | Keypoint Detection                         |                  1 |
-| 364 | Sign Language Recognition                          | Sign Language Recognition                  |                  1 |
-| 365 | Camera Localization                                | Camera Localization                        |                  1 |
-| 366 | 3D Multi-Person Mesh Recovery                      | 3D Multi-Person Pose Estimation            |                  1 |
-| 367 | One-shot visual object segmentation                | Semi-Supervised Video Object Segmentation  |                  1 |
-| 368 | Talking Face Generation                            | Face Generation                            |                  1 |
-| 369 | Shadow Detection                                   | Shadow Detection                           |                  1 |
-| 370 | Multiple Object Forecasting                        | Motion Forecasting                         |                  1 |
-| 371 | Activity Prediction                                | Activity Recognition In Videos             |                  1 |
-| 372 | Video Reconstruction                               | Video Reconstruction                       |                  1 |
-| 373 | 2D Semantic Segmentation                           | 2D Semantic Segmentation                   |                  1 |
-| 374 | Point Cloud Super Resolution                       | Point Cloud Super Resolution               |                  1 |
-| 375 | Autonomous Flight (Dense Forest)                   | Autonomous Navigation                      |                  1 |
-| 376 | Age-Invariant Face Recognition                     | Face Recognition                           |                  1 |
-| 377 | 3D Dense Shape Correspondence                      | 3D Shape Representation                    |                  1 |
-| 378 | Scene-Aware Dialogue                               | Scene-Aware Dialogue                       |                  1 |
-| 379 | Historical Color Image Dating                      | Historical Color Image Dating              |                  1 |
-| 380 | Camera shot boundary detection                     | Video Segmentation                         |                  1 |
-| 381 | Fashion Understanding                              | Fashion Understanding                      |                  1 |
-| 382 | Face Anonymization                                 | Face Anonymization                         |                  1 |
-| 383 | Displaced People Recognition                       | Fine-Grained Image Classification          |                  1 |
-| 384 | Safety Perception Recognition                      | Safety Perception Recognition              |                  1 |
-| 385 | Uncropping                                         | Uncropping                                 |                  1 |
+|     | Task                                                                                                                                     | Field                                     |   Number of Papers |
+|----:|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|-------------------:|
+|   0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                                             | Image Classification                      |                207 |
+|   1 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                                     | Object Detection                          |                147 |
+|   2 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                                                 | Multi-Label Classification                |                132 |
+|   3 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                                           | Semantic Segmentation                     |                124 |
+|   4 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                                         | Super-Resolution                          |                111 |
+|   5 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                                           | Image Classification                      |                108 |
+|   6 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)                             | Image Classification                      |                 77 |
+|   7 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                                                 | Activity Recognition                      |                 75 |
+|   8 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                                     | Person Re-Identification                  |                 73 |
+|   9 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                                   | Action Recognition                        |                 55 |
+|  10 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                                     | Image Generation                          |                 53 |
+|  11 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                                               | Object Detection                          |                 50 |
+|  12 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                                           | Instance Segmentation                     |                 50 |
+|  13 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                                   | Domain Adaptation                         |                 48 |
+|  14 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                                   | Image Classification                      |                 44 |
+|  15 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                                     | Pose Estimation                           |                 39 |
+|  16 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                                             | Scene Text Detection                      |                 39 |
+|  17 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation)                   | Video Object Segmentation                 |                 38 |
+|  18 | [Action Classification](https://paperswithcode.com/task/action-classification)                                                           | Video                                     |                 37 |
+|  19 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                                                 | Depth Estimation                          |                 35 |
+|  20 | [Image Captioning](https://paperswithcode.com/task/image-captioning)                                                                     | Image Captioning                          |                 34 |
+|  21 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                                   | Visual Question Answering                 |                 32 |
+|  22 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                                           | Domain Adaptation                         |                 31 |
+|  23 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                                             | Object Detection                          |                 26 |
+|  24 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                                         | Video                                     |                 26 |
+|  25 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification)                             | Image Classification                      |                 25 |
+|  26 | [Motion Forecasting](https://paperswithcode.com/task/motion-forecasting)                                                                 | Autonomous Driving                        |                 24 |
+|  27 | [Panoptic Segmentation](https://paperswithcode.com/task/panoptic-segmentation)                                                           | Semantic Segmentation                     |                 23 |
+|  28 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)                                 | Object Detection                          |                 23 |
+|  29 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                                           | Denoising                                 |                 23 |
+|  30 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                                         | Domain Adaptation                         |                 22 |
+|  31 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                                     | Image Clustering                          |                 22 |
+|  32 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                                   | Denoising                                 |                 21 |
+|  33 | [Video Denoising](https://paperswithcode.com/task/video-denoising)                                                                       | Video                                     |                 20 |
+|  34 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                                         | Facial Recognition and Modelling          |                 20 |
+|  35 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                                                 | Image Classification                      |                 19 |
+|  36 | [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)                               | Emotion Recognition                       |                 19 |
+|  37 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                                                 | Image Generation                          |                 18 |
+|  38 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                                   | Anomaly Detection                         |                 18 |
+|  39 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                                   | Instance Segmentation                     |                 18 |
+|  40 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                                           | Out-of-Distribution Detection             |                 18 |
+|  41 | [Few-Shot Semantic Segmentation](https://paperswithcode.com/task/few-shot-semantic-segmentation)                                         | Few-Shot Learning                         |                 17 |
+|  42 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                                   | Facial Recognition and Modelling          |                 17 |
+|  43 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)                           | Action Recognition                        |                 17 |
+|  44 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                                                 | 2D Human Pose Estimation                  |                 16 |
+|  45 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                                       | Image Retrieval                           |                 16 |
+|  46 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                                           | Image-to-Image Translation                |                 16 |
+|  47 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                                       | Birds Eye View Object Detection           |                 16 |
+|  48 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                                                 | Object Detection                          |                 15 |
+|  49 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                                         | Object Detection                          |                 15 |
+|  50 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                                         | Facial Recognition and Modelling          |                 15 |
+|  51 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                                         | Scene Parsing                             |                 15 |
+|  52 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                                           | Trajectory Prediction                     |                 15 |
+|  53 | [RGB-D Salient Object Detection](https://paperswithcode.com/task/rgb-d-salient-object-detection)                                         | Object Detection                          |                 14 |
+|  54 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                                     | Image Generation                          |                 14 |
+|  55 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                                           | Facial Recognition and Modelling          |                 13 |
+|  56 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                                                 | Continual Learning                        |                 13 |
+|  57 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                     | Gesture Recognition                       |                 13 |
+|  58 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                                         | Crowds                                    |                 13 |
+|  59 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                                       | 2D Human Pose Estimation                  |                 12 |
+|  60 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                                                 | Pose Estimation                           |                 12 |
+|  61 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                                     | Video                                     |                 12 |
+|  62 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                                       | Activity Recognition                      |                 12 |
+|  63 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                                             | Zero-Shot Learning                        |                 12 |
+|  64 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)                         | Video Object Segmentation                 |                 12 |
+|  65 | [Cross-View Image-to-Image Translation](https://paperswithcode.com/task/cross-view-image-to-image-translation)                           | Image-to-Image Translation                |                 12 |
+|  66 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                                             | Semantic Segmentation                     |                 11 |
+|  67 | [Semi-Supervised Semantic Segmentation](https://paperswithcode.com/task/semi-supervised-semantic-segmentation)                           | Semantic Segmentation                     |                 11 |
+|  68 | [6D Pose Estimation using RGB](https://paperswithcode.com/task/6d-pose-estimation-using-rgb)                                             | Pose Estimation                           |                 11 |
+|  69 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                                       | Video                                     |                 11 |
+|  70 | [3D Instance Segmentation](https://paperswithcode.com/task/3d-instance-segmentation)                                                     | Instance Segmentation                     |                 11 |
+|  71 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                                     | Interactive Segmentation                  |                 11 |
+|  72 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                                                 | Lipreading                                |                 11 |
+|  73 | [6D Pose Estimation using RGBD](https://paperswithcode.com/task/6d-pose-estimation-using-rgbd)                                           | Pose Estimation                           |                 10 |
+|  74 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                                         | Super-Resolution                          |                 10 |
+|  75 | [Unsupervised Person Re-Identification](https://paperswithcode.com/task/unsupervised-person-re-identification)                           | Person Re-Identification                  |                 10 |
+|  76 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)                                 | 3D Human Pose Estimation                  |                 10 |
+|  77 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                                                         | Rain Removal                              |                 10 |
+|  78 | [License Plate Recognition](https://paperswithcode.com/task/license-plate-recognition)                                                   | Image Recognition                         |                 10 |
+|  79 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                                     | Semantic Segmentation                     |                  9 |
+|  80 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                                             | Pose Estimation                           |                  9 |
+|  81 | [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)                                                   | Video                                     |                  9 |
+|  82 | [Scene Recognition](https://paperswithcode.com/task/scene-recognition)                                                                   | Scene Parsing                             |                  9 |
+|  83 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                                       | Optical Flow Estimation                   |                  9 |
+|  84 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                                       | Metric Learning                           |                  9 |
+|  85 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                                               | Image Enhancement                         |                  9 |
+|  86 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                                       | Semantic Segmentation                     |                  8 |
+|  87 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                                       | Image Classification                      |                  8 |
+|  88 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                                             | Image Generation                          |                  8 |
+|  89 | [Layout-to-Image Generation](https://paperswithcode.com/task/layout-to-image-generation)                                                 | Image Generation                          |                  8 |
+|  90 | [Depth Estimation](https://paperswithcode.com/task/depth-estimation)                                                                     | Depth Estimation                          |                  8 |
+|  91 | [Zero-Shot Learning](https://paperswithcode.com/task/zero-shot-learning)                                                                 | Zero-Shot Learning                        |                  8 |
+|  92 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                                           | 3D Point Cloud Classification             |                  8 |
+|  93 | [Medical Image Segmentation](https://paperswithcode.com/task/medical-image-segmentation)                                                 | Semantic Segmentation                     |                  7 |
+|  94 | [6D Pose Estimation](https://paperswithcode.com/task/6d-pose-estimation)                                                                 | Pose Estimation                           |                  7 |
+|  95 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                                   | Facial Recognition and Modelling          |                  7 |
+|  96 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                                         | Facial Recognition and Modelling          |                  7 |
+|  97 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                                           | Object Tracking                           |                  7 |
+|  98 | [Lung Nodule Segmentation](https://paperswithcode.com/task/lung-nodule-segmentation)                                                     | Medical Image Segmentation                |                  7 |
+|  99 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation)                               | Imputation                                |                  7 |
+| 100 | [Visual Reasoning](https://paperswithcode.com/task/visual-reasoning)                                                                     | Visual Reasoning                          |                  7 |
+| 101 | [Weakly-Supervised Semantic Segmentation](https://paperswithcode.com/task/weakly-supervised-semantic-segmentation)                       | Semantic Segmentation                     |                  6 |
+| 102 | [Robust Object Detection](https://paperswithcode.com/task/robust-object-detection)                                                       | Object Detection                          |                  6 |
+| 103 | [Co-Salient Object Detection](https://paperswithcode.com/task/co-salient-object-detection)                                               | Object Detection                          |                  6 |
+| 104 | [Partial Domain Adaptation](https://paperswithcode.com/task/partial-domain-adaptation)                                                   | Domain Adaptation                         |                  6 |
+| 105 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                                             | Pose Estimation                           |                  6 |
+| 106 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                                         | Autonomous Vehicles                       |                  6 |
+| 107 | [Traffic Sign Recognition](https://paperswithcode.com/task/traffic-sign-recognition)                                                     | Autonomous Vehicles                       |                  6 |
+| 108 | [Salt-And-Pepper Noise Removal](https://paperswithcode.com/task/salt-and-pepper-noise-removal)                                           | Denoising                                 |                  6 |
+| 109 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                                     | Video                                     |                  6 |
+| 110 | [Unsupervised Video Summarization](https://paperswithcode.com/task/unsupervised-video-summarization)                                     | Video                                     |                  6 |
+| 111 | [Talking Head Generation](https://paperswithcode.com/task/talking-head-generation)                                                       | 3D                                        |                  6 |
+| 112 | [Gesture Recognition](https://paperswithcode.com/task/gesture-recognition)                                                               | Gesture Recognition                       |                  6 |
+| 113 | [Saliency Detection](https://paperswithcode.com/task/saliency-detection)                                                                 | Saliency Detection                        |                  6 |
+| 114 | [Image Matting](https://paperswithcode.com/task/image-matting)                                                                           | Image Matting                             |                  6 |
+| 115 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                                           | Pose Tracking                             |                  6 |
+| 116 | [3D Multi-Object Tracking](https://paperswithcode.com/task/3d-multi-object-tracking)                                                     | Multi-Object Tracking                     |                  6 |
+| 117 | [Action Quality Assessment](https://paperswithcode.com/task/action-quality-assessment)                                                   | Action Quality Assessment                 |                  6 |
+| 118 | [Unsupervised Semantic Segmentation](https://paperswithcode.com/task/unsupervised-semantic-segmentation)                                 | Semantic Segmentation                     |                  5 |
+| 119 | [Few-Shot Object Detection](https://paperswithcode.com/task/few-shot-object-detection)                                                   | Object Detection                          |                  5 |
+| 120 | [Camouflaged Object Segmentation](https://paperswithcode.com/task/camouflaged-object-segmentation)                                       | Object Detection                          |                  5 |
+| 121 | [Hand Pose Estimation](https://paperswithcode.com/task/hand-pose-estimation)                                                             | Pose Estimation                           |                  5 |
+| 122 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                                       | Pose Estimation                           |                  5 |
+| 123 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                                             | Autonomous Vehicles                       |                  5 |
+| 124 | [Video Classification](https://paperswithcode.com/task/video-classification)                                                             | Video                                     |                  5 |
+| 125 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)                                                               | Video                                     |                  5 |
+| 126 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                                         | Facial Recognition and Modelling          |                  5 |
+| 127 | [Unsupervised Anomaly Detection](https://paperswithcode.com/task/unsupervised-anomaly-detection)                                         | Anomaly Detection                         |                  5 |
+| 128 | [Online Multi-Object Tracking](https://paperswithcode.com/task/online-multi-object-tracking)                                             | Object Tracking                           |                  5 |
+| 129 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                                               | Medical Image Segmentation                |                  5 |
+| 130 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                                     | Medical Image Segmentation                |                  5 |
+| 131 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                                               | Medical Image Segmentation                |                  5 |
+| 132 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                                               | Action Localization                       |                  5 |
+| 133 | [Image Reconstruction](https://paperswithcode.com/task/image-reconstruction)                                                             | Image Reconstruction                      |                  5 |
+| 134 | [Emotion Recognition in Context](https://paperswithcode.com/task/emotion-recognition-in-context)                                         | Emotion Recognition                       |                  5 |
+| 135 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                                       | 3D Human Pose Estimation                  |                  5 |
+| 136 | [Weakly-supervised 3D Human Pose Estimation](https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation)                 | 3D Human Pose Estimation                  |                  5 |
+| 137 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                                     | Point Cloud Registration                  |                  5 |
+| 138 | [Image Dehazing](https://paperswithcode.com/task/image-dehazing)                                                                         | Dehazing                                  |                  5 |
+| 139 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                                     | Keyword Spotting                          |                  5 |
+| 140 | [Depth Completion](https://paperswithcode.com/task/depth-completion)                                                                     | Depth Completion                          |                  5 |
+| 141 | [Video Quality Assessment](https://paperswithcode.com/task/video-quality-assessment)                                                     | Video Quality Assessment                  |                  5 |
+| 142 | [Semi-Supervised Object Detection](https://paperswithcode.com/task/semi-supervised-object-detection)                                     | Semi-Supervised Object Detection          |                  5 |
+| 143 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)                                 | Image Classification                      |                  4 |
+| 144 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                                           | Image Classification                      |                  4 |
+| 145 | [Wildly Unsupervised Domain Adaptation](https://paperswithcode.com/task/wildly-unsupervised-domain-adaptation)                           | Domain Adaptation                         |                  4 |
+| 146 | [Image Denoising](https://paperswithcode.com/task/image-denoising)                                                                       | Denoising                                 |                  4 |
+| 147 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                                     | Video                                     |                  4 |
+| 148 | [Egocentric Activity Recognition](https://paperswithcode.com/task/egocentric-activity-recognition)                                       | Activity Recognition                      |                  4 |
+| 149 | [Face Anti-Spoofing](https://paperswithcode.com/task/face-anti-spoofing)                                                                 | Facial Recognition and Modelling          |                  4 |
+| 150 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                                           | Facial Recognition and Modelling          |                  4 |
+| 151 | [Unsupervised Facial Landmark Detection](https://paperswithcode.com/task/unsupervised-facial-landmark-detection)                         | Facial Recognition and Modelling          |                  4 |
+| 152 | [Stereo-LiDAR Fusion](https://paperswithcode.com/task/stereo-lidar-fusion)                                                               | Depth Estimation                          |                  4 |
+| 153 | [Real-time Instance Segmentation](https://paperswithcode.com/task/real-time-instance-segmentation)                                       | Instance Segmentation                     |                  4 |
+| 154 | [3D Semantic Instance Segmentation](https://paperswithcode.com/task/3d-semantic-instance-segmentation)                                   | Instance Segmentation                     |                  4 |
+| 155 | [Quantization](https://paperswithcode.com/task/quantization)                                                                             | Quantization                              |                  4 |
+| 156 | [Monocular 3D Object Detection](https://paperswithcode.com/task/monocular-3d-object-detection)                                           | 3D Object Detection                       |                  4 |
+| 157 | [Hand-Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                     | Gesture Recognition                       |                  4 |
+| 158 | [Weakly-Supervised Object Localization](https://paperswithcode.com/task/weakly-supervised-object-localization)                           | Object Localization                       |                  4 |
+| 159 | [Multimodal Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/multimodal-unsupervised-image-to-image-translation) | Image-to-Image Translation                |                  4 |
+| 160 | [Human Interaction Recognition](https://paperswithcode.com/task/human-interaction-recognition)                                           | Human Interaction Recognition             |                  4 |
+| 161 | [Video Captioning](https://paperswithcode.com/task/video-captioning)                                                                     | Video Captioning                          |                  4 |
+| 162 | [Pose Prediction](https://paperswithcode.com/task/pose-prediction)                                                                       | 3D Human Pose Estimation                  |                  4 |
+| 163 | [Retinal OCT Disease Classification](https://paperswithcode.com/task/retinal-oct-disease-classification)                                 | Medical Diagnosis                         |                  4 |
+| 164 | [Semantic correspondence](https://paperswithcode.com/task/semantic-correspondence)                                                       | Image Matching                            |                  4 |
+| 165 | [Image Matching](https://paperswithcode.com/task/image-matching)                                                                         | Image Matching                            |                  4 |
+| 166 | [3D Object Reconstruction](https://paperswithcode.com/task/3d-object-reconstruction)                                                     | Object Reconstruction                     |                  4 |
+| 167 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                                         | Edge Detection                            |                  4 |
+| 168 | [Video Question Answering](https://paperswithcode.com/task/video-question-answering)                                                     | Video Question Answering                  |                  4 |
+| 169 | [Homography Estimation](https://paperswithcode.com/task/homography-estimation)                                                           | Interest Point Detection                  |                  4 |
+| 170 | [3D Object Tracking](https://paperswithcode.com/task/3d-object-tracking)                                                                 | 3D Object Tracking                        |                  4 |
+| 171 | [Human Part Segmentation](https://paperswithcode.com/task/human-part-segmentation)                                                       | Human Part Segmentation                   |                  4 |
+| 172 | [Multi-target Domain Adaptation](https://paperswithcode.com/task/multi-target-domain-adaptation)                                         | Multi-target Domain Adaptation            |                  4 |
+| 173 | [Pulmonary Artery–Vein Classification](https://paperswithcode.com/task/pulmonary-artery–vein-classification)                             | Pulmorary Vessel Segmentation             |                  4 |
+| 174 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                                                 | Semantic Segmentation                     |                  3 |
+| 175 | [Medical Object Detection](https://paperswithcode.com/task/medical-object-detection)                                                     | Object Detection                          |                  3 |
+| 176 | [Universal Domain Adaptation](https://paperswithcode.com/task/universal-domain-adaptation)                                               | Domain Adaptation                         |                  3 |
+| 177 | [Image Inpainting](https://paperswithcode.com/task/image-inpainting)                                                                     | Image Generation                          |                  3 |
+| 178 | [Pose Transfer](https://paperswithcode.com/task/pose-transfer)                                                                           | Image Generation                          |                  3 |
+| 179 | [Pedestrian Attribute Recognition](https://paperswithcode.com/task/pedestrian-attribute-recognition)                                     | Autonomous Vehicles                       |                  3 |
+| 180 | [Multi-Frame Super-Resolution](https://paperswithcode.com/task/multi-frame-super-resolution)                                             | Super-Resolution                          |                  3 |
+| 181 | [Human action generation](https://paperswithcode.com/task/human-action-generation)                                                       | Activity Recognition                      |                  3 |
+| 182 | [Generalized Zero-Shot Learning](https://paperswithcode.com/task/generalized-zero-shot-learning)                                         | Zero-Shot Learning                        |                  3 |
+| 183 | [Iris Segmentation](https://paperswithcode.com/task/iris-segmentation)                                                                   | Medical Image Segmentation                |                  3 |
+| 184 | [Electron Microscopy Image Segmentation](https://paperswithcode.com/task/electron-microscopy-image-segmentation)                         | Medical Image Segmentation                |                  3 |
+| 185 | [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)                                           | Visual Question Answering                 |                  3 |
+| 186 | [3D Room Layouts From A Single RGB Panorama](https://paperswithcode.com/task/3d-room-layouts-from-a-single-rgb-panorama)                 | Scene Understanding                       |                  3 |
+| 187 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                                     | Action Detection                          |                  3 |
+| 188 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)                                 | Human-Object Interaction Detection        |                  3 |
+| 189 | [Point Cloud Generation](https://paperswithcode.com/task/point-cloud-generation)                                                         | Point Cloud Generation                    |                  3 |
+| 190 | [Video Instance Segmentation](https://paperswithcode.com/task/video-instance-segmentation)                                               | Video Instance Segmentation               |                  3 |
+| 191 | [3D Multi-Person Pose Estimation (root-relative)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(root-relative))       | 3D Multi-Person Pose Estimation           |                  3 |
+| 192 | [3D Multi-Person Pose Estimation (absolute)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(absolute))                 | 3D Multi-Person Pose Estimation           |                  3 |
+| 193 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                                       | Object Counting                           |                  3 |
+| 194 | [Surface Normals Estimation](https://paperswithcode.com/task/surface-normals-estimation)                                                 | Surface Normals Estimation                |                  3 |
+| 195 | [LIDAR Semantic Segmentation](https://paperswithcode.com/task/lidar-semantic-segmentation)                                               | LIDAR Semantic Segmentation               |                  3 |
+| 196 | [Person Retrieval](https://paperswithcode.com/task/person-retrieval)                                                                     | Person Retrieval                          |                  3 |
+| 197 | [Video Alignment](https://paperswithcode.com/task/video-alignment)                                                                       | Video Understanding                       |                  3 |
+| 198 | [Defocus Estimation](https://paperswithcode.com/task/defocus-estimation)                                                                 | Defocus Estimation                        |                  3 |
+| 199 | [Single-object discovery](https://paperswithcode.com/task/single-object-discovery)                                                       | Single-object discovery                   |                  3 |
+| 200 | [Weakly Supervised Action Segmentation (Transcript)](https://paperswithcode.com/task/weakly-supervised-action-segmentation-(transcript)) | Action Segmentation                       |                  3 |
+| 201 | [Blink estimation](https://paperswithcode.com/task/blink-estimation)                                                                     | Blink estimation                          |                  3 |
+| 202 | [Polyp Segmentation](https://paperswithcode.com/task/polyp-segmentation)                                                                 | Semantic Segmentation                     |                  2 |
+| 203 | [Knowledge Distillation](https://paperswithcode.com/task/knowledge-distillation)                                                         | Image Classification                      |                  2 |
+| 204 | [Satellite Image Classification](https://paperswithcode.com/task/satellite-image-classification)                                         | Image Classification                      |                  2 |
+| 205 | [Video Object Detection](https://paperswithcode.com/task/video-object-detection)                                                         | Object Detection                          |                  2 |
+| 206 | [Surgical tool detection](https://paperswithcode.com/task/surgical-tool-detection)                                                       | Object Detection                          |                  2 |
+| 207 | [Video Inpainting](https://paperswithcode.com/task/video-inpainting)                                                                     | 2D Human Pose Estimation                  |                  2 |
+| 208 | [Human Pose Forecasting](https://paperswithcode.com/task/human-pose-forecasting)                                                         | Pose Estimation                           |                  2 |
+| 209 | [Anomaly Detection In Surveillance Videos](https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos)                     | Video                                     |                  2 |
+| 210 | [Video-to-Video Synthesis](https://paperswithcode.com/task/video-to-video-synthesis)                                                     | Video                                     |                  2 |
+| 211 | [Action Spotting](https://paperswithcode.com/task/action-spotting)                                                                       | Video                                     |                  2 |
+| 212 | [Vehicle Speed Estimation](https://paperswithcode.com/task/vehicle-speed-estimation)                                                     | Video                                     |                  2 |
+| 213 | [Heterogeneous Face Recognition](https://paperswithcode.com/task/heterogeneous-face-recognition)                                         | Facial Recognition and Modelling          |                  2 |
+| 214 | [Temporal Action Proposal Generation](https://paperswithcode.com/task/temporal-action-proposal-generation)                               | Action Recognition                        |                  2 |
+| 215 | [Brain Image Segmentation](https://paperswithcode.com/task/brain-image-segmentation)                                                     | Medical Image Segmentation                |                  2 |
+| 216 | [Face Parsing](https://paperswithcode.com/task/face-parsing)                                                                             | Scene Parsing                             |                  2 |
+| 217 | [Speech Emotion Recognition](https://paperswithcode.com/task/speech-emotion-recognition)                                                 | Emotion Recognition                       |                  2 |
+| 218 | [Emotion Cause Extraction](https://paperswithcode.com/task/emotion-cause-extraction)                                                     | Emotion Recognition                       |                  2 |
+| 219 | [Interactive Video Object Segmentation](https://paperswithcode.com/task/interactive-video-object-segmentation)                           | Video Object Segmentation                 |                  2 |
+| 220 | [Audio-Visual Active Speaker Detection](https://paperswithcode.com/task/audio-visual-active-speaker-detection)                           | Action Detection                          |                  2 |
+| 221 | [Medical Code Prediction](https://paperswithcode.com/task/medical-code-prediction)                                                       | Multi-Label Classification                |                  2 |
+| 222 | [Image Enhancement](https://paperswithcode.com/task/image-enhancement)                                                                   | Image Enhancement                         |                  2 |
+| 223 | [Fundus to Angiography Generation](https://paperswithcode.com/task/fundus-to-angiography-generation)                                     | Image-to-Image Translation                |                  2 |
+| 224 | [Image Registration](https://paperswithcode.com/task/image-registration)                                                                 | Image Registration                        |                  2 |
+| 225 | [Gesture-to-Gesture Translation](https://paperswithcode.com/task/gesture-to-gesture-translation)                                         | Hand                                      |                  2 |
+| 226 | [Multi-Hypotheses 3D Human Pose Estimation](https://paperswithcode.com/task/multi-hypotheses-3d-human-pose-estimation)                   | 3D Human Pose Estimation                  |                  2 |
+| 227 | [PointGoal Navigation](https://paperswithcode.com/task/pointgoal-navigation)                                                             | Robot Navigation                          |                  2 |
+| 228 | [Patch Matching](https://paperswithcode.com/task/patch-matching)                                                                         | Image Matching                            |                  2 |
+| 229 | [Point Cloud Completion](https://paperswithcode.com/task/point-cloud-completion)                                                         | Point Cloud Generation                    |                  2 |
+| 230 | [3D Human Reconstruction](https://paperswithcode.com/task/3d-human-reconstruction)                                                       | Reconstruction                            |                  2 |
+| 231 | [Gaze Estimation](https://paperswithcode.com/task/gaze-estimation)                                                                       | Gaze Estimation                           |                  2 |
+| 232 | [Virtual Try-on](https://paperswithcode.com/task/virtual-try-on)                                                                         | Virtual Try-on                            |                  2 |
+| 233 | [Line Segment Detection](https://paperswithcode.com/task/line-segment-detection)                                                         | Line Segment Detection                    |                  2 |
+| 234 | [Action Anticipation](https://paperswithcode.com/task/action-anticipation)                                                               | Action Anticipation                       |                  2 |
+| 235 | [Face Presentation Attack Detection](https://paperswithcode.com/task/face-presentation-attack-detection)                                 | Spoof Detection                           |                  2 |
+| 236 | [Blind Face Restoration](https://paperswithcode.com/task/blind-face-restoration)                                                         | Blind Face Restoration                    |                  2 |
+| 237 | [3D Shape Modeling](https://paperswithcode.com/task/3d-shape-modeling)                                                                   | 3D Shape Modeling                         |                  2 |
+| 238 | [Horizon Line Estimation](https://paperswithcode.com/task/horizon-line-estimation)                                                       | Horizon Line Estimation                   |                  2 |
+| 239 | [Pose Retrieval](https://paperswithcode.com/task/pose-retrieval)                                                                         | Pose Retrieval                            |                  2 |
+| 240 | [Scanpath prediction](https://paperswithcode.com/task/scanpath-prediction)                                                               | Scanpath prediction                       |                  2 |
+| 241 | [Tumor Segmentation](https://paperswithcode.com/task/tumor-segmentation)                                                                 | Semantic Segmentation                     |                  1 |
+| 242 | [Sparse Representation-based Classification](https://paperswithcode.com/task/sparse-representation-based-classification)                 | Image Classification                      |                  1 |
+| 243 | [Superpixel Image Classification](https://paperswithcode.com/task/superpixel-image-classification)                                       | Image Classification                      |                  1 |
+| 244 | [Classification Consistency](https://paperswithcode.com/task/classification-consistency)                                                 | Image Classification                      |                  1 |
+| 245 | [Object Detection In Aerial Images](https://paperswithcode.com/task/object-detection-in-aerial-images)                                   | Object Detection                          |                  1 |
+| 246 | [Dense Object Detection](https://paperswithcode.com/task/dense-object-detection)                                                         | Object Detection                          |                  1 |
+| 247 | [Head Detection](https://paperswithcode.com/task/head-detection)                                                                         | Object Detection                          |                  1 |
+| 248 | [One-Shot Object Detection](https://paperswithcode.com/task/one-shot-object-detection)                                                   | Object Detection                          |                  1 |
+| 249 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                                     | 2D Human Pose Estimation                  |                  1 |
+| 250 | [Talking Face Generation](https://paperswithcode.com/task/talking-face-generation)                                                       | 2D Human Pose Estimation                  |                  1 |
+| 251 | [3D Pose Estimation](https://paperswithcode.com/task/3d-pose-estimation)                                                                 | Pose Estimation                           |                  1 |
+| 252 | [RF-based Pose Estimation](https://paperswithcode.com/task/rf-based-pose-estimation)                                                     | Pose Estimation                           |                  1 |
+| 253 | [Denoising](https://paperswithcode.com/task/denoising)                                                                                   | Denoising                                 |                  1 |
+| 254 | [Video Object Segmentation](https://paperswithcode.com/task/video-object-segmentation)                                                   | Video                                     |                  1 |
+| 255 | [Video Story QA](https://paperswithcode.com/task/video-story-qa)                                                                         | Video                                     |                  1 |
+| 256 | [Few-Shot Learning](https://paperswithcode.com/task/few-shot-learning)                                                                   | Few-Shot Learning                         |                  1 |
+| 257 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                                                 | Activity Recognition                      |                  1 |
+| 258 | [Gender Prediction](https://paperswithcode.com/task/gender-prediction)                                                                   | Facial Recognition and Modelling          |                  1 |
+| 259 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                                         | Facial Recognition and Modelling          |                  1 |
+| 260 | [Facial Attribute Classification](https://paperswithcode.com/task/facial-attribute-classification)                                       | Facial Recognition and Modelling          |                  1 |
+| 261 | [Stereo Depth Estimation](https://paperswithcode.com/task/stereo-depth-estimation)                                                       | Depth Estimation                          |                  1 |
+| 262 | [Brain Segmentation](https://paperswithcode.com/task/brain-segmentation)                                                                 | Medical Image Segmentation                |                  1 |
+| 263 | [Liver Segmentation](https://paperswithcode.com/task/liver-segmentation)                                                                 | Medical Image Segmentation                |                  1 |
+| 264 | [Skin Cancer Segmentation](https://paperswithcode.com/task/skin-cancer-segmentation)                                                     | Medical Image Segmentation                |                  1 |
+| 265 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                                   | 3D                                        |                  1 |
+| 266 | [3D Object Classification](https://paperswithcode.com/task/3d-object-classification)                                                     | 3D                                        |                  1 |
+| 267 | [Video Reconstruction](https://paperswithcode.com/task/video-reconstruction)                                                             | 3D                                        |                  1 |
+| 268 | [3D Feature Matching](https://paperswithcode.com/task/3d-feature-matching)                                                               | 3D                                        |                  1 |
+| 269 | [Scene Parsing](https://paperswithcode.com/task/scene-parsing)                                                                           | Scene Parsing                             |                  1 |
+| 270 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                                         | Scene Parsing                             |                  1 |
+| 271 | [Content-Based Image Retrieval](https://paperswithcode.com/task/content-based-image-retrieval)                                           | Image Retrieval                           |                  1 |
+| 272 | [Text-Image Retrieval](https://paperswithcode.com/task/text-image-retrieval)                                                             | Image Retrieval                           |                  1 |
+| 273 | [Adversarial Attack](https://paperswithcode.com/task/adversarial-attack)                                                                 | Adversarial Attack                        |                  1 |
+| 274 | [Emotion Recognition](https://paperswithcode.com/task/emotion-recognition)                                                               | Emotion Recognition                       |                  1 |
+| 275 | [Emotion-Cause Pair Extraction](https://paperswithcode.com/task/emotion-cause-pair-extraction)                                           | Emotion Recognition                       |                  1 |
+| 276 | [Relational Captioning](https://paperswithcode.com/task/relational-captioning)                                                           | Image Captioning                          |                  1 |
+| 277 | [Trajectory Forecasting](https://paperswithcode.com/task/trajectory-forecasting)                                                         | Trajectory Prediction                     |                  1 |
+| 278 | [Image Relighting](https://paperswithcode.com/task/image-relighting)                                                                     | Image Enhancement                         |                  1 |
+| 279 | [Video Saliency Detection](https://paperswithcode.com/task/video-saliency-detection)                                                     | Saliency Detection                        |                  1 |
+| 280 | [Image Outpainting](https://paperswithcode.com/task/image-outpainting)                                                                   | Image Inpainting                          |                  1 |
+| 281 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                                           | Image Quality Assessment                  |                  1 |
+| 282 | [One-Shot 3D Action Recognition](https://paperswithcode.com/task/one-shot-3d-action-recognition)                                         | Human Interaction Recognition             |                  1 |
+| 283 | [Multi-view Subspace Clustering](https://paperswithcode.com/task/multi-view-subspace-clustering)                                         | Image Clustering                          |                  1 |
+| 284 | [3D Absolute Human Pose Estimation](https://paperswithcode.com/task/3d-absolute-human-pose-estimation)                                   | 3D Human Pose Estimation                  |                  1 |
+| 285 | [Curved Text Detection](https://paperswithcode.com/task/curved-text-detection)                                                           | Scene Text Detection                      |                  1 |
+| 286 | [Visual Place Recognition](https://paperswithcode.com/task/visual-place-recognition)                                                     | Visual Place Recognition                  |                  1 |
+| 287 | [Emotion Classification](https://paperswithcode.com/task/emotion-classification)                                                         | Emotion Classification                    |                  1 |
+| 288 | [Change detection for remote sensing images](https://paperswithcode.com/task/change-detection-for-remote-sensing-images)                 | Remote Sensing                            |                  1 |
+| 289 | [Single-View 3D Reconstruction](https://paperswithcode.com/task/single-view-3d-reconstruction)                                           | Reconstruction                            |                  1 |
+| 290 | [Single-Image-Based Hdr Reconstruction](https://paperswithcode.com/task/single-image-based-hdr-reconstruction)                           | Reconstruction                            |                  1 |
+| 291 | [MS-SSIM](https://paperswithcode.com/task/ms-ssim)                                                                                       | Document Layout Analysis                  |                  1 |
+| 292 | [Semantic Image Matting](https://paperswithcode.com/task/semantic-image-matting)                                                         | Image Matting                             |                  1 |
+| 293 | [DeepFake Detection](https://paperswithcode.com/task/deepfake-detection)                                                                 | DeepFake Detection                        |                  1 |
+| 294 | [Sign Language Recognition](https://paperswithcode.com/task/sign-language-recognition)                                                   | Sign Language Recognition                 |                  1 |
+| 295 | [Camera Localization](https://paperswithcode.com/task/camera-localization)                                                               | Camera Localization                       |                  1 |
+| 296 | [3D Multi-Person Mesh Recovery](https://paperswithcode.com/task/3d-multi-person-mesh-recovery)                                           | 3D Multi-Person Pose Estimation           |                  1 |
+| 297 | [One-shot visual object segmentation](https://paperswithcode.com/task/one-shot-visual-object-segmentation)                               | Semi-Supervised Video Object Segmentation |                  1 |
+| 298 | [Shadow Detection](https://paperswithcode.com/task/shadow-detection)                                                                     | Shadow Detection                          |                  1 |
+| 299 | [Multiple Object Forecasting](https://paperswithcode.com/task/multiple-object-forecasting)                                               | Motion Forecasting                        |                  1 |
+| 300 | [Activity Prediction](https://paperswithcode.com/task/activity-prediction)                                                               | Activity Recognition In Videos            |                  1 |
+| 301 | [2D Semantic Segmentation](https://paperswithcode.com/task/2d-semantic-segmentation)                                                     | 2D Semantic Segmentation                  |                  1 |
+| 302 | [Point Cloud Super Resolution](https://paperswithcode.com/task/point-cloud-super-resolution)                                             | Point Cloud Super Resolution              |                  1 |
+| 303 | [Autonomous Flight (Dense Forest)](https://paperswithcode.com/task/autonomous-flight-(dense-forest))                                     | Autonomous Navigation                     |                  1 |
+| 304 | [3D Dense Shape Correspondence](https://paperswithcode.com/task/3d-dense-shape-correspondence)                                           | 3D Shape Representation                   |                  1 |
+| 305 | [Scene-Aware Dialogue](https://paperswithcode.com/task/scene-aware-dialogue)                                                             | Scene-Aware Dialogue                      |                  1 |
+| 306 | [Historical Color Image Dating](https://paperswithcode.com/task/historical-color-image-dating)                                           | Historical Color Image Dating             |                  1 |
+| 307 | [Camera shot boundary detection](https://paperswithcode.com/task/camera-shot-boundary-detection)                                         | Video Segmentation                        |                  1 |
+| 308 | [Fashion Understanding](https://paperswithcode.com/task/fashion-understanding)                                                           | Fashion Understanding                     |                  1 |
+| 309 | [Face Anonymization](https://paperswithcode.com/task/face-anonymization)                                                                 | Face Anonymization                        |                  1 |
+| 310 | [Displaced People Recognition](https://paperswithcode.com/task/displaced-people-recognition)                                             | Fine-Grained Image Classification         |                  1 |
+| 311 | [Safety Perception Recognition](https://paperswithcode.com/task/safety-perception-recognition)                                           | Safety Perception Recognition             |                  1 |
+| 312 | [Uncropping](https://paperswithcode.com/task/uncropping)                                                                                 | Uncropping                                |                  1 |
 
 ## 2018
 
-|     | Field                                              | Type                                       |   Number of Papers |
-|----:|:---------------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Image Super-Resolution                             | Super-Resolution                           |                 81 |
-|   1 | Image Super-Resolution                             | Image Super-Resolution                     |                 81 |
-|   2 | Semantic Segmentation                              | Semantic Segmentation                      |                 66 |
-|   3 | Image Classification                               | Image Classification                       |                 54 |
-|   4 | Action Recognition                                 | Activity Recognition                       |                 52 |
-|   5 | Action Recognition                                 | Action Recognition                         |                 52 |
-|   6 | Action Recognition                                 | Video Classification                       |                 52 |
-|   7 | Person Re-Identification                           | Person Re-Identification                   |                 46 |
-|   8 | Object Detection                                   | Object Detection                           |                 39 |
-|   9 | Scene Text Detection                               | Scene Text Detection                       |                 39 |
-|  10 | Crowd Counting                                     | Crowds                                     |                 37 |
-|  11 | Semi-Supervised Video Object Segmentation          | Video Object Segmentation                  |                 35 |
-|  12 | JPEG Artifact Correction                           | Image Restoration                          |                 34 |
-|  13 | Skeleton Based Action Recognition                  | Action Recognition                         |                 32 |
-|  14 | Skeleton Based Action Recognition                  | Action Detection                           |                 32 |
-|  15 | Skeleton Based Action Recognition                  | Gesture Recognition                        |                 32 |
-|  16 | Skeleton Based Action Recognition                  | Human Interaction Recognition              |                 32 |
-|  17 | Skeleton Based Action Recognition                  | Action Classification                      |                 32 |
-|  18 | Skeleton Based Action Recognition                  | Hand Gesture Recognition                   |                 32 |
-|  19 | Action Classification                              | Video                                      |                 31 |
-|  20 | Video Salient Object Detection                     | Object Detection                           |                 29 |
-|  21 | Video Salient Object Detection                     | Video Object Segmentation                  |                 29 |
-|  22 | Video Salient Object Detection                     | Salient Object Detection                   |                 29 |
-|  23 | Few-Shot Image Classification                      | Image Classification                       |                 26 |
-|  24 | 3D Object Detection                                | Object Detection                           |                 26 |
-|  25 | Image Generation                                   | Image Generation                           |                 26 |
-|  26 | Grayscale Image Denoising                          | Denoising                                  |                 26 |
-|  27 | Image Generation                                   | 3D Face Animation                          |                 26 |
-|  28 | Few-Shot Image Classification                      | Few-Shot Learning                          |                 26 |
-|  29 | 3D Object Detection                                | 3D Object Detection                        |                 26 |
-|  30 | Face Verification                                  | Facial Recognition and Modelling           |                 24 |
-|  31 | Face Verification                                  | 3D                                         |                 24 |
-|  32 | Face Alignment                                     | Facial Recognition and Modelling           |                 21 |
-|  33 | Face Detection                                     | Facial Recognition and Modelling           |                 20 |
-|  34 | Weakly Supervised Object Detection                 | Object Detection                           |                 19 |
-|  35 | Visual Object Tracking                             | Video                                      |                 19 |
-|  36 | Monocular Depth Estimation                         | Depth Estimation                           |                 19 |
-|  37 | Visual Object Tracking                             | Object Tracking                            |                 19 |
-|  38 | 3D Point Cloud Classification                      | 3D Point Cloud Classification              |                 19 |
-|  39 | Fine-Grained Image Classification                  | Image Classification                       |                 17 |
-|  40 | Pose Estimation                                    | 2D Human Pose Estimation                   |                 17 |
-|  41 | Pose Estimation                                    | Pose Estimation                            |                 17 |
-|  42 | Domain Generalization                              | Domain Adaptation                          |                 16 |
-|  43 | Continual Learning                                 | Continual Learning                         |                 16 |
-|  44 | 3D Human Pose Estimation                           | Pose Estimation                            |                 15 |
-|  45 | Visual Question Answering                          | Visual Question Answering                  |                 15 |
-|  46 | Multivariate Time Series Imputation                | Imputation                                 |                 15 |
-|  47 | Image Clustering                                   | Image Clustering                           |                 15 |
-|  48 | Single Image Deraining                             | Rain Removal                               |                 15 |
-|  49 | Real-Time Semantic Segmentation                    | Semantic Segmentation                      |                 14 |
-|  50 | 3D Part Segmentation                               | Semantic Segmentation                      |                 13 |
-|  51 | Unsupervised Domain Adaptation                     | Domain Adaptation                          |                 13 |
-|  52 | Keypoint Detection                                 | Pose Estimation                            |                 13 |
-|  53 | Image Retrieval                                    | Image Retrieval                            |                 13 |
-|  54 | Learning with noisy labels                         | Image Classification                       |                 12 |
-|  55 | Domain Adaptation                                  | Domain Adaptation                          |                 12 |
-|  56 | Cross-View Image-to-Image Translation              | Image-to-Image Translation                 |                 12 |
-|  57 | Learning with noisy labels                         | Document Text Classification               |                 12 |
-|  58 | Panoptic Segmentation                              | Semantic Segmentation                      |                 11 |
-|  59 | Retinal Vessel Segmentation                        | Medical Image Segmentation                 |                 11 |
-|  60 | Pedestrian Detection                               | Autonomous Vehicles                        |                 10 |
-|  61 | Video Super-Resolution                             | Super-Resolution                           |                 10 |
-|  62 | Video Super-Resolution                             | Video                                      |                 10 |
-|  63 | Multimodal Activity Recognition                    | Activity Recognition                       |                 10 |
-|  64 | Referring Expression Segmentation                  | Instance Segmentation                      |                 10 |
-|  65 | Referring Expression Segmentation                  | Referring Expression Segmentation          |                 10 |
-|  66 | Lipreading                                         | Lipreading                                 |                 10 |
-|  67 | Semi-Supervised Image Classification               | Image Classification                       |                  9 |
-|  68 | Image-to-Image Translation                         | Image Generation                           |                  9 |
-|  69 | Deblurring                                         | 2D Human Pose Estimation                   |                  9 |
-|  70 | 6D Pose Estimation using RGB                       | Pose Estimation                            |                  9 |
-|  71 | Salt-And-Pepper Noise Removal                      | Denoising                                  |                  9 |
-|  72 | Deblurring                                         | Deblurring                                 |                  9 |
-|  73 | Image Dehazing                                     | Dehazing                                   |                  9 |
-|  74 | Human-Object Interaction Detection                 | Human-Object Interaction Detection         |                  9 |
-|  75 | Image Dehazing                                     | Image Dehazing                             |                  9 |
-|  76 | Gaze Estimation                                    | Gaze Estimation                            |                  9 |
-|  77 | Photo geolocation estimation                       | Image Classification                       |                  8 |
-|  78 | Traffic Sign Recognition                           | Autonomous Vehicles                        |                  8 |
-|  79 | Facial Landmark Detection                          | Facial Recognition and Modelling           |                  8 |
-|  80 | Age-Invariant Face Recognition                     | Facial Recognition and Modelling           |                  8 |
-|  81 | Scene Text Recognition                             | Scene Parsing                              |                  8 |
-|  82 | Optical Flow Estimation                            | Optical Flow Estimation                    |                  8 |
-|  83 | Hand Gesture Recognition                           | Gesture Recognition                        |                  8 |
-|  84 | Synthetic-to-Real Translation                      | Image-to-Image Translation                 |                  8 |
-|  85 | Hand Gesture Recognition                           | Hand                                       |                  8 |
-|  86 | Facial Landmark Detection                          | Facial Landmark Detection                  |                  8 |
-|  87 | Hand Gesture Recognition                           | 3D Car Instance Understanding              |                  8 |
-|  88 | Age-Invariant Face Recognition                     | Face Recognition                           |                  8 |
-|  89 | Unsupervised Image Classification                  | Image Classification                       |                  7 |
-|  90 | RGB Salient Object Detection                       | Object Detection                           |                  7 |
-|  91 | 3D Face Reconstruction                             | Facial Recognition and Modelling           |                  7 |
-|  92 | Face Identification                                | Facial Recognition and Modelling           |                  7 |
-|  93 | Unsupervised Facial Landmark Detection             | Facial Recognition and Modelling           |                  7 |
-|  94 | Lesion Segmentation                                | Medical Image Segmentation                 |                  7 |
-|  95 | 3D Face Reconstruction                             | 3D                                         |                  7 |
-|  96 | Emotion Recognition in Conversation                | Emotion Recognition                        |                  7 |
-|  97 | Unsupervised Video Object Segmentation             | Video Object Segmentation                  |                  7 |
-|  98 | Multimodal Unsupervised Image-To-Image Translation | Image-to-Image Translation                 |                  7 |
-|  99 | 3D Face Reconstruction                             | 3D Character Animation From A Single Photo |                  7 |
-| 100 | 3D Face Reconstruction                             | 3D Absolute Human Pose Estimation          |                  7 |
-| 101 | 3D Face Reconstruction                             | 3D Object Reconstruction                   |                  7 |
-| 102 | Unsupervised Facial Landmark Detection             | Facial Landmark Detection                  |                  7 |
-| 103 | 3D Face Reconstruction                             | 3D Face Reconstruction                     |                  7 |
-| 104 | 3D Face Reconstruction                             | Face Reconstruction                        |                  7 |
-| 105 | Depth Completion                                   | Depth Completion                           |                  7 |
-| 106 | Semi-Supervised Semantic Segmentation              | Semantic Segmentation                      |                  6 |
-| 107 | Conditional Image Generation                       | Image Generation                           |                  6 |
-| 108 | Multi-Person Pose Estimation                       | Pose Estimation                            |                  6 |
-| 109 | Multiple Object Tracking                           | Video                                      |                  6 |
-| 110 | Face Recognition                                   | Facial Recognition and Modelling           |                  6 |
-| 111 | Multiple Object Tracking                           | Object Tracking                            |                  6 |
-| 112 | 3D Room Layouts From A Single RGB Panorama         | Scene Understanding                        |                  6 |
-| 113 | Medical Code Prediction                            | Multi-Label Classification                 |                  6 |
-| 114 | Out-of-Distribution Detection                      | Out-of-Distribution Detection              |                  6 |
-| 115 | License Plate Recognition                          | Image Recognition                          |                  6 |
-| 116 | 3D Room Layouts From A Single RGB Panorama         | 3D Reconstruction                          |                  6 |
-| 117 | Medical Image Segmentation                         | Semantic Segmentation                      |                  5 |
-| 118 | 3D Semantic Segmentation                           | Semantic Segmentation                      |                  5 |
-| 119 | Real-Time Object Detection                         | Object Detection                           |                  5 |
-| 120 | Video Prediction                                   | Video                                      |                  5 |
-| 121 | Video Retrieval                                    | Video                                      |                  5 |
-| 122 | Age And Gender Classification                      | Facial Recognition and Modelling           |                  5 |
-| 123 | Multi-Object Tracking                              | Object Tracking                            |                  5 |
-| 124 | Medical Image Segmentation                         | Medical Image Segmentation                 |                  5 |
-| 125 | Trajectory Prediction                              | Trajectory Prediction                      |                  5 |
-| 126 | Weakly-Supervised Object Localization              | Object Localization                        |                  5 |
-| 127 | Monocular 3D Human Pose Estimation                 | 3D Human Pose Estimation                   |                  5 |
-| 128 | Point Cloud Registration                           | Point Cloud Registration                   |                  5 |
-| 129 | 3D Semantic Segmentation                           | 3D Semantic Segmentation                   |                  5 |
-| 130 | Human Part Segmentation                            | Human Part Segmentation                    |                  5 |
-| 131 | Birds Eye View Object Detection                    | Birds Eye View Object Detection            |                  5 |
-| 132 | Sequential Image Classification                    | Image Classification                       |                  4 |
-| 133 | Document Image Classification                      | Image Classification                       |                  4 |
-| 134 | Few-Shot Object Detection                          | Object Detection                           |                  4 |
-| 135 | Layout-to-Image Generation                         | Image Generation                           |                  4 |
-| 136 | Hand Pose Estimation                               | Pose Estimation                            |                  4 |
-| 137 | Lane Detection                                     | Autonomous Vehicles                        |                  4 |
-| 138 | Denoising                                          | Denoising                                  |                  4 |
-| 139 | Color Image Denoising                              | Denoising                                  |                  4 |
-| 140 | Video Object Segmentation                          | Video                                      |                  4 |
-| 141 | Egocentric Activity Recognition                    | Activity Recognition                       |                  4 |
-| 142 | Depth Estimation                                   | Depth Estimation                           |                  4 |
-| 143 | Temporal Action Localization                       | Zero-Shot Learning                         |                  4 |
-| 144 | Weakly Supervised Action Localization              | Action Recognition                         |                  4 |
-| 145 | Brain Tumor Segmentation                           | Medical Image Segmentation                 |                  4 |
-| 146 | Brain Image Segmentation                           | Medical Image Segmentation                 |                  4 |
-| 147 | Unsupervised Person Re-Identification              | Person Re-Identification                   |                  4 |
-| 148 | Temporal Action Localization                       | Action Localization                        |                  4 |
-| 149 | Action Segmentation                                | Action Localization                        |                  4 |
-| 150 | Multimodal Emotion Recognition                     | Emotion Recognition                        |                  4 |
-| 151 | Video Object Segmentation                          | Video Object Segmentation                  |                  4 |
-| 152 | Hand Pose Estimation                               | Hand                                       |                  4 |
-| 153 | Novel View Synthesis                               | Novel View Synthesis                       |                  4 |
-| 154 | Keyword Spotting                                   | Keyword Spotting                           |                  4 |
-| 155 | Vehicle Re-Identification                          | Intelligent Surveillance                   |                  4 |
-| 156 | Vehicle Re-Identification                          | Vehicle Re-Identification                  |                  4 |
-| 157 | Few-Shot Object Detection                          | Few-Shot Object Detection                  |                  4 |
-| 158 | Weakly Supervised Action Localization              | Weakly Supervised Action Localization      |                  4 |
-| 159 | Action Anticipation                                | Action Anticipation                        |                  4 |
-| 160 | Document Image Classification                      | Document Image Classification              |                  4 |
-| 161 | Hyperspectral Image Classification                 | Image Classification                       |                  3 |
-| 162 | Self-Supervised Image Classification               | Image Classification                       |                  3 |
-| 163 | 2D Human Pose Estimation                           | 2D Human Pose Estimation                   |                  3 |
-| 164 | Video Deinterlacing                                | Video                                      |                  3 |
-| 165 | Facial Expression Recognition                      | Facial Recognition and Modelling           |                  3 |
-| 166 | Age Estimation                                     | Facial Recognition and Modelling           |                  3 |
-| 167 | Face Sketch Synthesis                              | Facial Recognition and Modelling           |                  3 |
-| 168 | Facial Beauty Prediction                           | Facial Recognition and Modelling           |                  3 |
-| 169 | Anomaly Detection                                  | Anomaly Detection                          |                  3 |
-| 170 | Optical Character Recognition                      | Optical Character Recognition              |                  3 |
-| 171 | Instance Segmentation                              | Instance Segmentation                      |                  3 |
-| 172 | 3D Instance Segmentation                           | Instance Segmentation                      |                  3 |
-| 173 | Temporal Action Proposal Generation                | Action Recognition                         |                  3 |
-| 174 | 3D Object Classification                           | 3D                                         |                  3 |
-| 175 | Talking Head Generation                            | 3D                                         |                  3 |
-| 176 | Scene Graph Generation                             | Scene Parsing                              |                  3 |
-| 177 | Continuous Control                                 | Continuous Control                         |                  3 |
-| 178 | Steering Control                                   | Continuous Control                         |                  3 |
-| 179 | Monocular 3D Object Detection                      | 3D Object Detection                        |                  3 |
-| 180 | Low-Light Image Enhancement                        | Image Enhancement                          |                  3 |
-| 181 | Image Compression                                  | Image Compression                          |                  3 |
-| 182 | Multi-view Subspace Clustering                     | Image Clustering                           |                  3 |
-| 183 | 3D Object Reconstruction                           | Object Reconstruction                      |                  3 |
-| 184 | Hyperspectral Image Classification                 | Hyperspectral                              |                  3 |
-| 185 | Talking Head Generation                            | 3D Absolute Human Pose Estimation          |                  3 |
-| 186 | Point Cloud Completion                             | Point Cloud Generation                     |                  3 |
-| 187 | Multi-Human Parsing                                | Human Parsing                              |                  3 |
-| 188 | Image Matting                                      | Image Matting                              |                  3 |
-| 189 | 2D Human Pose Estimation                           | Keypoint Detection                         |                  3 |
-| 190 | Motion Segmentation                                | Motion Segmentation                        |                  3 |
-| 191 | Pose Tracking                                      | Pose Tracking                              |                  3 |
-| 192 | Talking Head Generation                            | Face Generation                            |                  3 |
-| 193 | Interactive Segmentation                           | Interactive Segmentation                   |                  3 |
-| 194 | Object Counting                                    | Object Counting                            |                  3 |
-| 195 | Face Sketch Synthesis                              | Sketch                                     |                  3 |
-| 196 | Vision-Language Navigation                         | Vision-Language Navigation                 |                  3 |
-| 197 | Talking Head Generation                            | Talking Head Generation                    |                  3 |
-| 198 | Action Quality Assessment                          | Action Quality Assessment                  |                  3 |
-| 199 | Video Alignment                                    | Video Understanding                        |                  3 |
-| 200 | Horizon Line Estimation                            | Horizon Line Estimation                    |                  3 |
-| 201 | One-Shot Segmentation                              | Semantic Segmentation                      |                  2 |
-| 202 | Video Object Detection                             | Object Detection                           |                  2 |
-| 203 | Medical Object Detection                           | Object Detection                           |                  2 |
-| 204 | Zero-Shot Object Detection                         | Object Detection                           |                  2 |
-| 205 | Object Skeleton Detection                          | Object Detection                           |                  2 |
-| 206 | Partial Domain Adaptation                          | Domain Adaptation                          |                  2 |
-| 207 | Image Inpainting                                   | Image Generation                           |                  2 |
-| 208 | Text-to-Image Generation                           | Image Generation                           |                  2 |
-| 209 | Facial Inpainting                                  | Image Generation                           |                  2 |
-| 210 | Image Inpainting                                   | 2D Human Pose Estimation                   |                  2 |
-| 211 | Head Pose Estimation                               | Pose Estimation                            |                  2 |
-| 212 | Vehicle Pose Estimation                            | Pose Estimation                            |                  2 |
-| 213 | RF-based Pose Estimation                           | Pose Estimation                            |                  2 |
-| 214 | Image Denoising                                    | Denoising                                  |                  2 |
-| 215 | Video Generation                                   | Video                                      |                  2 |
-| 216 | Video Frame Interpolation                          | Video                                      |                  2 |
-| 217 | Video Summarization                                | Video                                      |                  2 |
-| 218 | Unsupervised Video Summarization                   | Video                                      |                  2 |
-| 219 | Supervised Video Summarization                     | Video                                      |                  2 |
-| 220 | Few-Shot Semantic Segmentation                     | Few-Shot Learning                          |                  2 |
-| 221 | Group Activity Recognition                         | Activity Recognition                       |                  2 |
-| 222 | Facial Inpainting                                  | Facial Recognition and Modelling           |                  2 |
-| 223 | Abnormal Event Detection In Video                  | Anomaly Detection                          |                  2 |
-| 224 | Stereo Depth Estimation                            | Depth Estimation                           |                  2 |
-| 225 | Zero-Shot Learning                                 | Zero-Shot Learning                         |                  2 |
-| 226 | Online Multi-Object Tracking                       | Object Tracking                            |                  2 |
-| 227 | Pancreas Segmentation                              | Medical Image Segmentation                 |                  2 |
-| 228 | 3D Reconstruction                                  | 3D                                         |                  2 |
-| 229 | 3D Shape Reconstruction                            | 3D                                         |                  2 |
-| 230 | Metric Learning                                    | Metric Learning                            |                  2 |
-| 231 | Action Detection                                   | Action Detection                           |                  2 |
-| 232 | Gesture Recognition                                | Gesture Recognition                        |                  2 |
-| 233 | Image Inpainting                                   | Image Inpainting                           |                  2 |
-| 234 | Facial Inpainting                                  | Image Inpainting                           |                  2 |
-| 235 | Visual Tracking                                    | Visual Tracking                            |                  2 |
-| 236 | Gesture-to-Gesture Translation                     | Hand                                       |                  2 |
-| 237 | Human Interaction Recognition                      | Human Interaction Recognition              |                  2 |
-| 238 | Weakly-supervised 3D Human Pose Estimation         | 3D Human Pose Estimation                   |                  2 |
-| 239 | Retinal OCT Disease Classification                 | Medical Diagnosis                          |                  2 |
-| 240 | Video Summarization                                | Video Summarization                        |                  2 |
-| 241 | Unsupervised Video Summarization                   | Video Summarization                        |                  2 |
-| 242 | Supervised Video Summarization                     | Video Summarization                        |                  2 |
-| 243 | Emotion Classification                             | Emotion Classification                     |                  2 |
-| 244 | 3D Facial Landmark Localization                    | Facial Landmark Detection                  |                  2 |
-| 245 | Retinal OCT Disease Classification                 | Disease Prediction                         |                  2 |
-| 246 | Scene Flow Estimation                              | Scene Flow Estimation                      |                  2 |
-| 247 | Multiview Gait Recognition                         | Gait Recognition                           |                  2 |
-| 248 | 3D Multi-Object Tracking                           | Multi-Object Tracking                      |                  2 |
-| 249 | 3D Multi-Object Tracking                           | 3D Multi-Object Tracking                   |                  2 |
-| 250 | Line Segment Detection                             | Line Segment Detection                     |                  2 |
-| 251 | Surface Normals Estimation                         | Surface Normals Estimation                 |                  2 |
-| 252 | Semi-supervised Anomaly Detection                  | Abnormal Event Detection In Video          |                  2 |
-| 253 | Disguised Face Verification                        | Face Verification                          |                  2 |
-| 254 | Pulmonary Artery–Vein Classification               | Pulmorary Vessel Segmentation              |                  2 |
-| 255 | Scene Segmentation                                 | Semantic Segmentation                      |                  1 |
-| 256 | Weakly-Supervised Semantic Segmentation            | Semantic Segmentation                      |                  1 |
-| 257 | Unsupervised Semantic Segmentation                 | Semantic Segmentation                      |                  1 |
-| 258 | RGB-D Salient Object Detection                     | Object Detection                           |                  1 |
-| 259 | One-Shot Object Detection                          | Object Detection                           |                  1 |
-| 260 | Surgical tool detection                            | Object Detection                           |                  1 |
-| 261 | 3D Face Animation                                  | 2D Human Pose Estimation                   |                  1 |
-| 262 | 6D Pose Estimation using RGBD                      | Pose Estimation                            |                  1 |
-| 263 | Human Pose Forecasting                             | Pose Estimation                            |                  1 |
-| 264 | 3D Face Animation                                  | 3D Face Animation                          |                  1 |
-| 265 | Anomaly Detection In Surveillance Videos           | Video                                      |                  1 |
-| 266 | Action Spotting                                    | Video                                      |                  1 |
-| 267 | Face Hallucination                                 | Facial Recognition and Modelling           |                  1 |
-| 268 | Action Unit Detection                              | Facial Recognition and Modelling           |                  1 |
-| 269 | 3D Facial Expression Recognition                   | Facial Recognition and Modelling           |                  1 |
-| 270 | Anomaly Detection In Surveillance Videos           | Anomaly Detection                          |                  1 |
-| 271 | Stereo-LiDAR Fusion                                | Depth Estimation                           |                  1 |
-| 272 | Unseen Object Instance Segmentation                | Instance Segmentation                      |                  1 |
-| 273 | Human Instance Segmentation                        | Instance Segmentation                      |                  1 |
-| 274 | One-Shot Instance Segmentation                     | Instance Segmentation                      |                  1 |
-| 275 | Generalized Zero-Shot Learning                     | Zero-Shot Learning                         |                  1 |
-| 276 | 3D Medical Imaging Segmentation                    | Medical Image Segmentation                 |                  1 |
-| 277 | Skin Cancer Segmentation                           | Medical Image Segmentation                 |                  1 |
-| 278 | Nuclear Segmentation                               | Medical Image Segmentation                 |                  1 |
-| 279 | Volumetric Medical Image Segmentation              | Medical Image Segmentation                 |                  1 |
-| 280 | 3D Shape Classification                            | 3D                                         |                  1 |
-| 281 | Quantization                                       | Quantization                               |                  1 |
-| 282 | Scene Recognition                                  | Scene Parsing                              |                  1 |
-| 283 | Emotion Recognition                                | Emotion Recognition                        |                  1 |
-| 284 | Speech Emotion Recognition                         | Emotion Recognition                        |                  1 |
-| 285 | Multi-Label Classification                         | Multi-Label Classification                 |                  1 |
-| 286 | Object Localization                                | Object Localization                        |                  1 |
-| 287 | Image Enhancement                                  | Image Enhancement                          |                  1 |
-| 288 | Image Relighting                                   | Image Enhancement                          |                  1 |
-| 289 | Video Semantic Segmentation                        | Video Semantic Segmentation                |                  1 |
-| 290 | Aesthetics Quality Assessment                      | Image Quality Assessment                   |                  1 |
-| 291 | Video Captioning                                   | Video Captioning                           |                  1 |
-| 292 | Pose Prediction                                    | 3D Human Pose Estimation                   |                  1 |
-| 293 | Scene Recognition                                  | 3D Character Animation From A Single Photo |                  1 |
-| 294 | Semantic correspondence                            | Image Matching                             |                  1 |
-| 295 | Rain Removal                                       | Rain Removal                               |                  1 |
-| 296 | Compressive Sensing                                | Compressive Sensing                        |                  1 |
-| 297 | Curved Text Detection                              | Scene Text Detection                       |                  1 |
-| 298 | Visual Place Recognition                           | Visual Place Recognition                   |                  1 |
-| 299 | Classification Of Hyperspectral Images             | Hyperspectral                              |                  1 |
-| 300 | 3D Face Animation                                  | 3D Absolute Human Pose Estimation          |                  1 |
-| 301 | Edge Detection                                     | Edge Detection                             |                  1 |
-| 302 | MS-SSIM                                            | Document Layout Analysis                   |                  1 |
-| 303 | Video Question Answering                           | Video Question Answering                   |                  1 |
-| 304 | Disease Trajectory Forecasting                     | Disease Prediction                         |                  1 |
-| 305 | Video Instance Segmentation                        | Video Instance Segmentation                |                  1 |
-| 306 | Virtual Try-on                                     | Virtual Try-on                             |                  1 |
-| 307 | One-shot visual object segmentation                | Semi-Supervised Video Object Segmentation  |                  1 |
-| 308 | Shadow Detection                                   | Shadow Detection                           |                  1 |
-| 309 | Dense Pixel Correspondence Estimation              | Dense Pixel Correspondence Estimation      |                  1 |
-| 310 | 3D Facial Expression Recognition                   | Facial Expression Recognition              |                  1 |
-| 311 | Traffic Sign Detection                             | Traffic Sign Detection                     |                  1 |
-| 312 | Point Cloud Super Resolution                       | Point Cloud Super Resolution               |                  1 |
-| 313 | Sign Language Translation                          | Sign Language Translation                  |                  1 |
-| 314 | 3D Dense Shape Correspondence                      | 3D Shape Representation                    |                  1 |
-| 315 | Defocus Estimation                                 | Defocus Estimation                         |                  1 |
-| 316 | Weakly Supervised Action Segmentation (Transcript) | Action Segmentation                        |                  1 |
-| 317 | Multi-Person Pose Estimation and Tracking          | Multi-Person Pose Estimation and Tracking  |                  1 |
+|     | Task                                                                                                                                     | Field                                     |   Number of Papers |
+|----:|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|-------------------:|
+|   0 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                                         | Super-Resolution                          |                 81 |
+|   1 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                                           | Semantic Segmentation                     |                 66 |
+|   2 | [Image Classification](https://paperswithcode.com/task/image-classification)                                                             | Image Classification                      |                 54 |
+|   3 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                                                 | Activity Recognition                      |                 52 |
+|   4 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                                     | Person Re-Identification                  |                 46 |
+|   5 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                                     | Object Detection                          |                 39 |
+|   6 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                                             | Scene Text Detection                      |                 39 |
+|   7 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                                         | Crowds                                    |                 37 |
+|   8 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation)                   | Video Object Segmentation                 |                 35 |
+|   9 | [JPEG Artifact Correction](https://paperswithcode.com/task/jpeg-artifact-correction)                                                     | Image Restoration                         |                 34 |
+|  10 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                                   | Action Recognition                        |                 32 |
+|  11 | [Action Classification](https://paperswithcode.com/task/action-classification)                                                           | Video                                     |                 31 |
+|  12 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                                         | Object Detection                          |                 29 |
+|  13 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                                           | Image Classification                      |                 26 |
+|  14 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                                               | Object Detection                          |                 26 |
+|  15 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                                     | Image Generation                          |                 26 |
+|  16 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                                   | Denoising                                 |                 26 |
+|  17 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                                   | Facial Recognition and Modelling          |                 24 |
+|  18 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                                         | Facial Recognition and Modelling          |                 21 |
+|  19 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                                         | Facial Recognition and Modelling          |                 20 |
+|  20 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)                                 | Object Detection                          |                 19 |
+|  21 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                                         | Video                                     |                 19 |
+|  22 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                                                 | Depth Estimation                          |                 19 |
+|  23 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                                           | 3D Point Cloud Classification             |                 19 |
+|  24 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                                   | Image Classification                      |                 17 |
+|  25 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                                       | 2D Human Pose Estimation                  |                 17 |
+|  26 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                                           | Domain Adaptation                         |                 16 |
+|  27 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                                                 | Continual Learning                        |                 16 |
+|  28 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                                     | Pose Estimation                           |                 15 |
+|  29 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                                   | Visual Question Answering                 |                 15 |
+|  30 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation)                               | Imputation                                |                 15 |
+|  31 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                                     | Image Clustering                          |                 15 |
+|  32 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                                                         | Rain Removal                              |                 15 |
+|  33 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                                       | Semantic Segmentation                     |                 14 |
+|  34 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                                             | Semantic Segmentation                     |                 13 |
+|  35 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                                         | Domain Adaptation                         |                 13 |
+|  36 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                                                 | Pose Estimation                           |                 13 |
+|  37 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                                       | Image Retrieval                           |                 13 |
+|  38 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                                                 | Image Classification                      |                 12 |
+|  39 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                                   | Domain Adaptation                         |                 12 |
+|  40 | [Cross-View Image-to-Image Translation](https://paperswithcode.com/task/cross-view-image-to-image-translation)                           | Image-to-Image Translation                |                 12 |
+|  41 | [Panoptic Segmentation](https://paperswithcode.com/task/panoptic-segmentation)                                                           | Semantic Segmentation                     |                 11 |
+|  42 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                                               | Medical Image Segmentation                |                 11 |
+|  43 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                                             | Autonomous Vehicles                       |                 10 |
+|  44 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                                         | Super-Resolution                          |                 10 |
+|  45 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                                       | Activity Recognition                      |                 10 |
+|  46 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                                   | Instance Segmentation                     |                 10 |
+|  47 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                                                 | Lipreading                                |                 10 |
+|  48 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)                             | Image Classification                      |                  9 |
+|  49 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                                                 | Image Generation                          |                  9 |
+|  50 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                                                 | 2D Human Pose Estimation                  |                  9 |
+|  51 | [6D Pose Estimation using RGB](https://paperswithcode.com/task/6d-pose-estimation-using-rgb)                                             | Pose Estimation                           |                  9 |
+|  52 | [Salt-And-Pepper Noise Removal](https://paperswithcode.com/task/salt-and-pepper-noise-removal)                                           | Denoising                                 |                  9 |
+|  53 | [Image Dehazing](https://paperswithcode.com/task/image-dehazing)                                                                         | Dehazing                                  |                  9 |
+|  54 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)                                 | Human-Object Interaction Detection        |                  9 |
+|  55 | [Gaze Estimation](https://paperswithcode.com/task/gaze-estimation)                                                                       | Gaze Estimation                           |                  9 |
+|  56 | [Photo geolocation estimation](https://paperswithcode.com/task/photo-geolocation-estimation)                                             | Image Classification                      |                  8 |
+|  57 | [Traffic Sign Recognition](https://paperswithcode.com/task/traffic-sign-recognition)                                                     | Autonomous Vehicles                       |                  8 |
+|  58 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                                   | Facial Recognition and Modelling          |                  8 |
+|  59 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                                         | Facial Recognition and Modelling          |                  8 |
+|  60 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                                         | Scene Parsing                             |                  8 |
+|  61 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                                       | Optical Flow Estimation                   |                  8 |
+|  62 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                     | Gesture Recognition                       |                  8 |
+|  63 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                                           | Image-to-Image Translation                |                  8 |
+|  64 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                                   | Image Classification                      |                  7 |
+|  65 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                                             | Object Detection                          |                  7 |
+|  66 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                                         | Facial Recognition and Modelling          |                  7 |
+|  67 | [Face Identification](https://paperswithcode.com/task/face-identification)                                                               | Facial Recognition and Modelling          |                  7 |
+|  68 | [Unsupervised Facial Landmark Detection](https://paperswithcode.com/task/unsupervised-facial-landmark-detection)                         | Facial Recognition and Modelling          |                  7 |
+|  69 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                                               | Medical Image Segmentation                |                  7 |
+|  70 | [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)                               | Emotion Recognition                       |                  7 |
+|  71 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)                         | Video Object Segmentation                 |                  7 |
+|  72 | [Multimodal Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/multimodal-unsupervised-image-to-image-translation) | Image-to-Image Translation                |                  7 |
+|  73 | [Depth Completion](https://paperswithcode.com/task/depth-completion)                                                                     | Depth Completion                          |                  7 |
+|  74 | [Semi-Supervised Semantic Segmentation](https://paperswithcode.com/task/semi-supervised-semantic-segmentation)                           | Semantic Segmentation                     |                  6 |
+|  75 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                                             | Image Generation                          |                  6 |
+|  76 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                                             | Pose Estimation                           |                  6 |
+|  77 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                                     | Video                                     |                  6 |
+|  78 | [Face Recognition](https://paperswithcode.com/task/face-recognition)                                                                     | Facial Recognition and Modelling          |                  6 |
+|  79 | [3D Room Layouts From A Single RGB Panorama](https://paperswithcode.com/task/3d-room-layouts-from-a-single-rgb-panorama)                 | Scene Understanding                       |                  6 |
+|  80 | [Medical Code Prediction](https://paperswithcode.com/task/medical-code-prediction)                                                       | Multi-Label Classification                |                  6 |
+|  81 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                                           | Out-of-Distribution Detection             |                  6 |
+|  82 | [License Plate Recognition](https://paperswithcode.com/task/license-plate-recognition)                                                   | Image Recognition                         |                  6 |
+|  83 | [Medical Image Segmentation](https://paperswithcode.com/task/medical-image-segmentation)                                                 | Semantic Segmentation                     |                  5 |
+|  84 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                                     | Semantic Segmentation                     |                  5 |
+|  85 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                                                 | Object Detection                          |                  5 |
+|  86 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                                     | Video                                     |                  5 |
+|  87 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                                       | Video                                     |                  5 |
+|  88 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                                           | Facial Recognition and Modelling          |                  5 |
+|  89 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                                           | Object Tracking                           |                  5 |
+|  90 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                                           | Trajectory Prediction                     |                  5 |
+|  91 | [Weakly-Supervised Object Localization](https://paperswithcode.com/task/weakly-supervised-object-localization)                           | Object Localization                       |                  5 |
+|  92 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)                                 | 3D Human Pose Estimation                  |                  5 |
+|  93 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                                     | Point Cloud Registration                  |                  5 |
+|  94 | [Human Part Segmentation](https://paperswithcode.com/task/human-part-segmentation)                                                       | Human Part Segmentation                   |                  5 |
+|  95 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                                       | Birds Eye View Object Detection           |                  5 |
+|  96 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                                       | Image Classification                      |                  4 |
+|  97 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                                           | Image Classification                      |                  4 |
+|  98 | [Few-Shot Object Detection](https://paperswithcode.com/task/few-shot-object-detection)                                                   | Object Detection                          |                  4 |
+|  99 | [Layout-to-Image Generation](https://paperswithcode.com/task/layout-to-image-generation)                                                 | Image Generation                          |                  4 |
+| 100 | [Hand Pose Estimation](https://paperswithcode.com/task/hand-pose-estimation)                                                             | Pose Estimation                           |                  4 |
+| 101 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                                         | Autonomous Vehicles                       |                  4 |
+| 102 | [Denoising](https://paperswithcode.com/task/denoising)                                                                                   | Denoising                                 |                  4 |
+| 103 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                                           | Denoising                                 |                  4 |
+| 104 | [Video Object Segmentation](https://paperswithcode.com/task/video-object-segmentation)                                                   | Video                                     |                  4 |
+| 105 | [Egocentric Activity Recognition](https://paperswithcode.com/task/egocentric-activity-recognition)                                       | Activity Recognition                      |                  4 |
+| 106 | [Depth Estimation](https://paperswithcode.com/task/depth-estimation)                                                                     | Depth Estimation                          |                  4 |
+| 107 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                                             | Zero-Shot Learning                        |                  4 |
+| 108 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)                           | Action Recognition                        |                  4 |
+| 109 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                                     | Medical Image Segmentation                |                  4 |
+| 110 | [Brain Image Segmentation](https://paperswithcode.com/task/brain-image-segmentation)                                                     | Medical Image Segmentation                |                  4 |
+| 111 | [Unsupervised Person Re-Identification](https://paperswithcode.com/task/unsupervised-person-re-identification)                           | Person Re-Identification                  |                  4 |
+| 112 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                                               | Action Localization                       |                  4 |
+| 113 | [Multimodal Emotion Recognition](https://paperswithcode.com/task/multimodal-emotion-recognition)                                         | Emotion Recognition                       |                  4 |
+| 114 | [Novel View Synthesis](https://paperswithcode.com/task/novel-view-synthesis)                                                             | Novel View Synthesis                      |                  4 |
+| 115 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                                     | Keyword Spotting                          |                  4 |
+| 116 | [Vehicle Re-Identification](https://paperswithcode.com/task/vehicle-re-identification)                                                   | Intelligent Surveillance                  |                  4 |
+| 117 | [Action Anticipation](https://paperswithcode.com/task/action-anticipation)                                                               | Action Anticipation                       |                  4 |
+| 118 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)                                 | Image Classification                      |                  3 |
+| 119 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification)                             | Image Classification                      |                  3 |
+| 120 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                                     | 2D Human Pose Estimation                  |                  3 |
+| 121 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)                                                               | Video                                     |                  3 |
+| 122 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                                           | Facial Recognition and Modelling          |                  3 |
+| 123 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                                         | Facial Recognition and Modelling          |                  3 |
+| 124 | [Face Sketch Synthesis](https://paperswithcode.com/task/face-sketch-synthesis)                                                           | Facial Recognition and Modelling          |                  3 |
+| 125 | [Facial Beauty Prediction](https://paperswithcode.com/task/facial-beauty-prediction)                                                     | Facial Recognition and Modelling          |                  3 |
+| 126 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                                   | Anomaly Detection                         |                  3 |
+| 127 | [Optical Character Recognition](https://paperswithcode.com/task/optical-character-recognition)                                           | Optical Character Recognition             |                  3 |
+| 128 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                                           | Instance Segmentation                     |                  3 |
+| 129 | [3D Instance Segmentation](https://paperswithcode.com/task/3d-instance-segmentation)                                                     | Instance Segmentation                     |                  3 |
+| 130 | [Temporal Action Proposal Generation](https://paperswithcode.com/task/temporal-action-proposal-generation)                               | Action Recognition                        |                  3 |
+| 131 | [3D Object Classification](https://paperswithcode.com/task/3d-object-classification)                                                     | 3D                                        |                  3 |
+| 132 | [Talking Head Generation](https://paperswithcode.com/task/talking-head-generation)                                                       | 3D                                        |                  3 |
+| 133 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                                         | Scene Parsing                             |                  3 |
+| 134 | [Continuous Control](https://paperswithcode.com/task/continuous-control)                                                                 | Continuous Control                        |                  3 |
+| 135 | [Steering Control](https://paperswithcode.com/task/steering-control)                                                                     | Continuous Control                        |                  3 |
+| 136 | [Monocular 3D Object Detection](https://paperswithcode.com/task/monocular-3d-object-detection)                                           | 3D Object Detection                       |                  3 |
+| 137 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                                               | Image Enhancement                         |                  3 |
+| 138 | [Image Compression](https://paperswithcode.com/task/image-compression)                                                                   | Image Compression                         |                  3 |
+| 139 | [Multi-view Subspace Clustering](https://paperswithcode.com/task/multi-view-subspace-clustering)                                         | Image Clustering                          |                  3 |
+| 140 | [3D Object Reconstruction](https://paperswithcode.com/task/3d-object-reconstruction)                                                     | Object Reconstruction                     |                  3 |
+| 141 | [Point Cloud Completion](https://paperswithcode.com/task/point-cloud-completion)                                                         | Point Cloud Generation                    |                  3 |
+| 142 | [Multi-Human Parsing](https://paperswithcode.com/task/multi-human-parsing)                                                               | Human Parsing                             |                  3 |
+| 143 | [Image Matting](https://paperswithcode.com/task/image-matting)                                                                           | Image Matting                             |                  3 |
+| 144 | [Motion Segmentation](https://paperswithcode.com/task/motion-segmentation)                                                               | Motion Segmentation                       |                  3 |
+| 145 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                                           | Pose Tracking                             |                  3 |
+| 146 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                                     | Interactive Segmentation                  |                  3 |
+| 147 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                                       | Object Counting                           |                  3 |
+| 148 | [Vision-Language Navigation](https://paperswithcode.com/task/vision-language-navigation)                                                 | Vision-Language Navigation                |                  3 |
+| 149 | [Action Quality Assessment](https://paperswithcode.com/task/action-quality-assessment)                                                   | Action Quality Assessment                 |                  3 |
+| 150 | [Video Alignment](https://paperswithcode.com/task/video-alignment)                                                                       | Video Understanding                       |                  3 |
+| 151 | [Horizon Line Estimation](https://paperswithcode.com/task/horizon-line-estimation)                                                       | Horizon Line Estimation                   |                  3 |
+| 152 | [One-Shot Segmentation](https://paperswithcode.com/task/one-shot-segmentation)                                                           | Semantic Segmentation                     |                  2 |
+| 153 | [Video Object Detection](https://paperswithcode.com/task/video-object-detection)                                                         | Object Detection                          |                  2 |
+| 154 | [Medical Object Detection](https://paperswithcode.com/task/medical-object-detection)                                                     | Object Detection                          |                  2 |
+| 155 | [Zero-Shot Object Detection](https://paperswithcode.com/task/zero-shot-object-detection)                                                 | Object Detection                          |                  2 |
+| 156 | [Object Skeleton Detection](https://paperswithcode.com/task/object-skeleton-detection)                                                   | Object Detection                          |                  2 |
+| 157 | [Partial Domain Adaptation](https://paperswithcode.com/task/partial-domain-adaptation)                                                   | Domain Adaptation                         |                  2 |
+| 158 | [Image Inpainting](https://paperswithcode.com/task/image-inpainting)                                                                     | Image Generation                          |                  2 |
+| 159 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                                     | Image Generation                          |                  2 |
+| 160 | [Facial Inpainting](https://paperswithcode.com/task/facial-inpainting)                                                                   | Image Generation                          |                  2 |
+| 161 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                                             | Pose Estimation                           |                  2 |
+| 162 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                                       | Pose Estimation                           |                  2 |
+| 163 | [RF-based Pose Estimation](https://paperswithcode.com/task/rf-based-pose-estimation)                                                     | Pose Estimation                           |                  2 |
+| 164 | [Image Denoising](https://paperswithcode.com/task/image-denoising)                                                                       | Denoising                                 |                  2 |
+| 165 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                                     | Video                                     |                  2 |
+| 166 | [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)                                                   | Video                                     |                  2 |
+| 167 | [Video Summarization](https://paperswithcode.com/task/video-summarization)                                                               | Video                                     |                  2 |
+| 168 | [Unsupervised Video Summarization](https://paperswithcode.com/task/unsupervised-video-summarization)                                     | Video                                     |                  2 |
+| 169 | [Supervised Video Summarization](https://paperswithcode.com/task/supervised-video-summarization)                                         | Video                                     |                  2 |
+| 170 | [Few-Shot Semantic Segmentation](https://paperswithcode.com/task/few-shot-semantic-segmentation)                                         | Few-Shot Learning                         |                  2 |
+| 171 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                                                 | Activity Recognition                      |                  2 |
+| 172 | [Abnormal Event Detection In Video](https://paperswithcode.com/task/abnormal-event-detection-in-video)                                   | Anomaly Detection                         |                  2 |
+| 173 | [Stereo Depth Estimation](https://paperswithcode.com/task/stereo-depth-estimation)                                                       | Depth Estimation                          |                  2 |
+| 174 | [Zero-Shot Learning](https://paperswithcode.com/task/zero-shot-learning)                                                                 | Zero-Shot Learning                        |                  2 |
+| 175 | [Online Multi-Object Tracking](https://paperswithcode.com/task/online-multi-object-tracking)                                             | Object Tracking                           |                  2 |
+| 176 | [Pancreas Segmentation](https://paperswithcode.com/task/pancreas-segmentation)                                                           | Medical Image Segmentation                |                  2 |
+| 177 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                                   | 3D                                        |                  2 |
+| 178 | [3D Shape Reconstruction](https://paperswithcode.com/task/3d-shape-reconstruction)                                                       | 3D                                        |                  2 |
+| 179 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                                       | Metric Learning                           |                  2 |
+| 180 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                                     | Action Detection                          |                  2 |
+| 181 | [Gesture Recognition](https://paperswithcode.com/task/gesture-recognition)                                                               | Gesture Recognition                       |                  2 |
+| 182 | [Visual Tracking](https://paperswithcode.com/task/visual-tracking)                                                                       | Visual Tracking                           |                  2 |
+| 183 | [Gesture-to-Gesture Translation](https://paperswithcode.com/task/gesture-to-gesture-translation)                                         | Hand                                      |                  2 |
+| 184 | [Human Interaction Recognition](https://paperswithcode.com/task/human-interaction-recognition)                                           | Human Interaction Recognition             |                  2 |
+| 185 | [Weakly-supervised 3D Human Pose Estimation](https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation)                 | 3D Human Pose Estimation                  |                  2 |
+| 186 | [Retinal OCT Disease Classification](https://paperswithcode.com/task/retinal-oct-disease-classification)                                 | Medical Diagnosis                         |                  2 |
+| 187 | [Emotion Classification](https://paperswithcode.com/task/emotion-classification)                                                         | Emotion Classification                    |                  2 |
+| 188 | [3D Facial Landmark Localization](https://paperswithcode.com/task/3d-facial-landmark-localization)                                       | Facial Landmark Detection                 |                  2 |
+| 189 | [Scene Flow Estimation](https://paperswithcode.com/task/scene-flow-estimation)                                                           | Scene Flow Estimation                     |                  2 |
+| 190 | [Multiview Gait Recognition](https://paperswithcode.com/task/multiview-gait-recognition)                                                 | Gait Recognition                          |                  2 |
+| 191 | [3D Multi-Object Tracking](https://paperswithcode.com/task/3d-multi-object-tracking)                                                     | Multi-Object Tracking                     |                  2 |
+| 192 | [Line Segment Detection](https://paperswithcode.com/task/line-segment-detection)                                                         | Line Segment Detection                    |                  2 |
+| 193 | [Surface Normals Estimation](https://paperswithcode.com/task/surface-normals-estimation)                                                 | Surface Normals Estimation                |                  2 |
+| 194 | [Semi-supervised Anomaly Detection](https://paperswithcode.com/task/semi-supervised-anomaly-detection)                                   | Abnormal Event Detection In Video         |                  2 |
+| 195 | [Disguised Face Verification](https://paperswithcode.com/task/disguised-face-verification)                                               | Face Verification                         |                  2 |
+| 196 | [Pulmonary Artery–Vein Classification](https://paperswithcode.com/task/pulmonary-artery–vein-classification)                             | Pulmorary Vessel Segmentation             |                  2 |
+| 197 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                                                 | Semantic Segmentation                     |                  1 |
+| 198 | [Weakly-Supervised Semantic Segmentation](https://paperswithcode.com/task/weakly-supervised-semantic-segmentation)                       | Semantic Segmentation                     |                  1 |
+| 199 | [Unsupervised Semantic Segmentation](https://paperswithcode.com/task/unsupervised-semantic-segmentation)                                 | Semantic Segmentation                     |                  1 |
+| 200 | [RGB-D Salient Object Detection](https://paperswithcode.com/task/rgb-d-salient-object-detection)                                         | Object Detection                          |                  1 |
+| 201 | [One-Shot Object Detection](https://paperswithcode.com/task/one-shot-object-detection)                                                   | Object Detection                          |                  1 |
+| 202 | [Surgical tool detection](https://paperswithcode.com/task/surgical-tool-detection)                                                       | Object Detection                          |                  1 |
+| 203 | [3D Face Animation](https://paperswithcode.com/task/3d-face-animation)                                                                   | 2D Human Pose Estimation                  |                  1 |
+| 204 | [6D Pose Estimation using RGBD](https://paperswithcode.com/task/6d-pose-estimation-using-rgbd)                                           | Pose Estimation                           |                  1 |
+| 205 | [Human Pose Forecasting](https://paperswithcode.com/task/human-pose-forecasting)                                                         | Pose Estimation                           |                  1 |
+| 206 | [Anomaly Detection In Surveillance Videos](https://paperswithcode.com/task/anomaly-detection-in-surveillance-videos)                     | Video                                     |                  1 |
+| 207 | [Action Spotting](https://paperswithcode.com/task/action-spotting)                                                                       | Video                                     |                  1 |
+| 208 | [Face Hallucination](https://paperswithcode.com/task/face-hallucination)                                                                 | Facial Recognition and Modelling          |                  1 |
+| 209 | [Action Unit Detection](https://paperswithcode.com/task/action-unit-detection)                                                           | Facial Recognition and Modelling          |                  1 |
+| 210 | [3D Facial Expression Recognition](https://paperswithcode.com/task/3d-facial-expression-recognition)                                     | Facial Recognition and Modelling          |                  1 |
+| 211 | [Stereo-LiDAR Fusion](https://paperswithcode.com/task/stereo-lidar-fusion)                                                               | Depth Estimation                          |                  1 |
+| 212 | [Unseen Object Instance Segmentation](https://paperswithcode.com/task/unseen-object-instance-segmentation)                               | Instance Segmentation                     |                  1 |
+| 213 | [Human Instance Segmentation](https://paperswithcode.com/task/human-instance-segmentation)                                               | Instance Segmentation                     |                  1 |
+| 214 | [One-Shot Instance Segmentation](https://paperswithcode.com/task/one-shot-instance-segmentation)                                         | Instance Segmentation                     |                  1 |
+| 215 | [Generalized Zero-Shot Learning](https://paperswithcode.com/task/generalized-zero-shot-learning)                                         | Zero-Shot Learning                        |                  1 |
+| 216 | [3D Medical Imaging Segmentation](https://paperswithcode.com/task/3d-medical-imaging-segmentation)                                       | Medical Image Segmentation                |                  1 |
+| 217 | [Skin Cancer Segmentation](https://paperswithcode.com/task/skin-cancer-segmentation)                                                     | Medical Image Segmentation                |                  1 |
+| 218 | [Nuclear Segmentation](https://paperswithcode.com/task/nuclear-segmentation)                                                             | Medical Image Segmentation                |                  1 |
+| 219 | [Volumetric Medical Image Segmentation](https://paperswithcode.com/task/volumetric-medical-image-segmentation)                           | Medical Image Segmentation                |                  1 |
+| 220 | [3D Shape Classification](https://paperswithcode.com/task/3d-shape-classification)                                                       | 3D                                        |                  1 |
+| 221 | [Quantization](https://paperswithcode.com/task/quantization)                                                                             | Quantization                              |                  1 |
+| 222 | [Scene Recognition](https://paperswithcode.com/task/scene-recognition)                                                                   | Scene Parsing                             |                  1 |
+| 223 | [Emotion Recognition](https://paperswithcode.com/task/emotion-recognition)                                                               | Emotion Recognition                       |                  1 |
+| 224 | [Speech Emotion Recognition](https://paperswithcode.com/task/speech-emotion-recognition)                                                 | Emotion Recognition                       |                  1 |
+| 225 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                                                 | Multi-Label Classification                |                  1 |
+| 226 | [Object Localization](https://paperswithcode.com/task/object-localization)                                                               | Object Localization                       |                  1 |
+| 227 | [Image Enhancement](https://paperswithcode.com/task/image-enhancement)                                                                   | Image Enhancement                         |                  1 |
+| 228 | [Image Relighting](https://paperswithcode.com/task/image-relighting)                                                                     | Image Enhancement                         |                  1 |
+| 229 | [Video Semantic Segmentation](https://paperswithcode.com/task/video-semantic-segmentation)                                               | Video Semantic Segmentation               |                  1 |
+| 230 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                                           | Image Quality Assessment                  |                  1 |
+| 231 | [Video Captioning](https://paperswithcode.com/task/video-captioning)                                                                     | Video Captioning                          |                  1 |
+| 232 | [Pose Prediction](https://paperswithcode.com/task/pose-prediction)                                                                       | 3D Human Pose Estimation                  |                  1 |
+| 233 | [Semantic correspondence](https://paperswithcode.com/task/semantic-correspondence)                                                       | Image Matching                            |                  1 |
+| 234 | [Rain Removal](https://paperswithcode.com/task/rain-removal)                                                                             | Rain Removal                              |                  1 |
+| 235 | [Compressive Sensing](https://paperswithcode.com/task/compressive-sensing)                                                               | Compressive Sensing                       |                  1 |
+| 236 | [Curved Text Detection](https://paperswithcode.com/task/curved-text-detection)                                                           | Scene Text Detection                      |                  1 |
+| 237 | [Visual Place Recognition](https://paperswithcode.com/task/visual-place-recognition)                                                     | Visual Place Recognition                  |                  1 |
+| 238 | [Classification Of Hyperspectral Images](https://paperswithcode.com/task/classification-of-hyperspectral-images)                         | Hyperspectral                             |                  1 |
+| 239 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                                         | Edge Detection                            |                  1 |
+| 240 | [MS-SSIM](https://paperswithcode.com/task/ms-ssim)                                                                                       | Document Layout Analysis                  |                  1 |
+| 241 | [Video Question Answering](https://paperswithcode.com/task/video-question-answering)                                                     | Video Question Answering                  |                  1 |
+| 242 | [Disease Trajectory Forecasting](https://paperswithcode.com/task/disease-trajectory-forecasting)                                         | Disease Prediction                        |                  1 |
+| 243 | [Video Instance Segmentation](https://paperswithcode.com/task/video-instance-segmentation)                                               | Video Instance Segmentation               |                  1 |
+| 244 | [Virtual Try-on](https://paperswithcode.com/task/virtual-try-on)                                                                         | Virtual Try-on                            |                  1 |
+| 245 | [One-shot visual object segmentation](https://paperswithcode.com/task/one-shot-visual-object-segmentation)                               | Semi-Supervised Video Object Segmentation |                  1 |
+| 246 | [Shadow Detection](https://paperswithcode.com/task/shadow-detection)                                                                     | Shadow Detection                          |                  1 |
+| 247 | [Dense Pixel Correspondence Estimation](https://paperswithcode.com/task/dense-pixel-correspondence-estimation)                           | Dense Pixel Correspondence Estimation     |                  1 |
+| 248 | [Traffic Sign Detection](https://paperswithcode.com/task/traffic-sign-detection)                                                         | Traffic Sign Detection                    |                  1 |
+| 249 | [Point Cloud Super Resolution](https://paperswithcode.com/task/point-cloud-super-resolution)                                             | Point Cloud Super Resolution              |                  1 |
+| 250 | [Sign Language Translation](https://paperswithcode.com/task/sign-language-translation)                                                   | Sign Language Translation                 |                  1 |
+| 251 | [3D Dense Shape Correspondence](https://paperswithcode.com/task/3d-dense-shape-correspondence)                                           | 3D Shape Representation                   |                  1 |
+| 252 | [Defocus Estimation](https://paperswithcode.com/task/defocus-estimation)                                                                 | Defocus Estimation                        |                  1 |
+| 253 | [Weakly Supervised Action Segmentation (Transcript)](https://paperswithcode.com/task/weakly-supervised-action-segmentation-(transcript)) | Action Segmentation                       |                  1 |
+| 254 | [Multi-Person Pose Estimation and Tracking](https://paperswithcode.com/task/multi-person-pose-estimation-and-tracking)                   | Multi-Person Pose Estimation and Tracking |                  1 |
 
 ## 2017
 
-|     | Field                                              | Type                                       |   Number of Papers |
-|----:|:---------------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Person Re-Identification                           | Person Re-Identification                   |                 66 |
-|   1 | Image Classification                               | Image Classification                       |                 55 |
-|   2 | Action Recognition                                 | Activity Recognition                       |                 50 |
-|   3 | Action Recognition                                 | Action Recognition                         |                 50 |
-|   4 | Action Recognition                                 | Video Classification                       |                 50 |
-|   5 | Image Super-Resolution                             | Super-Resolution                           |                 37 |
-|   6 | Image Super-Resolution                             | Image Super-Resolution                     |                 37 |
-|   7 | Object Detection                                   | Object Detection                           |                 32 |
-|   8 | Semantic Segmentation                              | Semantic Segmentation                      |                 29 |
-|   9 | Action Classification                              | Video                                      |                 27 |
-|  10 | 3D Object Detection                                | Object Detection                           |                 24 |
-|  11 | Skeleton Based Action Recognition                  | Action Recognition                         |                 24 |
-|  12 | 3D Object Detection                                | 3D Object Detection                        |                 24 |
-|  13 | Skeleton Based Action Recognition                  | Action Detection                           |                 24 |
-|  14 | Skeleton Based Action Recognition                  | Gesture Recognition                        |                 24 |
-|  15 | Skeleton Based Action Recognition                  | Human Interaction Recognition              |                 24 |
-|  16 | Skeleton Based Action Recognition                  | Action Classification                      |                 24 |
-|  17 | Skeleton Based Action Recognition                  | Hand Gesture Recognition                   |                 24 |
-|  18 | Pose Estimation                                    | 2D Human Pose Estimation                   |                 23 |
-|  19 | Pose Estimation                                    | Pose Estimation                            |                 23 |
-|  20 | Hand Pose Estimation                               | Pose Estimation                            |                 21 |
-|  21 | Hand Pose Estimation                               | Hand                                       |                 21 |
-|  22 | Few-Shot Image Classification                      | Image Classification                       |                 20 |
-|  23 | RGB Salient Object Detection                       | Object Detection                           |                 20 |
-|  24 | Few-Shot Image Classification                      | Few-Shot Learning                          |                 20 |
-|  25 | 3D Human Pose Estimation                           | Pose Estimation                            |                 19 |
-|  26 | Scene Text Detection                               | Scene Text Detection                       |                 19 |
-|  27 | Weakly Supervised Object Detection                 | Object Detection                           |                 18 |
-|  28 | Object Localization                                | Object Localization                        |                 18 |
-|  29 | Face Verification                                  | Facial Recognition and Modelling           |                 16 |
-|  30 | Face Verification                                  | 3D                                         |                 16 |
-|  31 | Face Detection                                     | Facial Recognition and Modelling           |                 15 |
-|  32 | Crowd Counting                                     | Crowds                                     |                 15 |
-|  33 | Visual Question Answering                          | Visual Question Answering                  |                 14 |
-|  34 | Birds Eye View Object Detection                    | Birds Eye View Object Detection            |                 14 |
-|  35 | Semi-Supervised Image Classification               | Image Classification                       |                 13 |
-|  36 | Image Generation                                   | Image Generation                           |                 13 |
-|  37 | Image-to-Image Translation                         | Image Generation                           |                 13 |
-|  38 | Keypoint Detection                                 | Pose Estimation                            |                 13 |
-|  39 | Image Generation                                   | 3D Face Animation                          |                 13 |
-|  40 | Domain Adaptation                                  | Domain Adaptation                          |                 12 |
-|  41 | Semi-Supervised Video Object Segmentation          | Video Object Segmentation                  |                 12 |
-|  42 | Fine-Grained Image Classification                  | Image Classification                       |                 11 |
-|  43 | Pedestrian Detection                               | Autonomous Vehicles                        |                 11 |
-|  44 | Multimodal Unsupervised Image-To-Image Translation | Image-to-Image Translation                 |                 11 |
-|  45 | Instance Segmentation                              | Instance Segmentation                      |                 10 |
-|  46 | Temporal Action Localization                       | Zero-Shot Learning                         |                 10 |
-|  47 | Image Retrieval                                    | Image Retrieval                            |                 10 |
-|  48 | Temporal Action Localization                       | Action Localization                        |                 10 |
-|  49 | Domain Generalization                              | Domain Adaptation                          |                  9 |
-|  50 | Text-to-Image Generation                           | Image Generation                           |                  9 |
-|  51 | Color Image Denoising                              | Denoising                                  |                  9 |
-|  52 | Face Alignment                                     | Facial Recognition and Modelling           |                  9 |
-|  53 | Multi-Person Pose Estimation                       | Pose Estimation                            |                  8 |
-|  54 | Gesture-to-Gesture Translation                     | Hand                                       |                  8 |
-|  55 | Image Clustering                                   | Image Clustering                           |                  8 |
-|  56 | 3D Point Cloud Classification                      | 3D Point Cloud Classification              |                  8 |
-|  57 | Grayscale Image Denoising                          | Denoising                                  |                  7 |
-|  58 | Unsupervised Facial Landmark Detection             | Facial Recognition and Modelling           |                  7 |
-|  59 | Sketch-Based Image Retrieval                       | Image Retrieval                            |                  7 |
-|  60 | Continual Learning                                 | Continual Learning                         |                  7 |
-|  61 | Hand Gesture Recognition                           | Gesture Recognition                        |                  7 |
-|  62 | Hand Gesture Recognition                           | Hand                                       |                  7 |
-|  63 | Monocular 3D Human Pose Estimation                 | 3D Human Pose Estimation                   |                  7 |
-|  64 | Keyword Spotting                                   | Keyword Spotting                           |                  7 |
-|  65 | Unsupervised Facial Landmark Detection             | Facial Landmark Detection                  |                  7 |
-|  66 | Hand Gesture Recognition                           | 3D Car Instance Understanding              |                  7 |
-|  67 | 3D Semantic Segmentation                           | Semantic Segmentation                      |                  6 |
-|  68 | 3D Part Segmentation                               | Semantic Segmentation                      |                  6 |
-|  69 | Photo geolocation estimation                       | Image Classification                       |                  6 |
-|  70 | Real-Time Object Detection                         | Object Detection                           |                  6 |
-|  71 | 6D Pose Estimation using RGB                       | Pose Estimation                            |                  6 |
-|  72 | Head Pose Estimation                               | Pose Estimation                            |                  6 |
-|  73 | Lane Detection                                     | Autonomous Vehicles                        |                  6 |
-|  74 | Visual Object Tracking                             | Video                                      |                  6 |
-|  75 | Face Identification                                | Facial Recognition and Modelling           |                  6 |
-|  76 | Face Sketch Synthesis                              | Facial Recognition and Modelling           |                  6 |
-|  77 | Visual Object Tracking                             | Object Tracking                            |                  6 |
-|  78 | Unsupervised Person Re-Identification              | Person Re-Identification                   |                  6 |
-|  79 | Unsupervised Video Object Segmentation             | Video Object Segmentation                  |                  6 |
-|  80 | Multivariate Time Series Imputation                | Imputation                                 |                  6 |
-|  81 | Synthetic-to-Real Translation                      | Image-to-Image Translation                 |                  6 |
-|  82 | 3D Semantic Segmentation                           | 3D Semantic Segmentation                   |                  6 |
-|  83 | Multi-Human Parsing                                | Human Parsing                              |                  6 |
-|  84 | Face Sketch Synthesis                              | Sketch                                     |                  6 |
-|  85 | Video Generation                                   | Video                                      |                  5 |
-|  86 | JPEG Artifact Correction                           | Image Restoration                          |                  5 |
-|  87 | Trajectory Prediction                              | Trajectory Prediction                      |                  5 |
-|  88 | Unsupervised Image-To-Image Translation            | Image-to-Image Translation                 |                  5 |
-|  89 | Unsupervised Domain Adaptation                     | Domain Adaptation                          |                  4 |
-|  90 | Conditional Image Generation                       | Image Generation                           |                  4 |
-|  91 | 6D Pose Estimation using RGBD                      | Pose Estimation                            |                  4 |
-|  92 | Video Frame Interpolation                          | Video                                      |                  4 |
-|  93 | 3D Face Reconstruction                             | Facial Recognition and Modelling           |                  4 |
-|  94 | Brain Tumor Segmentation                           | Medical Image Segmentation                 |                  4 |
-|  95 | 3D Face Reconstruction                             | 3D                                         |                  4 |
-|  96 | Action Detection                                   | Action Detection                           |                  4 |
-|  97 | 3D Face Reconstruction                             | 3D Character Animation From A Single Photo |                  4 |
-|  98 | 3D Face Reconstruction                             | 3D Absolute Human Pose Estimation          |                  4 |
-|  99 | 3D Face Reconstruction                             | 3D Object Reconstruction                   |                  4 |
-| 100 | 3D Face Reconstruction                             | 3D Face Reconstruction                     |                  4 |
-| 101 | 3D Face Reconstruction                             | Face Reconstruction                        |                  4 |
-| 102 | Shadow Detection                                   | Shadow Detection                           |                  4 |
-| 103 | Real-Time Semantic Segmentation                    | Semantic Segmentation                      |                  3 |
-| 104 | Pose Transfer                                      | Image Generation                           |                  3 |
-| 105 | Deblurring                                         | 2D Human Pose Estimation                   |                  3 |
-| 106 | Pedestrian Attribute Recognition                   | Autonomous Vehicles                        |                  3 |
-| 107 | Video Prediction                                   | Video                                      |                  3 |
-| 108 | Facial Expression Recognition                      | Facial Recognition and Modelling           |                  3 |
-| 109 | Age And Gender Classification                      | Facial Recognition and Modelling           |                  3 |
-| 110 | Anomaly Detection                                  | Anomaly Detection                          |                  3 |
-| 111 | Abnormal Event Detection In Video                  | Anomaly Detection                          |                  3 |
-| 112 | Optical Character Recognition                      | Optical Character Recognition              |                  3 |
-| 113 | Weakly Supervised Action Localization              | Action Recognition                         |                  3 |
-| 114 | Lesion Segmentation                                | Medical Image Segmentation                 |                  3 |
-| 115 | Retinal Vessel Segmentation                        | Medical Image Segmentation                 |                  3 |
-| 116 | 3D Object Classification                           | 3D                                         |                  3 |
-| 117 | Emotion Recognition in Conversation                | Emotion Recognition                        |                  3 |
-| 118 | Deblurring                                         | Deblurring                                 |                  3 |
-| 119 | One-Shot 3D Action Recognition                     | Human Interaction Recognition              |                  3 |
-| 120 | 3D Multi-Person Pose Estimation                    | 3D Human Pose Estimation                   |                  3 |
-| 121 | Weakly-supervised 3D Human Pose Estimation         | 3D Human Pose Estimation                   |                  3 |
-| 122 | Retinal OCT Disease Classification                 | Medical Diagnosis                          |                  3 |
-| 123 | Retinal OCT Disease Classification                 | Disease Prediction                         |                  3 |
-| 124 | 3D Multi-Person Pose Estimation                    | 3D Multi-Person Pose Estimation            |                  3 |
-| 125 | Weakly Supervised Action Localization              | Weakly Supervised Action Localization      |                  3 |
-| 126 | Object Counting                                    | Object Counting                            |                  3 |
-| 127 | Horizon Line Estimation                            | Horizon Line Estimation                    |                  3 |
-| 128 | Panoptic Segmentation                              | Semantic Segmentation                      |                  2 |
-| 129 | Hyperspectral Image Classification                 | Image Classification                       |                  2 |
-| 130 | Unsupervised Image Classification                  | Image Classification                       |                  2 |
-| 131 | Document Image Classification                      | Image Classification                       |                  2 |
-| 132 | Object Proposal Generation                         | Object Detection                           |                  2 |
-| 133 | Surgical tool detection                            | Object Detection                           |                  2 |
-| 134 | Denoising                                          | Denoising                                  |                  2 |
-| 135 | Video Summarization                                | Video                                      |                  2 |
-| 136 | Unsupervised Video Summarization                   | Video                                      |                  2 |
-| 137 | Supervised Video Summarization                     | Video                                      |                  2 |
-| 138 | Multimodal Activity Recognition                    | Activity Recognition                       |                  2 |
-| 139 | Human action generation                            | Activity Recognition                       |                  2 |
-| 140 | Facial Landmark Detection                          | Facial Recognition and Modelling           |                  2 |
-| 141 | Age Estimation                                     | Facial Recognition and Modelling           |                  2 |
-| 142 | Face Hallucination                                 | Facial Recognition and Modelling           |                  2 |
-| 143 | Facial Action Unit Detection                       | Facial Recognition and Modelling           |                  2 |
-| 144 | Referring Expression Segmentation                  | Instance Segmentation                      |                  2 |
-| 145 | 3D Semantic Instance Segmentation                  | Instance Segmentation                      |                  2 |
-| 146 | Zero-Shot Learning                                 | Zero-Shot Learning                         |                  2 |
-| 147 | Multi-Object Tracking                              | Object Tracking                            |                  2 |
-| 148 | Scene Text Recognition                             | Scene Parsing                              |                  2 |
-| 149 | Optical Flow Estimation                            | Optical Flow Estimation                    |                  2 |
-| 150 | Metric Learning                                    | Metric Learning                            |                  2 |
-| 151 | Image Reconstruction                               | Image Reconstruction                       |                  2 |
-| 152 | Multi-Label Classification                         | Multi-Label Classification                 |                  2 |
-| 153 | Aesthetics Quality Assessment                      | Image Quality Assessment                   |                  2 |
-| 154 | Out-of-Distribution Detection                      | Out-of-Distribution Detection              |                  2 |
-| 155 | Human Interaction Recognition                      | Human Interaction Recognition              |                  2 |
-| 156 | Hyperspectral Image Classification                 | Hyperspectral                              |                  2 |
-| 157 | Video Summarization                                | Video Summarization                        |                  2 |
-| 158 | Unsupervised Video Summarization                   | Video Summarization                        |                  2 |
-| 159 | Supervised Video Summarization                     | Video Summarization                        |                  2 |
-| 160 | Human-Object Interaction Detection                 | Human-Object Interaction Detection         |                  2 |
-| 161 | Edge Detection                                     | Edge Detection                             |                  2 |
-| 162 | Facial Landmark Detection                          | Facial Landmark Detection                  |                  2 |
-| 163 | Pose Tracking                                      | Pose Tracking                              |                  2 |
-| 164 | 3D Multi-Person Pose Estimation (root-relative)    | 3D Multi-Person Pose Estimation            |                  2 |
-| 165 | Interactive Segmentation                           | Interactive Segmentation                   |                  2 |
-| 166 | Referring Expression Segmentation                  | Referring Expression Segmentation          |                  2 |
-| 167 | Line Segment Detection                             | Line Segment Detection                     |                  2 |
-| 168 | Semi-supervised Anomaly Detection                  | Abnormal Event Detection In Video          |                  2 |
-| 169 | Action Anticipation                                | Action Anticipation                        |                  2 |
-| 170 | Human Part Segmentation                            | Human Part Segmentation                    |                  2 |
-| 171 | Document Image Classification                      | Document Image Classification              |                  2 |
-| 172 | Occluded Face Detection                            | Face Detection                             |                  2 |
-| 173 | Scene Segmentation                                 | Semantic Segmentation                      |                  1 |
-| 174 | Sequential Image Classification                    | Image Classification                       |                  1 |
-| 175 | Genre classification                               | Image Classification                       |                  1 |
-| 176 | Superpixel Image Classification                    | Image Classification                       |                  1 |
-| 177 | Artistic style classification                      | Image Classification                       |                  1 |
-| 178 | Video Object Detection                             | Object Detection                           |                  1 |
-| 179 | Medical Object Detection                           | Object Detection                           |                  1 |
-| 180 | Dense Object Detection                             | Object Detection                           |                  1 |
-| 181 | 2D Human Pose Estimation                           | 2D Human Pose Estimation                   |                  1 |
-| 182 | 6D Pose Estimation                                 | Pose Estimation                            |                  1 |
-| 183 | Vehicle Pose Estimation                            | Pose Estimation                            |                  1 |
-| 184 | Video Super-Resolution                             | Super-Resolution                           |                  1 |
-| 185 | Video Retrieval                                    | Video                                      |                  1 |
-| 186 | Video Super-Resolution                             | Video                                      |                  1 |
-| 187 | Vehicle Speed Estimation                           | Video                                      |                  1 |
-| 188 | Video Deinterlacing                                | Video                                      |                  1 |
-| 189 | Video Story QA                                     | Video                                      |                  1 |
-| 190 | Group Activity Recognition                         | Activity Recognition                       |                  1 |
-| 191 | Age-Invariant Face Recognition                     | Facial Recognition and Modelling           |                  1 |
-| 192 | Depth Estimation                                   | Depth Estimation                           |                  1 |
-| 193 | Monocular Depth Estimation                         | Depth Estimation                           |                  1 |
-| 194 | Stereo-LiDAR Fusion                                | Depth Estimation                           |                  1 |
-| 195 | Generalized Zero-Shot Learning                     | Zero-Shot Learning                         |                  1 |
-| 196 | Temporal Action Proposal Generation                | Action Recognition                         |                  1 |
-| 197 | 3D Medical Imaging Segmentation                    | Medical Image Segmentation                 |                  1 |
-| 198 | Pancreas Segmentation                              | Medical Image Segmentation                 |                  1 |
-| 199 | Lung Nodule Segmentation                           | Medical Image Segmentation                 |                  1 |
-| 200 | Skin Cancer Segmentation                           | Medical Image Segmentation                 |                  1 |
-| 201 | Nuclear Segmentation                               | Medical Image Segmentation                 |                  1 |
-| 202 | Infant Brain Mri Segmentation                      | Medical Image Segmentation                 |                  1 |
-| 203 | 3D Reconstruction                                  | 3D                                         |                  1 |
-| 204 | 3D Shape Classification                            | 3D                                         |                  1 |
-| 205 | Scene Graph Generation                             | Scene Parsing                              |                  1 |
-| 206 | Cross-Modal Person Re-Identification               | Person Re-Identification                   |                  1 |
-| 207 | Action Segmentation                                | Action Localization                        |                  1 |
-| 208 | 3D Object Recognition                              | Object Recognition                         |                  1 |
-| 209 | Adversarial Attack                                 | Adversarial Attack                         |                  1 |
-| 210 | Multimodal Emotion Recognition                     | Emotion Recognition                        |                  1 |
-| 211 | Emotion Cause Extraction                           | Emotion Recognition                        |                  1 |
-| 212 | Image Captioning                                   | Image Captioning                           |                  1 |
-| 213 | Gesture Recognition                                | Gesture Recognition                        |                  1 |
-| 214 | Saliency Detection                                 | Saliency Detection                         |                  1 |
-| 215 | Fundus to Angiography Generation                   | Image-to-Image Translation                 |                  1 |
-| 216 | Image Compression                                  | Image Compression                          |                  1 |
-| 217 | Colorization                                       | Colorization                               |                  1 |
-| 218 | Point Cloud Registration                           | Point Cloud Registration                   |                  1 |
-| 219 | Image Matching                                     | Image Matching                             |                  1 |
-| 220 | 3D Object Reconstruction                           | Object Reconstruction                      |                  1 |
-| 221 | Curved Text Detection                              | Scene Text Detection                       |                  1 |
-| 222 | Depth Completion                                   | Depth Completion                           |                  1 |
-| 223 | Image Matting                                      | Image Matting                              |                  1 |
-| 224 | Semantic Image Matting                             | Image Matting                              |                  1 |
-| 225 | 2D Human Pose Estimation                           | Keypoint Detection                         |                  1 |
-| 226 | Video Instance Segmentation                        | Video Instance Segmentation                |                  1 |
-| 227 | Homography Estimation                              | Interest Point Detection                   |                  1 |
-| 228 | Motion Segmentation                                | Motion Segmentation                        |                  1 |
-| 229 | Sign Language Recognition                          | Sign Language Recognition                  |                  1 |
-| 230 | Lipreading                                         | Lipreading                                 |                  1 |
-| 231 | Dense Pixel Correspondence Estimation              | Dense Pixel Correspondence Estimation      |                  1 |
-| 232 | LIDAR Semantic Segmentation                        | LIDAR Semantic Segmentation                |                  1 |
-| 233 | Video Alignment                                    | Video Understanding                        |                  1 |
-| 234 | Age-Invariant Face Recognition                     | Face Recognition                           |                  1 |
-| 235 | Handwriting Verification                           | Handwriting Verification                   |                  1 |
-| 236 | Defocus Estimation                                 | Defocus Estimation                         |                  1 |
-| 237 | Vehicle Speed Estimation                           | Vehicle Speed Estimation                   |                  1 |
+|     | Task                                                                                                                                     | Field                                 |   Number of Papers |
+|----:|:-----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|-------------------:|
+|   0 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                                     | Person Re-Identification              |                 66 |
+|   1 | [Image Classification](https://paperswithcode.com/task/image-classification)                                                             | Image Classification                  |                 55 |
+|   2 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                                                 | Activity Recognition                  |                 50 |
+|   3 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                                         | Super-Resolution                      |                 37 |
+|   4 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                                     | Object Detection                      |                 32 |
+|   5 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                                           | Semantic Segmentation                 |                 29 |
+|   6 | [Action Classification](https://paperswithcode.com/task/action-classification)                                                           | Video                                 |                 27 |
+|   7 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                                               | Object Detection                      |                 24 |
+|   8 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                                   | Action Recognition                    |                 24 |
+|   9 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                                       | 2D Human Pose Estimation              |                 23 |
+|  10 | [Hand Pose Estimation](https://paperswithcode.com/task/hand-pose-estimation)                                                             | Pose Estimation                       |                 21 |
+|  11 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                                           | Image Classification                  |                 20 |
+|  12 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                                             | Object Detection                      |                 20 |
+|  13 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                                     | Pose Estimation                       |                 19 |
+|  14 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                                             | Scene Text Detection                  |                 19 |
+|  15 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)                                 | Object Detection                      |                 18 |
+|  16 | [Object Localization](https://paperswithcode.com/task/object-localization)                                                               | Object Localization                   |                 18 |
+|  17 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                                   | Facial Recognition and Modelling      |                 16 |
+|  18 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                                         | Facial Recognition and Modelling      |                 15 |
+|  19 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                                         | Crowds                                |                 15 |
+|  20 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                                   | Visual Question Answering             |                 14 |
+|  21 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                                       | Birds Eye View Object Detection       |                 14 |
+|  22 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)                             | Image Classification                  |                 13 |
+|  23 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                                     | Image Generation                      |                 13 |
+|  24 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                                                 | Image Generation                      |                 13 |
+|  25 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                                                 | Pose Estimation                       |                 13 |
+|  26 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                                   | Domain Adaptation                     |                 12 |
+|  27 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation)                   | Video Object Segmentation             |                 12 |
+|  28 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                                   | Image Classification                  |                 11 |
+|  29 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                                             | Autonomous Vehicles                   |                 11 |
+|  30 | [Multimodal Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/multimodal-unsupervised-image-to-image-translation) | Image-to-Image Translation            |                 11 |
+|  31 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                                           | Instance Segmentation                 |                 10 |
+|  32 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                                             | Zero-Shot Learning                    |                 10 |
+|  33 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                                       | Image Retrieval                       |                 10 |
+|  34 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                                           | Domain Adaptation                     |                  9 |
+|  35 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                                     | Image Generation                      |                  9 |
+|  36 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                                           | Denoising                             |                  9 |
+|  37 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                                         | Facial Recognition and Modelling      |                  9 |
+|  38 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                                             | Pose Estimation                       |                  8 |
+|  39 | [Gesture-to-Gesture Translation](https://paperswithcode.com/task/gesture-to-gesture-translation)                                         | Hand                                  |                  8 |
+|  40 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                                     | Image Clustering                      |                  8 |
+|  41 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                                           | 3D Point Cloud Classification         |                  8 |
+|  42 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                                   | Denoising                             |                  7 |
+|  43 | [Unsupervised Facial Landmark Detection](https://paperswithcode.com/task/unsupervised-facial-landmark-detection)                         | Facial Recognition and Modelling      |                  7 |
+|  44 | [Sketch-Based Image Retrieval](https://paperswithcode.com/task/sketch-based-image-retrieval)                                             | Image Retrieval                       |                  7 |
+|  45 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                                                 | Continual Learning                    |                  7 |
+|  46 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                                                     | Gesture Recognition                   |                  7 |
+|  47 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)                                 | 3D Human Pose Estimation              |                  7 |
+|  48 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                                     | Keyword Spotting                      |                  7 |
+|  49 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                                     | Semantic Segmentation                 |                  6 |
+|  50 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                                             | Semantic Segmentation                 |                  6 |
+|  51 | [Photo geolocation estimation](https://paperswithcode.com/task/photo-geolocation-estimation)                                             | Image Classification                  |                  6 |
+|  52 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                                                 | Object Detection                      |                  6 |
+|  53 | [6D Pose Estimation using RGB](https://paperswithcode.com/task/6d-pose-estimation-using-rgb)                                             | Pose Estimation                       |                  6 |
+|  54 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                                             | Pose Estimation                       |                  6 |
+|  55 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                                         | Autonomous Vehicles                   |                  6 |
+|  56 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                                         | Video                                 |                  6 |
+|  57 | [Face Identification](https://paperswithcode.com/task/face-identification)                                                               | Facial Recognition and Modelling      |                  6 |
+|  58 | [Face Sketch Synthesis](https://paperswithcode.com/task/face-sketch-synthesis)                                                           | Facial Recognition and Modelling      |                  6 |
+|  59 | [Unsupervised Person Re-Identification](https://paperswithcode.com/task/unsupervised-person-re-identification)                           | Person Re-Identification              |                  6 |
+|  60 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)                         | Video Object Segmentation             |                  6 |
+|  61 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation)                               | Imputation                            |                  6 |
+|  62 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                                           | Image-to-Image Translation            |                  6 |
+|  63 | [Multi-Human Parsing](https://paperswithcode.com/task/multi-human-parsing)                                                               | Human Parsing                         |                  6 |
+|  64 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                                     | Video                                 |                  5 |
+|  65 | [JPEG Artifact Correction](https://paperswithcode.com/task/jpeg-artifact-correction)                                                     | Image Restoration                     |                  5 |
+|  66 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                                           | Trajectory Prediction                 |                  5 |
+|  67 | [Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/unsupervised-image-to-image-translation)                       | Image-to-Image Translation            |                  5 |
+|  68 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                                         | Domain Adaptation                     |                  4 |
+|  69 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                                             | Image Generation                      |                  4 |
+|  70 | [6D Pose Estimation using RGBD](https://paperswithcode.com/task/6d-pose-estimation-using-rgbd)                                           | Pose Estimation                       |                  4 |
+|  71 | [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)                                                   | Video                                 |                  4 |
+|  72 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                                         | Facial Recognition and Modelling      |                  4 |
+|  73 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                                     | Medical Image Segmentation            |                  4 |
+|  74 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                                     | Action Detection                      |                  4 |
+|  75 | [Shadow Detection](https://paperswithcode.com/task/shadow-detection)                                                                     | Shadow Detection                      |                  4 |
+|  76 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                                       | Semantic Segmentation                 |                  3 |
+|  77 | [Pose Transfer](https://paperswithcode.com/task/pose-transfer)                                                                           | Image Generation                      |                  3 |
+|  78 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                                                 | 2D Human Pose Estimation              |                  3 |
+|  79 | [Pedestrian Attribute Recognition](https://paperswithcode.com/task/pedestrian-attribute-recognition)                                     | Autonomous Vehicles                   |                  3 |
+|  80 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                                     | Video                                 |                  3 |
+|  81 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                                           | Facial Recognition and Modelling      |                  3 |
+|  82 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                                           | Facial Recognition and Modelling      |                  3 |
+|  83 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                                   | Anomaly Detection                     |                  3 |
+|  84 | [Abnormal Event Detection In Video](https://paperswithcode.com/task/abnormal-event-detection-in-video)                                   | Anomaly Detection                     |                  3 |
+|  85 | [Optical Character Recognition](https://paperswithcode.com/task/optical-character-recognition)                                           | Optical Character Recognition         |                  3 |
+|  86 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)                           | Action Recognition                    |                  3 |
+|  87 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                                               | Medical Image Segmentation            |                  3 |
+|  88 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                                               | Medical Image Segmentation            |                  3 |
+|  89 | [3D Object Classification](https://paperswithcode.com/task/3d-object-classification)                                                     | 3D                                    |                  3 |
+|  90 | [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)                               | Emotion Recognition                   |                  3 |
+|  91 | [One-Shot 3D Action Recognition](https://paperswithcode.com/task/one-shot-3d-action-recognition)                                         | Human Interaction Recognition         |                  3 |
+|  92 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                                       | 3D Human Pose Estimation              |                  3 |
+|  93 | [Weakly-supervised 3D Human Pose Estimation](https://paperswithcode.com/task/weakly-supervised-3d-human-pose-estimation)                 | 3D Human Pose Estimation              |                  3 |
+|  94 | [Retinal OCT Disease Classification](https://paperswithcode.com/task/retinal-oct-disease-classification)                                 | Medical Diagnosis                     |                  3 |
+|  95 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                                       | Object Counting                       |                  3 |
+|  96 | [Horizon Line Estimation](https://paperswithcode.com/task/horizon-line-estimation)                                                       | Horizon Line Estimation               |                  3 |
+|  97 | [Panoptic Segmentation](https://paperswithcode.com/task/panoptic-segmentation)                                                           | Semantic Segmentation                 |                  2 |
+|  98 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)                                 | Image Classification                  |                  2 |
+|  99 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                                   | Image Classification                  |                  2 |
+| 100 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                                           | Image Classification                  |                  2 |
+| 101 | [Object Proposal Generation](https://paperswithcode.com/task/object-proposal-generation)                                                 | Object Detection                      |                  2 |
+| 102 | [Surgical tool detection](https://paperswithcode.com/task/surgical-tool-detection)                                                       | Object Detection                      |                  2 |
+| 103 | [Denoising](https://paperswithcode.com/task/denoising)                                                                                   | Denoising                             |                  2 |
+| 104 | [Video Summarization](https://paperswithcode.com/task/video-summarization)                                                               | Video                                 |                  2 |
+| 105 | [Unsupervised Video Summarization](https://paperswithcode.com/task/unsupervised-video-summarization)                                     | Video                                 |                  2 |
+| 106 | [Supervised Video Summarization](https://paperswithcode.com/task/supervised-video-summarization)                                         | Video                                 |                  2 |
+| 107 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                                       | Activity Recognition                  |                  2 |
+| 108 | [Human action generation](https://paperswithcode.com/task/human-action-generation)                                                       | Activity Recognition                  |                  2 |
+| 109 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                                   | Facial Recognition and Modelling      |                  2 |
+| 110 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                                         | Facial Recognition and Modelling      |                  2 |
+| 111 | [Face Hallucination](https://paperswithcode.com/task/face-hallucination)                                                                 | Facial Recognition and Modelling      |                  2 |
+| 112 | [Facial Action Unit Detection](https://paperswithcode.com/task/facial-action-unit-detection)                                             | Facial Recognition and Modelling      |                  2 |
+| 113 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                                   | Instance Segmentation                 |                  2 |
+| 114 | [3D Semantic Instance Segmentation](https://paperswithcode.com/task/3d-semantic-instance-segmentation)                                   | Instance Segmentation                 |                  2 |
+| 115 | [Zero-Shot Learning](https://paperswithcode.com/task/zero-shot-learning)                                                                 | Zero-Shot Learning                    |                  2 |
+| 116 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                                           | Object Tracking                       |                  2 |
+| 117 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                                         | Scene Parsing                         |                  2 |
+| 118 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                                       | Optical Flow Estimation               |                  2 |
+| 119 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                                       | Metric Learning                       |                  2 |
+| 120 | [Image Reconstruction](https://paperswithcode.com/task/image-reconstruction)                                                             | Image Reconstruction                  |                  2 |
+| 121 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                                                 | Multi-Label Classification            |                  2 |
+| 122 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                                           | Image Quality Assessment              |                  2 |
+| 123 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                                           | Out-of-Distribution Detection         |                  2 |
+| 124 | [Human Interaction Recognition](https://paperswithcode.com/task/human-interaction-recognition)                                           | Human Interaction Recognition         |                  2 |
+| 125 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)                                 | Human-Object Interaction Detection    |                  2 |
+| 126 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                                         | Edge Detection                        |                  2 |
+| 127 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                                           | Pose Tracking                         |                  2 |
+| 128 | [3D Multi-Person Pose Estimation (root-relative)](https://paperswithcode.com/task/3d-multi-person-pose-estimation-(root-relative))       | 3D Multi-Person Pose Estimation       |                  2 |
+| 129 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                                     | Interactive Segmentation              |                  2 |
+| 130 | [Line Segment Detection](https://paperswithcode.com/task/line-segment-detection)                                                         | Line Segment Detection                |                  2 |
+| 131 | [Semi-supervised Anomaly Detection](https://paperswithcode.com/task/semi-supervised-anomaly-detection)                                   | Abnormal Event Detection In Video     |                  2 |
+| 132 | [Action Anticipation](https://paperswithcode.com/task/action-anticipation)                                                               | Action Anticipation                   |                  2 |
+| 133 | [Human Part Segmentation](https://paperswithcode.com/task/human-part-segmentation)                                                       | Human Part Segmentation               |                  2 |
+| 134 | [Occluded Face Detection](https://paperswithcode.com/task/occluded-face-detection)                                                       | Face Detection                        |                  2 |
+| 135 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                                                 | Semantic Segmentation                 |                  1 |
+| 136 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                                       | Image Classification                  |                  1 |
+| 137 | [Genre classification](https://paperswithcode.com/task/genre-classification)                                                             | Image Classification                  |                  1 |
+| 138 | [Superpixel Image Classification](https://paperswithcode.com/task/superpixel-image-classification)                                       | Image Classification                  |                  1 |
+| 139 | [Artistic style classification](https://paperswithcode.com/task/artistic-style-classification)                                           | Image Classification                  |                  1 |
+| 140 | [Video Object Detection](https://paperswithcode.com/task/video-object-detection)                                                         | Object Detection                      |                  1 |
+| 141 | [Medical Object Detection](https://paperswithcode.com/task/medical-object-detection)                                                     | Object Detection                      |                  1 |
+| 142 | [Dense Object Detection](https://paperswithcode.com/task/dense-object-detection)                                                         | Object Detection                      |                  1 |
+| 143 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                                     | 2D Human Pose Estimation              |                  1 |
+| 144 | [6D Pose Estimation](https://paperswithcode.com/task/6d-pose-estimation)                                                                 | Pose Estimation                       |                  1 |
+| 145 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                                       | Pose Estimation                       |                  1 |
+| 146 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                                         | Super-Resolution                      |                  1 |
+| 147 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                                       | Video                                 |                  1 |
+| 148 | [Vehicle Speed Estimation](https://paperswithcode.com/task/vehicle-speed-estimation)                                                     | Video                                 |                  1 |
+| 149 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)                                                               | Video                                 |                  1 |
+| 150 | [Video Story QA](https://paperswithcode.com/task/video-story-qa)                                                                         | Video                                 |                  1 |
+| 151 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                                                 | Activity Recognition                  |                  1 |
+| 152 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                                         | Facial Recognition and Modelling      |                  1 |
+| 153 | [Depth Estimation](https://paperswithcode.com/task/depth-estimation)                                                                     | Depth Estimation                      |                  1 |
+| 154 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                                                 | Depth Estimation                      |                  1 |
+| 155 | [Stereo-LiDAR Fusion](https://paperswithcode.com/task/stereo-lidar-fusion)                                                               | Depth Estimation                      |                  1 |
+| 156 | [Generalized Zero-Shot Learning](https://paperswithcode.com/task/generalized-zero-shot-learning)                                         | Zero-Shot Learning                    |                  1 |
+| 157 | [Temporal Action Proposal Generation](https://paperswithcode.com/task/temporal-action-proposal-generation)                               | Action Recognition                    |                  1 |
+| 158 | [3D Medical Imaging Segmentation](https://paperswithcode.com/task/3d-medical-imaging-segmentation)                                       | Medical Image Segmentation            |                  1 |
+| 159 | [Pancreas Segmentation](https://paperswithcode.com/task/pancreas-segmentation)                                                           | Medical Image Segmentation            |                  1 |
+| 160 | [Lung Nodule Segmentation](https://paperswithcode.com/task/lung-nodule-segmentation)                                                     | Medical Image Segmentation            |                  1 |
+| 161 | [Skin Cancer Segmentation](https://paperswithcode.com/task/skin-cancer-segmentation)                                                     | Medical Image Segmentation            |                  1 |
+| 162 | [Nuclear Segmentation](https://paperswithcode.com/task/nuclear-segmentation)                                                             | Medical Image Segmentation            |                  1 |
+| 163 | [Infant Brain Mri Segmentation](https://paperswithcode.com/task/infant-brain-mri-segmentation)                                           | Medical Image Segmentation            |                  1 |
+| 164 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                                   | 3D                                    |                  1 |
+| 165 | [3D Shape Classification](https://paperswithcode.com/task/3d-shape-classification)                                                       | 3D                                    |                  1 |
+| 166 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                                         | Scene Parsing                         |                  1 |
+| 167 | [Cross-Modal Person Re-Identification](https://paperswithcode.com/task/cross-modal-person-re-identification)                             | Person Re-Identification              |                  1 |
+| 168 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                                               | Action Localization                   |                  1 |
+| 169 | [3D Object Recognition](https://paperswithcode.com/task/3d-object-recognition)                                                           | Object Recognition                    |                  1 |
+| 170 | [Adversarial Attack](https://paperswithcode.com/task/adversarial-attack)                                                                 | Adversarial Attack                    |                  1 |
+| 171 | [Multimodal Emotion Recognition](https://paperswithcode.com/task/multimodal-emotion-recognition)                                         | Emotion Recognition                   |                  1 |
+| 172 | [Emotion Cause Extraction](https://paperswithcode.com/task/emotion-cause-extraction)                                                     | Emotion Recognition                   |                  1 |
+| 173 | [Image Captioning](https://paperswithcode.com/task/image-captioning)                                                                     | Image Captioning                      |                  1 |
+| 174 | [Gesture Recognition](https://paperswithcode.com/task/gesture-recognition)                                                               | Gesture Recognition                   |                  1 |
+| 175 | [Saliency Detection](https://paperswithcode.com/task/saliency-detection)                                                                 | Saliency Detection                    |                  1 |
+| 176 | [Fundus to Angiography Generation](https://paperswithcode.com/task/fundus-to-angiography-generation)                                     | Image-to-Image Translation            |                  1 |
+| 177 | [Image Compression](https://paperswithcode.com/task/image-compression)                                                                   | Image Compression                     |                  1 |
+| 178 | [Colorization](https://paperswithcode.com/task/colorization)                                                                             | Colorization                          |                  1 |
+| 179 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                                     | Point Cloud Registration              |                  1 |
+| 180 | [Image Matching](https://paperswithcode.com/task/image-matching)                                                                         | Image Matching                        |                  1 |
+| 181 | [3D Object Reconstruction](https://paperswithcode.com/task/3d-object-reconstruction)                                                     | Object Reconstruction                 |                  1 |
+| 182 | [Curved Text Detection](https://paperswithcode.com/task/curved-text-detection)                                                           | Scene Text Detection                  |                  1 |
+| 183 | [Depth Completion](https://paperswithcode.com/task/depth-completion)                                                                     | Depth Completion                      |                  1 |
+| 184 | [Image Matting](https://paperswithcode.com/task/image-matting)                                                                           | Image Matting                         |                  1 |
+| 185 | [Semantic Image Matting](https://paperswithcode.com/task/semantic-image-matting)                                                         | Image Matting                         |                  1 |
+| 186 | [Video Instance Segmentation](https://paperswithcode.com/task/video-instance-segmentation)                                               | Video Instance Segmentation           |                  1 |
+| 187 | [Homography Estimation](https://paperswithcode.com/task/homography-estimation)                                                           | Interest Point Detection              |                  1 |
+| 188 | [Motion Segmentation](https://paperswithcode.com/task/motion-segmentation)                                                               | Motion Segmentation                   |                  1 |
+| 189 | [Sign Language Recognition](https://paperswithcode.com/task/sign-language-recognition)                                                   | Sign Language Recognition             |                  1 |
+| 190 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                                                 | Lipreading                            |                  1 |
+| 191 | [Dense Pixel Correspondence Estimation](https://paperswithcode.com/task/dense-pixel-correspondence-estimation)                           | Dense Pixel Correspondence Estimation |                  1 |
+| 192 | [LIDAR Semantic Segmentation](https://paperswithcode.com/task/lidar-semantic-segmentation)                                               | LIDAR Semantic Segmentation           |                  1 |
+| 193 | [Video Alignment](https://paperswithcode.com/task/video-alignment)                                                                       | Video Understanding                   |                  1 |
+| 194 | [Handwriting Verification](https://paperswithcode.com/task/handwriting-verification)                                                     | Handwriting Verification              |                  1 |
+| 195 | [Defocus Estimation](https://paperswithcode.com/task/defocus-estimation)                                                                 | Defocus Estimation                    |                  1 |
 
 ## 2016
 
-|     | Field                                     | Type                                       |   Number of Papers |
-|----:|:------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Image Super-Resolution                    | Super-Resolution                           |                 44 |
-|   1 | Image Super-Resolution                    | Image Super-Resolution                     |                 44 |
-|   2 | Image Classification                      | Image Classification                       |                 40 |
-|   3 | Semantic Segmentation                     | Semantic Segmentation                      |                 34 |
-|   4 | Visual Question Answering                 | Visual Question Answering                  |                 21 |
-|   5 | Pose Estimation                           | 2D Human Pose Estimation                   |                 20 |
-|   6 | Pose Estimation                           | Pose Estimation                            |                 20 |
-|   7 | Image Retrieval                           | Image Retrieval                            |                 20 |
-|   8 | Skeleton Based Action Recognition         | Action Recognition                         |                 17 |
-|   9 | Skeleton Based Action Recognition         | Action Detection                           |                 17 |
-|  10 | Skeleton Based Action Recognition         | Gesture Recognition                        |                 17 |
-|  11 | Skeleton Based Action Recognition         | Human Interaction Recognition              |                 17 |
-|  12 | Skeleton Based Action Recognition         | Action Classification                      |                 17 |
-|  13 | Skeleton Based Action Recognition         | Hand Gesture Recognition                   |                 17 |
-|  14 | Image Generation                          | Image Generation                           |                 16 |
-|  15 | Image Generation                          | 3D Face Animation                          |                 16 |
-|  16 | Keypoint Detection                        | Pose Estimation                            |                 15 |
-|  17 | Action Recognition                        | Activity Recognition                       |                 15 |
-|  18 | Action Recognition                        | Action Recognition                         |                 15 |
-|  19 | Action Recognition                        | Video Classification                       |                 15 |
-|  20 | Face Detection                            | Facial Recognition and Modelling           |                 14 |
-|  21 | Learning with noisy labels                | Image Classification                       |                 12 |
-|  22 | Multi-Person Pose Estimation              | Pose Estimation                            |                 12 |
-|  23 | Learning with noisy labels                | Document Text Classification               |                 12 |
-|  24 | Object Detection                          | Object Detection                           |                 11 |
-|  25 | Image-to-Image Translation                | Image Generation                           |                 11 |
-|  26 | Face Verification                         | Facial Recognition and Modelling           |                 11 |
-|  27 | Face Verification                         | 3D                                         |                 11 |
-|  28 | Person Re-Identification                  | Person Re-Identification                   |                 11 |
-|  29 | Object Counting                           | Object Counting                            |                 11 |
-|  30 | Video Salient Object Detection            | Object Detection                           |                 10 |
-|  31 | Sketch-Based Image Retrieval              | Image Retrieval                            |                 10 |
-|  32 | Semi-Supervised Video Object Segmentation | Video Object Segmentation                  |                 10 |
-|  33 | Video Salient Object Detection            | Video Object Segmentation                  |                 10 |
-|  34 | Video Salient Object Detection            | Salient Object Detection                   |                 10 |
-|  35 | Image Clustering                          | Image Clustering                           |                 10 |
-|  36 | Semi-Supervised Image Classification      | Image Classification                       |                  9 |
-|  37 | Weakly Supervised Object Detection        | Object Detection                           |                  9 |
-|  38 | Video Super-Resolution                    | Super-Resolution                           |                  8 |
-|  39 | Video Super-Resolution                    | Video                                      |                  8 |
-|  40 | Real-Time Semantic Segmentation           | Semantic Segmentation                      |                  7 |
-|  41 | Pedestrian Detection                      | Autonomous Vehicles                        |                  7 |
-|  42 | Temporal Action Localization              | Zero-Shot Learning                         |                  7 |
-|  43 | Temporal Action Localization              | Action Localization                        |                  7 |
-|  44 | Continual Learning                        | Continual Learning                         |                  7 |
-|  45 | Cross-View Image-to-Image Translation     | Image-to-Image Translation                 |                  7 |
-|  46 | Crowd Counting                            | Crowds                                     |                  7 |
-|  47 | 3D Point Cloud Classification             | 3D Point Cloud Classification              |                  7 |
-|  48 | Few-Shot Image Classification             | Image Classification                       |                  6 |
-|  49 | RGB Salient Object Detection              | Object Detection                           |                  6 |
-|  50 | Video Deinterlacing                       | Video                                      |                  6 |
-|  51 | Few-Shot Image Classification             | Few-Shot Learning                          |                  6 |
-|  52 | Scene Text Recognition                    | Scene Parsing                              |                  6 |
-|  53 | JPEG Artifact Correction                  | Image Restoration                          |                  6 |
-|  54 | Interactive Segmentation                  | Interactive Segmentation                   |                  6 |
-|  55 | Horizon Line Estimation                   | Horizon Line Estimation                    |                  6 |
-|  56 | Conditional Image Generation              | Image Generation                           |                  5 |
-|  57 | Deblurring                                | 2D Human Pose Estimation                   |                  5 |
-|  58 | 2D Human Pose Estimation                  | 2D Human Pose Estimation                   |                  5 |
-|  59 | Visual Object Tracking                    | Video                                      |                  5 |
-|  60 | Facial Expression Recognition             | Facial Recognition and Modelling           |                  5 |
-|  61 | Visual Object Tracking                    | Object Tracking                            |                  5 |
-|  62 | Video Semantic Segmentation               | Video Semantic Segmentation                |                  5 |
-|  63 | Deblurring                                | Deblurring                                 |                  5 |
-|  64 | Single Image Deraining                    | Rain Removal                               |                  5 |
-|  65 | 2D Human Pose Estimation                  | Keypoint Detection                         |                  5 |
-|  66 | 3D Part Segmentation                      | Semantic Segmentation                      |                  4 |
-|  67 | Fine-Grained Image Classification         | Image Classification                       |                  4 |
-|  68 | Text-to-Image Generation                  | Image Generation                           |                  4 |
-|  69 | 3D Human Pose Estimation                  | Pose Estimation                            |                  4 |
-|  70 | Color Image Denoising                     | Denoising                                  |                  4 |
-|  71 | Grayscale Image Denoising                 | Denoising                                  |                  4 |
-|  72 | Instance Segmentation                     | Instance Segmentation                      |                  4 |
-|  73 | Action Segmentation                       | Action Localization                        |                  4 |
-|  74 | 3D Object Reconstruction                  | Object Reconstruction                      |                  4 |
-|  75 | Domain Adaptation                         | Domain Adaptation                          |                  3 |
-|  76 | Head Pose Estimation                      | Pose Estimation                            |                  3 |
-|  77 | Vehicle Pose Estimation                   | Pose Estimation                            |                  3 |
-|  78 | Action Classification                     | Video                                      |                  3 |
-|  79 | Video Retrieval                           | Video                                      |                  3 |
-|  80 | Age Estimation                            | Facial Recognition and Modelling           |                  3 |
-|  81 | Monocular Depth Estimation                | Depth Estimation                           |                  3 |
-|  82 | 3D Reconstruction                         | 3D                                         |                  3 |
-|  83 | Optical Flow Estimation                   | Optical Flow Estimation                    |                  3 |
-|  84 | Low-Light Image Enhancement               | Image Enhancement                          |                  3 |
-|  85 | Aesthetics Quality Assessment             | Image Quality Assessment                   |                  3 |
-|  86 | Scene Text Detection                      | Scene Text Detection                       |                  3 |
-|  87 | Birds Eye View Object Detection           | Birds Eye View Object Detection            |                  3 |
-|  88 | 3D Semantic Segmentation                  | Semantic Segmentation                      |                  2 |
-|  89 | Scene Segmentation                        | Semantic Segmentation                      |                  2 |
-|  90 | Hyperspectral Image Classification        | Image Classification                       |                  2 |
-|  91 | Sequential Image Classification           | Image Classification                       |                  2 |
-|  92 | Genre classification                      | Image Classification                       |                  2 |
-|  93 | Photo geolocation estimation              | Image Classification                       |                  2 |
-|  94 | RGB-D Salient Object Detection            | Object Detection                           |                  2 |
-|  95 | Domain Generalization                     | Domain Adaptation                          |                  2 |
-|  96 | Video Generation                          | Video                                      |                  2 |
-|  97 | Multiple Object Tracking                  | Video                                      |                  2 |
-|  98 | Multimodal Activity Recognition           | Activity Recognition                       |                  2 |
-|  99 | Face Recognition                          | Facial Recognition and Modelling           |                  2 |
-| 100 | Face Alignment                            | Facial Recognition and Modelling           |                  2 |
-| 101 | 3D Face Reconstruction                    | Facial Recognition and Modelling           |                  2 |
-| 102 | Anomaly Detection                         | Anomaly Detection                          |                  2 |
-| 103 | Referring Expression Segmentation         | Instance Segmentation                      |                  2 |
-| 104 | Multi-label zero-shot learning            | Zero-Shot Learning                         |                  2 |
-| 105 | Multiple Object Tracking                  | Object Tracking                            |                  2 |
-| 106 | Lesion Segmentation                       | Medical Image Segmentation                 |                  2 |
-| 107 | Nuclear Segmentation                      | Medical Image Segmentation                 |                  2 |
-| 108 | 3D Face Reconstruction                    | 3D                                         |                  2 |
-| 109 | Metric Learning                           | Metric Learning                            |                  2 |
-| 110 | 3D Object Recognition                     | Object Recognition                         |                  2 |
-| 111 | Image Reconstruction                      | Image Reconstruction                       |                  2 |
-| 112 | Multi-Label Classification                | Multi-Label Classification                 |                  2 |
-| 113 | Multivariate Time Series Imputation       | Imputation                                 |                  2 |
-| 114 | 3D Multi-Person Pose Estimation           | 3D Human Pose Estimation                   |                  2 |
-| 115 | 3D Face Reconstruction                    | 3D Character Animation From A Single Photo |                  2 |
-| 116 | Point Cloud Registration                  | Point Cloud Registration                   |                  2 |
-| 117 | 3D Semantic Segmentation                  | 3D Semantic Segmentation                   |                  2 |
-| 118 | Hyperspectral Image Classification        | Hyperspectral                              |                  2 |
-| 119 | 3D Face Reconstruction                    | 3D Absolute Human Pose Estimation          |                  2 |
-| 120 | Edge Detection                            | Edge Detection                             |                  2 |
-| 121 | 3D Face Reconstruction                    | 3D Object Reconstruction                   |                  2 |
-| 122 | 3D Face Reconstruction                    | 3D Face Reconstruction                     |                  2 |
-| 123 | 3D Face Reconstruction                    | Face Reconstruction                        |                  2 |
-| 124 | Homography Estimation                     | Interest Point Detection                   |                  2 |
-| 125 | 3D Multi-Person Pose Estimation           | 3D Multi-Person Pose Estimation            |                  2 |
-| 126 | Referring Expression Segmentation         | Referring Expression Segmentation          |                  2 |
-| 127 | Lipreading                                | Lipreading                                 |                  2 |
-| 128 | Dense Pixel Correspondence Estimation     | Dense Pixel Correspondence Estimation      |                  2 |
-| 129 | Zero-Shot Transfer Image Classification   | Zero-Shot Transfer Image Classification    |                  2 |
-| 130 | Knowledge Distillation                    | Image Classification                       |                  1 |
-| 131 | Self-Supervised Image Classification      | Image Classification                       |                  1 |
-| 132 | Unsupervised Image Classification         | Image Classification                       |                  1 |
-| 133 | Superpixel Image Classification           | Image Classification                       |                  1 |
-| 134 | 3D Object Detection                       | Object Detection                           |                  1 |
-| 135 | Real-Time Object Detection                | Object Detection                           |                  1 |
-| 136 | Dense Object Detection                    | Object Detection                           |                  1 |
-| 137 | Unsupervised Domain Adaptation            | Domain Adaptation                          |                  1 |
-| 138 | Car Pose Estimation                       | Pose Estimation                            |                  1 |
-| 139 | Pedestrian Attribute Recognition          | Autonomous Vehicles                        |                  1 |
-| 140 | Denoising                                 | Denoising                                  |                  1 |
-| 141 | Video Classification                      | Video                                      |                  1 |
-| 142 | Activity Recognition In Videos            | Video                                      |                  1 |
-| 143 | Face Identification                       | Facial Recognition and Modelling           |                  1 |
-| 144 | Gender Prediction                         | Facial Recognition and Modelling           |                  1 |
-| 145 | Age-Invariant Face Recognition            | Facial Recognition and Modelling           |                  1 |
-| 146 | Smile Recognition                         | Facial Recognition and Modelling           |                  1 |
-| 147 | Abnormal Event Detection In Video         | Anomaly Detection                          |                  1 |
-| 148 | 3D Instance Segmentation                  | Instance Segmentation                      |                  1 |
-| 149 | Weakly Supervised Action Localization     | Action Recognition                         |                  1 |
-| 150 | Activity Recognition In Videos            | Action Recognition                         |                  1 |
-| 151 | Brain Tumor Segmentation                  | Medical Image Segmentation                 |                  1 |
-| 152 | Volumetric Medical Image Segmentation     | Medical Image Segmentation                 |                  1 |
-| 153 | 3D Object Classification                  | 3D                                         |                  1 |
-| 154 | 3D Shape Classification                   | 3D                                         |                  1 |
-| 155 | Scene Graph Generation                    | Scene Parsing                              |                  1 |
-| 156 | Knowledge Distillation                    | Knowledge Distillation                     |                  1 |
-| 157 | Depiction Invariant Object Recognition    | Object Recognition                         |                  1 |
-| 158 | Outdoor Light Source Estimation           | Scene Understanding                        |                  1 |
-| 159 | Unsupervised Video Object Segmentation    | Video Object Segmentation                  |                  1 |
-| 160 | 3D Object Detection                       | 3D Object Detection                        |                  1 |
-| 161 | Action Detection                          | Action Detection                           |                  1 |
-| 162 | Trajectory Prediction                     | Trajectory Prediction                      |                  1 |
-| 163 | Out-of-Distribution Detection             | Out-of-Distribution Detection              |                  1 |
-| 164 | Unsupervised Image-To-Image Translation   | Image-to-Image Translation                 |                  1 |
-| 165 | Synthetic-to-Real Translation             | Image-to-Image Translation                 |                  1 |
-| 166 | Fundus to Angiography Generation          | Image-to-Image Translation                 |                  1 |
-| 167 | Colorization                              | Colorization                               |                  1 |
-| 168 | Image Dehazing                            | Dehazing                                   |                  1 |
-| 169 | Human-Object Interaction Detection        | Human-Object Interaction Detection         |                  1 |
-| 170 | Image Dehazing                            | Image Dehazing                             |                  1 |
-| 171 | Disease Trajectory Forecasting            | Disease Prediction                         |                  1 |
-| 172 | Pose Tracking                             | Pose Tracking                              |                  1 |
-| 173 | One-shot visual object segmentation       | Semi-Supervised Video Object Segmentation  |                  1 |
-| 174 | Weakly Supervised Action Localization     | Weakly Supervised Action Localization      |                  1 |
-| 175 | Semi-supervised Anomaly Detection         | Abnormal Event Detection In Video          |                  1 |
-| 176 | Person Identification                     | Person Identification                      |                  1 |
-| 177 | Rotated MNIST                             | Rotated MNIST                              |                  1 |
-| 178 | Smile Recognition                         | Facial Expression Recognition              |                  1 |
-| 179 | Age-Invariant Face Recognition            | Face Recognition                           |                  1 |
+|     | Task                                                                                                                   | Field                                     |   Number of Papers |
+|----:|:-----------------------------------------------------------------------------------------------------------------------|:------------------------------------------|-------------------:|
+|   0 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                       | Super-Resolution                          |                 44 |
+|   1 | [Image Classification](https://paperswithcode.com/task/image-classification)                                           | Image Classification                      |                 40 |
+|   2 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                         | Semantic Segmentation                     |                 34 |
+|   3 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                 | Visual Question Answering                 |                 21 |
+|   4 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                     | 2D Human Pose Estimation                  |                 20 |
+|   5 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                     | Image Retrieval                           |                 20 |
+|   6 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                 | Action Recognition                        |                 17 |
+|   7 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                   | Image Generation                          |                 16 |
+|   8 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                               | Pose Estimation                           |                 15 |
+|   9 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                               | Activity Recognition                      |                 15 |
+|  10 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                       | Facial Recognition and Modelling          |                 14 |
+|  11 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                               | Image Classification                      |                 12 |
+|  12 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                           | Pose Estimation                           |                 12 |
+|  13 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                   | Object Detection                          |                 11 |
+|  14 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                               | Image Generation                          |                 11 |
+|  15 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                 | Facial Recognition and Modelling          |                 11 |
+|  16 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                   | Person Re-Identification                  |                 11 |
+|  17 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                     | Object Counting                           |                 11 |
+|  18 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                       | Object Detection                          |                 10 |
+|  19 | [Sketch-Based Image Retrieval](https://paperswithcode.com/task/sketch-based-image-retrieval)                           | Image Retrieval                           |                 10 |
+|  20 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation) | Video Object Segmentation                 |                 10 |
+|  21 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                   | Image Clustering                          |                 10 |
+|  22 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)           | Image Classification                      |                  9 |
+|  23 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)               | Object Detection                          |                  9 |
+|  24 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                       | Super-Resolution                          |                  8 |
+|  25 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                     | Semantic Segmentation                     |                  7 |
+|  26 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                           | Autonomous Vehicles                       |                  7 |
+|  27 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                           | Zero-Shot Learning                        |                  7 |
+|  28 | [Continual Learning](https://paperswithcode.com/task/continual-learning)                                               | Continual Learning                        |                  7 |
+|  29 | [Cross-View Image-to-Image Translation](https://paperswithcode.com/task/cross-view-image-to-image-translation)         | Image-to-Image Translation                |                  7 |
+|  30 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                       | Crowds                                    |                  7 |
+|  31 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                         | 3D Point Cloud Classification             |                  7 |
+|  32 | [Few-Shot Image Classification](https://paperswithcode.com/task/few-shot-image-classification)                         | Image Classification                      |                  6 |
+|  33 | [RGB Salient Object Detection](https://paperswithcode.com/task/rgb-salient-object-detection)                           | Object Detection                          |                  6 |
+|  34 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)                                             | Video                                     |                  6 |
+|  35 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                       | Scene Parsing                             |                  6 |
+|  36 | [JPEG Artifact Correction](https://paperswithcode.com/task/jpeg-artifact-correction)                                   | Image Restoration                         |                  6 |
+|  37 | [Interactive Segmentation](https://paperswithcode.com/task/interactive-segmentation)                                   | Interactive Segmentation                  |                  6 |
+|  38 | [Horizon Line Estimation](https://paperswithcode.com/task/horizon-line-estimation)                                     | Horizon Line Estimation                   |                  6 |
+|  39 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                           | Image Generation                          |                  5 |
+|  40 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                               | 2D Human Pose Estimation                  |                  5 |
+|  41 | [2D Human Pose Estimation](https://paperswithcode.com/task/2d-human-pose-estimation)                                   | 2D Human Pose Estimation                  |                  5 |
+|  42 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                       | Video                                     |                  5 |
+|  43 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                         | Facial Recognition and Modelling          |                  5 |
+|  44 | [Video Semantic Segmentation](https://paperswithcode.com/task/video-semantic-segmentation)                             | Video Semantic Segmentation               |                  5 |
+|  45 | [Single Image Deraining](https://paperswithcode.com/task/single-image-deraining)                                       | Rain Removal                              |                  5 |
+|  46 | [3D Part Segmentation](https://paperswithcode.com/task/3d-part-segmentation)                                           | Semantic Segmentation                     |                  4 |
+|  47 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                 | Image Classification                      |                  4 |
+|  48 | [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)                                   | Image Generation                          |                  4 |
+|  49 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                   | Pose Estimation                           |                  4 |
+|  50 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                         | Denoising                                 |                  4 |
+|  51 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                 | Denoising                                 |                  4 |
+|  52 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                         | Instance Segmentation                     |                  4 |
+|  53 | [Action Segmentation](https://paperswithcode.com/task/action-segmentation)                                             | Action Localization                       |                  4 |
+|  54 | [3D Object Reconstruction](https://paperswithcode.com/task/3d-object-reconstruction)                                   | Object Reconstruction                     |                  4 |
+|  55 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                 | Domain Adaptation                         |                  3 |
+|  56 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                           | Pose Estimation                           |                  3 |
+|  57 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                     | Pose Estimation                           |                  3 |
+|  58 | [Action Classification](https://paperswithcode.com/task/action-classification)                                         | Video                                     |                  3 |
+|  59 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                     | Video                                     |                  3 |
+|  60 | [Age Estimation](https://paperswithcode.com/task/age-estimation)                                                       | Facial Recognition and Modelling          |                  3 |
+|  61 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                               | Depth Estimation                          |                  3 |
+|  62 | [3D Reconstruction](https://paperswithcode.com/task/3d-reconstruction)                                                 | 3D                                        |                  3 |
+|  63 | [Optical Flow Estimation](https://paperswithcode.com/task/optical-flow-estimation)                                     | Optical Flow Estimation                   |                  3 |
+|  64 | [Low-Light Image Enhancement](https://paperswithcode.com/task/low-light-image-enhancement)                             | Image Enhancement                         |                  3 |
+|  65 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                         | Image Quality Assessment                  |                  3 |
+|  66 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                           | Scene Text Detection                      |                  3 |
+|  67 | [Birds Eye View Object Detection](https://paperswithcode.com/task/birds-eye-view-object-detection)                     | Birds Eye View Object Detection           |                  3 |
+|  68 | [3D Semantic Segmentation](https://paperswithcode.com/task/3d-semantic-segmentation)                                   | Semantic Segmentation                     |                  2 |
+|  69 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                               | Semantic Segmentation                     |                  2 |
+|  70 | [Hyperspectral Image Classification](https://paperswithcode.com/task/hyperspectral-image-classification)               | Image Classification                      |                  2 |
+|  71 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                     | Image Classification                      |                  2 |
+|  72 | [Genre classification](https://paperswithcode.com/task/genre-classification)                                           | Image Classification                      |                  2 |
+|  73 | [Photo geolocation estimation](https://paperswithcode.com/task/photo-geolocation-estimation)                           | Image Classification                      |                  2 |
+|  74 | [RGB-D Salient Object Detection](https://paperswithcode.com/task/rgb-d-salient-object-detection)                       | Object Detection                          |                  2 |
+|  75 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                         | Domain Adaptation                         |                  2 |
+|  76 | [Video Generation](https://paperswithcode.com/task/video-generation)                                                   | Video                                     |                  2 |
+|  77 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                   | Video                                     |                  2 |
+|  78 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                     | Activity Recognition                      |                  2 |
+|  79 | [Face Recognition](https://paperswithcode.com/task/face-recognition)                                                   | Facial Recognition and Modelling          |                  2 |
+|  80 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                       | Facial Recognition and Modelling          |                  2 |
+|  81 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                       | Facial Recognition and Modelling          |                  2 |
+|  82 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                 | Anomaly Detection                         |                  2 |
+|  83 | [Referring Expression Segmentation](https://paperswithcode.com/task/referring-expression-segmentation)                 | Instance Segmentation                     |                  2 |
+|  84 | [Multi-label zero-shot learning](https://paperswithcode.com/task/multi-label-zero-shot-learning)                       | Zero-Shot Learning                        |                  2 |
+|  85 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                             | Medical Image Segmentation                |                  2 |
+|  86 | [Nuclear Segmentation](https://paperswithcode.com/task/nuclear-segmentation)                                           | Medical Image Segmentation                |                  2 |
+|  87 | [Metric Learning](https://paperswithcode.com/task/metric-learning)                                                     | Metric Learning                           |                  2 |
+|  88 | [3D Object Recognition](https://paperswithcode.com/task/3d-object-recognition)                                         | Object Recognition                        |                  2 |
+|  89 | [Image Reconstruction](https://paperswithcode.com/task/image-reconstruction)                                           | Image Reconstruction                      |                  2 |
+|  90 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                               | Multi-Label Classification                |                  2 |
+|  91 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation)             | Imputation                                |                  2 |
+|  92 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                     | 3D Human Pose Estimation                  |                  2 |
+|  93 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration)                                   | Point Cloud Registration                  |                  2 |
+|  94 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                       | Edge Detection                            |                  2 |
+|  95 | [Homography Estimation](https://paperswithcode.com/task/homography-estimation)                                         | Interest Point Detection                  |                  2 |
+|  96 | [Lipreading](https://paperswithcode.com/task/lipreading)                                                               | Lipreading                                |                  2 |
+|  97 | [Dense Pixel Correspondence Estimation](https://paperswithcode.com/task/dense-pixel-correspondence-estimation)         | Dense Pixel Correspondence Estimation     |                  2 |
+|  98 | [Zero-Shot Transfer Image Classification](https://paperswithcode.com/task/zero-shot-transfer-image-classification)     | Zero-Shot Transfer Image Classification   |                  2 |
+|  99 | [Knowledge Distillation](https://paperswithcode.com/task/knowledge-distillation)                                       | Image Classification                      |                  1 |
+| 100 | [Self-Supervised Image Classification](https://paperswithcode.com/task/self-supervised-image-classification)           | Image Classification                      |                  1 |
+| 101 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                 | Image Classification                      |                  1 |
+| 102 | [Superpixel Image Classification](https://paperswithcode.com/task/superpixel-image-classification)                     | Image Classification                      |                  1 |
+| 103 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                             | Object Detection                          |                  1 |
+| 104 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                               | Object Detection                          |                  1 |
+| 105 | [Dense Object Detection](https://paperswithcode.com/task/dense-object-detection)                                       | Object Detection                          |                  1 |
+| 106 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                       | Domain Adaptation                         |                  1 |
+| 107 | [Car Pose Estimation](https://paperswithcode.com/task/car-pose-estimation)                                             | Pose Estimation                           |                  1 |
+| 108 | [Pedestrian Attribute Recognition](https://paperswithcode.com/task/pedestrian-attribute-recognition)                   | Autonomous Vehicles                       |                  1 |
+| 109 | [Denoising](https://paperswithcode.com/task/denoising)                                                                 | Denoising                                 |                  1 |
+| 110 | [Video Classification](https://paperswithcode.com/task/video-classification)                                           | Video                                     |                  1 |
+| 111 | [Activity Recognition In Videos](https://paperswithcode.com/task/activity-recognition-in-videos)                       | Video                                     |                  1 |
+| 112 | [Face Identification](https://paperswithcode.com/task/face-identification)                                             | Facial Recognition and Modelling          |                  1 |
+| 113 | [Gender Prediction](https://paperswithcode.com/task/gender-prediction)                                                 | Facial Recognition and Modelling          |                  1 |
+| 114 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                       | Facial Recognition and Modelling          |                  1 |
+| 115 | [Smile Recognition](https://paperswithcode.com/task/smile-recognition)                                                 | Facial Recognition and Modelling          |                  1 |
+| 116 | [Abnormal Event Detection In Video](https://paperswithcode.com/task/abnormal-event-detection-in-video)                 | Anomaly Detection                         |                  1 |
+| 117 | [3D Instance Segmentation](https://paperswithcode.com/task/3d-instance-segmentation)                                   | Instance Segmentation                     |                  1 |
+| 118 | [Weakly Supervised Action Localization](https://paperswithcode.com/task/weakly-supervised-action-localization)         | Action Recognition                        |                  1 |
+| 119 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                   | Medical Image Segmentation                |                  1 |
+| 120 | [Volumetric Medical Image Segmentation](https://paperswithcode.com/task/volumetric-medical-image-segmentation)         | Medical Image Segmentation                |                  1 |
+| 121 | [3D Object Classification](https://paperswithcode.com/task/3d-object-classification)                                   | 3D                                        |                  1 |
+| 122 | [3D Shape Classification](https://paperswithcode.com/task/3d-shape-classification)                                     | 3D                                        |                  1 |
+| 123 | [Scene Graph Generation](https://paperswithcode.com/task/scene-graph-generation)                                       | Scene Parsing                             |                  1 |
+| 124 | [Depiction Invariant Object Recognition](https://paperswithcode.com/task/depiction-invariant-object-recognition)       | Object Recognition                        |                  1 |
+| 125 | [Outdoor Light Source Estimation](https://paperswithcode.com/task/outdoor-light-source-estimation)                     | Scene Understanding                       |                  1 |
+| 126 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)       | Video Object Segmentation                 |                  1 |
+| 127 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                   | Action Detection                          |                  1 |
+| 128 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                         | Trajectory Prediction                     |                  1 |
+| 129 | [Out-of-Distribution Detection](https://paperswithcode.com/task/out-of-distribution-detection)                         | Out-of-Distribution Detection             |                  1 |
+| 130 | [Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/unsupervised-image-to-image-translation)     | Image-to-Image Translation                |                  1 |
+| 131 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                         | Image-to-Image Translation                |                  1 |
+| 132 | [Fundus to Angiography Generation](https://paperswithcode.com/task/fundus-to-angiography-generation)                   | Image-to-Image Translation                |                  1 |
+| 133 | [Colorization](https://paperswithcode.com/task/colorization)                                                           | Colorization                              |                  1 |
+| 134 | [Image Dehazing](https://paperswithcode.com/task/image-dehazing)                                                       | Dehazing                                  |                  1 |
+| 135 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)               | Human-Object Interaction Detection        |                  1 |
+| 136 | [Disease Trajectory Forecasting](https://paperswithcode.com/task/disease-trajectory-forecasting)                       | Disease Prediction                        |                  1 |
+| 137 | [Pose Tracking](https://paperswithcode.com/task/pose-tracking)                                                         | Pose Tracking                             |                  1 |
+| 138 | [One-shot visual object segmentation](https://paperswithcode.com/task/one-shot-visual-object-segmentation)             | Semi-Supervised Video Object Segmentation |                  1 |
+| 139 | [Semi-supervised Anomaly Detection](https://paperswithcode.com/task/semi-supervised-anomaly-detection)                 | Abnormal Event Detection In Video         |                  1 |
+| 140 | [Person Identification](https://paperswithcode.com/task/person-identification)                                         | Person Identification                     |                  1 |
+| 141 | [Rotated MNIST](https://paperswithcode.com/task/rotated-mnist)                                                         | Rotated MNIST                             |                  1 |
 
 ## 2015
 
-|     | Field                                     | Type                                       |   Number of Papers |
-|----:|:------------------------------------------|:-------------------------------------------|-------------------:|
-|   0 | Image Classification                      | Image Classification                       |                 69 |
-|   1 | Keyword Spotting                          | Keyword Spotting                           |                 48 |
-|   2 | Video Salient Object Detection            | Object Detection                           |                 20 |
-|   3 | Video Salient Object Detection            | Video Object Segmentation                  |                 20 |
-|   4 | Video Salient Object Detection            | Salient Object Detection                   |                 20 |
-|   5 | Semantic Segmentation                     | Semantic Segmentation                      |                 15 |
-|   6 | Image Super-Resolution                    | Super-Resolution                           |                 15 |
-|   7 | Image Super-Resolution                    | Image Super-Resolution                     |                 15 |
-|   8 | Object Detection                          | Object Detection                           |                 13 |
-|   9 | Image Clustering                          | Image Clustering                           |                 12 |
-|  10 | Face Verification                         | Facial Recognition and Modelling           |                 11 |
-|  11 | Face Verification                         | 3D                                         |                 11 |
-|  12 | Image Retrieval                           | Image Retrieval                            |                  9 |
-|  13 | Weakly Supervised Object Detection        | Object Detection                           |                  8 |
-|  14 | JPEG Artifact Correction                  | Image Restoration                          |                  8 |
-|  15 | Visual Question Answering                 | Visual Question Answering                  |                  7 |
-|  16 | Domain Adaptation                         | Domain Adaptation                          |                  6 |
-|  17 | Face Detection                            | Facial Recognition and Modelling           |                  6 |
-|  18 | Crowd Counting                            | Crowds                                     |                  6 |
-|  19 | Real-Time Semantic Segmentation           | Semantic Segmentation                      |                  5 |
-|  20 | Satellite Image Classification            | Image Classification                       |                  5 |
-|  21 | Pedestrian Detection                      | Autonomous Vehicles                        |                  5 |
-|  22 | Action Recognition                        | Activity Recognition                       |                  5 |
-|  23 | Action Recognition                        | Action Recognition                         |                  5 |
-|  24 | Action Recognition                        | Video Classification                       |                  5 |
-|  25 | Font Recognition                          | Font Recognition                           |                  5 |
-|  26 | Fine-Grained Image Classification         | Image Classification                       |                  4 |
-|  27 | 3D Human Pose Estimation                  | Pose Estimation                            |                  4 |
-|  28 | Multimodal Activity Recognition           | Activity Recognition                       |                  4 |
-|  29 | Face Alignment                            | Facial Recognition and Modelling           |                  4 |
-|  30 | Age And Gender Classification             | Facial Recognition and Modelling           |                  4 |
-|  31 | Anomaly Detection                         | Anomaly Detection                          |                  4 |
-|  32 | Person Re-Identification                  | Person Re-Identification                   |                  4 |
-|  33 | Weakly-Supervised Object Localization     | Object Localization                        |                  4 |
-|  34 | Retinal OCT Disease Classification        | Medical Diagnosis                          |                  4 |
-|  35 | Retinal OCT Disease Classification        | Disease Prediction                         |                  4 |
-|  36 | Medical Image Segmentation                | Semantic Segmentation                      |                  3 |
-|  37 | Unsupervised Image Classification         | Image Classification                       |                  3 |
-|  38 | Unsupervised Domain Adaptation            | Domain Adaptation                          |                  3 |
-|  39 | Domain Generalization                     | Domain Adaptation                          |                  3 |
-|  40 | Grayscale Image Denoising                 | Denoising                                  |                  3 |
-|  41 | Multiple Object Tracking                  | Video                                      |                  3 |
-|  42 | Multiple Object Tracking                  | Object Tracking                            |                  3 |
-|  43 | Medical Image Segmentation                | Medical Image Segmentation                 |                  3 |
-|  44 | Retinal Vessel Segmentation               | Medical Image Segmentation                 |                  3 |
-|  45 | Scene Text Recognition                    | Scene Parsing                              |                  3 |
-|  46 | Sequential Image Classification           | Image Classification                       |                  2 |
-|  47 | Real-Time Object Detection                | Object Detection                           |                  2 |
-|  48 | Image Generation                          | Image Generation                           |                  2 |
-|  49 | Pose Estimation                           | 2D Human Pose Estimation                   |                  2 |
-|  50 | Pose Estimation                           | Pose Estimation                            |                  2 |
-|  51 | Head Pose Estimation                      | Pose Estimation                            |                  2 |
-|  52 | Human Pose Forecasting                    | Pose Estimation                            |                  2 |
-|  53 | Lane Detection                            | Autonomous Vehicles                        |                  2 |
-|  54 | Image Generation                          | 3D Face Animation                          |                  2 |
-|  55 | 3D Face Reconstruction                    | Facial Recognition and Modelling           |                  2 |
-|  56 | Facial Landmark Detection                 | Facial Recognition and Modelling           |                  2 |
-|  57 | Face Anti-Spoofing                        | Facial Recognition and Modelling           |                  2 |
-|  58 | Face Identification                       | Facial Recognition and Modelling           |                  2 |
-|  59 | Age-Invariant Face Recognition            | Facial Recognition and Modelling           |                  2 |
-|  60 | Temporal Action Localization              | Zero-Shot Learning                         |                  2 |
-|  61 | Skeleton Based Action Recognition         | Action Recognition                         |                  2 |
-|  62 | Lesion Segmentation                       | Medical Image Segmentation                 |                  2 |
-|  63 | Brain Tumor Segmentation                  | Medical Image Segmentation                 |                  2 |
-|  64 | Cell Segmentation                         | Medical Image Segmentation                 |                  2 |
-|  65 | Pancreas Segmentation                     | Medical Image Segmentation                 |                  2 |
-|  66 | 3D Face Reconstruction                    | 3D                                         |                  2 |
-|  67 | Temporal Action Localization              | Action Localization                        |                  2 |
-|  68 | Unsupervised Video Object Segmentation    | Video Object Segmentation                  |                  2 |
-|  69 | Action Detection                          | Action Detection                           |                  2 |
-|  70 | Skeleton Based Action Recognition         | Action Detection                           |                  2 |
-|  71 | Skeleton Based Action Recognition         | Gesture Recognition                        |                  2 |
-|  72 | Synthetic-to-Real Translation             | Image-to-Image Translation                 |                  2 |
-|  73 | Face Anti-Spoofing                        | Visual Odometry                            |                  2 |
-|  74 | Skeleton Based Action Recognition         | Human Interaction Recognition              |                  2 |
-|  75 | Skeleton Based Action Recognition         | Action Classification                      |                  2 |
-|  76 | Skeleton Based Action Recognition         | Hand Gesture Recognition                   |                  2 |
-|  77 | 3D Face Reconstruction                    | 3D Character Animation From A Single Photo |                  2 |
-|  78 | Curved Text Detection                     | Scene Text Detection                       |                  2 |
-|  79 | 3D Face Reconstruction                    | 3D Absolute Human Pose Estimation          |                  2 |
-|  80 | 3D Face Reconstruction                    | 3D Object Reconstruction                   |                  2 |
-|  81 | Facial Landmark Detection                 | Facial Landmark Detection                  |                  2 |
-|  82 | 3D Face Reconstruction                    | 3D Face Reconstruction                     |                  2 |
-|  83 | 3D Face Reconstruction                    | Face Reconstruction                        |                  2 |
-|  84 | Face Anti-Spoofing                        | Depth And Camera Motion                    |                  2 |
-|  85 | Object Counting                           | Object Counting                            |                  2 |
-|  86 | Age-Invariant Face Recognition            | Face Recognition                           |                  2 |
-|  87 | Scene Segmentation                        | Semantic Segmentation                      |                  1 |
-|  88 | Knowledge Distillation                    | Image Classification                       |                  1 |
-|  89 | Semi-Supervised Image Classification      | Image Classification                       |                  1 |
-|  90 | Document Image Classification             | Image Classification                       |                  1 |
-|  91 | 3D Object Detection                       | Object Detection                           |                  1 |
-|  92 | Dense Object Detection                    | Object Detection                           |                  1 |
-|  93 | Image-to-Image Translation                | Image Generation                           |                  1 |
-|  94 | Conditional Image Generation              | Image Generation                           |                  1 |
-|  95 | Multi-Person Pose Estimation              | Pose Estimation                            |                  1 |
-|  96 | Vehicle Pose Estimation                   | Pose Estimation                            |                  1 |
-|  97 | Pedestrian Attribute Recognition          | Autonomous Vehicles                        |                  1 |
-|  98 | Denoising                                 | Denoising                                  |                  1 |
-|  99 | Color Image Denoising                     | Denoising                                  |                  1 |
-| 100 | Video Super-Resolution                    | Super-Resolution                           |                  1 |
-| 101 | Video Prediction                          | Video                                      |                  1 |
-| 102 | Visual Object Tracking                    | Video                                      |                  1 |
-| 103 | Video Retrieval                           | Video                                      |                  1 |
-| 104 | Video Super-Resolution                    | Video                                      |                  1 |
-| 105 | Activity Recognition In Videos            | Video                                      |                  1 |
-| 106 | Group Activity Recognition                | Activity Recognition                       |                  1 |
-| 107 | Facial Expression Recognition             | Facial Recognition and Modelling           |                  1 |
-| 108 | Handwritten Digit Recognition             | Optical Character Recognition              |                  1 |
-| 109 | Instance Segmentation                     | Instance Segmentation                      |                  1 |
-| 110 | Multi-label zero-shot learning            | Zero-Shot Learning                         |                  1 |
-| 111 | Activity Recognition In Videos            | Action Recognition                         |                  1 |
-| 112 | Multi-Object Tracking                     | Object Tracking                            |                  1 |
-| 113 | Visual Object Tracking                    | Object Tracking                            |                  1 |
-| 114 | Lung Nodule Segmentation                  | Medical Image Segmentation                 |                  1 |
-| 115 | Skin Cancer Segmentation                  | Medical Image Segmentation                 |                  1 |
-| 116 | Electron Microscopy Image Segmentation    | Medical Image Segmentation                 |                  1 |
-| 117 | Knowledge Distillation                    | Knowledge Distillation                     |                  1 |
-| 118 | Semi-Supervised Video Object Segmentation | Video Object Segmentation                  |                  1 |
-| 119 | 3D Object Detection                       | 3D Object Detection                        |                  1 |
-| 120 | Gesture Recognition                       | Gesture Recognition                        |                  1 |
-| 121 | Multi-Label Classification                | Multi-Label Classification                 |                  1 |
-| 122 | Aesthetics Quality Assessment             | Image Quality Assessment                   |                  1 |
-| 123 | Monocular 3D Human Pose Estimation        | 3D Human Pose Estimation                   |                  1 |
-| 124 | Scene Text Detection                      | Scene Text Detection                       |                  1 |
-| 125 | Visual Place Recognition                  | Visual Place Recognition                   |                  1 |
-| 126 | Human-Object Interaction Detection        | Human-Object Interaction Detection         |                  1 |
-| 127 | Edge Detection                            | Edge Detection                             |                  1 |
-| 128 | 3D Point Cloud Classification             | 3D Point Cloud Classification              |                  1 |
-| 129 | Multi-Human Parsing                       | Human Parsing                              |                  1 |
-| 130 | Video Question Answering                  | Video Question Answering                   |                  1 |
-| 131 | Motion Segmentation                       | Motion Segmentation                        |                  1 |
-| 132 | Dense Pixel Correspondence Estimation     | Dense Pixel Correspondence Estimation      |                  1 |
-| 133 | Human Part Segmentation                   | Human Part Segmentation                    |                  1 |
-| 134 | Document Image Classification             | Document Image Classification              |                  1 |
-| 135 | Disguised Face Verification               | Face Verification                          |                  1 |
+|     | Task                                                                                                                   | Field                                 |   Number of Papers |
+|----:|:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------|-------------------:|
+|   0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                           | Image Classification                  |                 69 |
+|   1 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                                   | Keyword Spotting                      |                 48 |
+|   2 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                       | Object Detection                      |                 20 |
+|   3 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                         | Semantic Segmentation                 |                 15 |
+|   4 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                       | Super-Resolution                      |                 15 |
+|   5 | [Object Detection](https://paperswithcode.com/task/object-detection)                                                   | Object Detection                      |                 13 |
+|   6 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                                   | Image Clustering                      |                 12 |
+|   7 | [Face Verification](https://paperswithcode.com/task/face-verification)                                                 | Facial Recognition and Modelling      |                 11 |
+|   8 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                     | Image Retrieval                       |                  9 |
+|   9 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)               | Object Detection                      |                  8 |
+|  10 | [JPEG Artifact Correction](https://paperswithcode.com/task/jpeg-artifact-correction)                                   | Image Restoration                     |                  8 |
+|  11 | [Visual Question Answering](https://paperswithcode.com/task/visual-question-answering)                                 | Visual Question Answering             |                  7 |
+|  12 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                                 | Domain Adaptation                     |                  6 |
+|  13 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                       | Facial Recognition and Modelling      |                  6 |
+|  14 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                                       | Crowds                                |                  6 |
+|  15 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                     | Semantic Segmentation                 |                  5 |
+|  16 | [Satellite Image Classification](https://paperswithcode.com/task/satellite-image-classification)                       | Image Classification                  |                  5 |
+|  17 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                           | Autonomous Vehicles                   |                  5 |
+|  18 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                               | Activity Recognition                  |                  5 |
+|  19 | [Font Recognition](https://paperswithcode.com/task/font-recognition)                                                   | Font Recognition                      |                  5 |
+|  20 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)                 | Image Classification                  |                  4 |
+|  21 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                                   | Pose Estimation                       |                  4 |
+|  22 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                     | Activity Recognition                  |                  4 |
+|  23 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                       | Facial Recognition and Modelling      |                  4 |
+|  24 | [Age And Gender Classification](https://paperswithcode.com/task/age-and-gender-classification)                         | Facial Recognition and Modelling      |                  4 |
+|  25 | [Anomaly Detection](https://paperswithcode.com/task/anomaly-detection)                                                 | Anomaly Detection                     |                  4 |
+|  26 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                                   | Person Re-Identification              |                  4 |
+|  27 | [Weakly-Supervised Object Localization](https://paperswithcode.com/task/weakly-supervised-object-localization)         | Object Localization                   |                  4 |
+|  28 | [Retinal OCT Disease Classification](https://paperswithcode.com/task/retinal-oct-disease-classification)               | Medical Diagnosis                     |                  4 |
+|  29 | [Medical Image Segmentation](https://paperswithcode.com/task/medical-image-segmentation)                               | Semantic Segmentation                 |                  3 |
+|  30 | [Unsupervised Image Classification](https://paperswithcode.com/task/unsupervised-image-classification)                 | Image Classification                  |                  3 |
+|  31 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)                       | Domain Adaptation                     |                  3 |
+|  32 | [Domain Generalization](https://paperswithcode.com/task/domain-generalization)                                         | Domain Adaptation                     |                  3 |
+|  33 | [Grayscale Image Denoising](https://paperswithcode.com/task/grayscale-image-denoising)                                 | Denoising                             |                  3 |
+|  34 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                                   | Video                                 |                  3 |
+|  35 | [Retinal Vessel Segmentation](https://paperswithcode.com/task/retinal-vessel-segmentation)                             | Medical Image Segmentation            |                  3 |
+|  36 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                       | Scene Parsing                         |                  3 |
+|  37 | [Sequential Image Classification](https://paperswithcode.com/task/sequential-image-classification)                     | Image Classification                  |                  2 |
+|  38 | [Real-Time Object Detection](https://paperswithcode.com/task/real-time-object-detection)                               | Object Detection                      |                  2 |
+|  39 | [Image Generation](https://paperswithcode.com/task/image-generation)                                                   | Image Generation                      |                  2 |
+|  40 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                     | 2D Human Pose Estimation              |                  2 |
+|  41 | [Head Pose Estimation](https://paperswithcode.com/task/head-pose-estimation)                                           | Pose Estimation                       |                  2 |
+|  42 | [Human Pose Forecasting](https://paperswithcode.com/task/human-pose-forecasting)                                       | Pose Estimation                       |                  2 |
+|  43 | [Lane Detection](https://paperswithcode.com/task/lane-detection)                                                       | Autonomous Vehicles                   |                  2 |
+|  44 | [3D Face Reconstruction](https://paperswithcode.com/task/3d-face-reconstruction)                                       | Facial Recognition and Modelling      |                  2 |
+|  45 | [Facial Landmark Detection](https://paperswithcode.com/task/facial-landmark-detection)                                 | Facial Recognition and Modelling      |                  2 |
+|  46 | [Face Anti-Spoofing](https://paperswithcode.com/task/face-anti-spoofing)                                               | Facial Recognition and Modelling      |                  2 |
+|  47 | [Face Identification](https://paperswithcode.com/task/face-identification)                                             | Facial Recognition and Modelling      |                  2 |
+|  48 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)                       | Facial Recognition and Modelling      |                  2 |
+|  49 | [Temporal Action Localization](https://paperswithcode.com/task/temporal-action-localization)                           | Zero-Shot Learning                    |                  2 |
+|  50 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)                 | Action Recognition                    |                  2 |
+|  51 | [Lesion Segmentation](https://paperswithcode.com/task/lesion-segmentation)                                             | Medical Image Segmentation            |                  2 |
+|  52 | [Brain Tumor Segmentation](https://paperswithcode.com/task/brain-tumor-segmentation)                                   | Medical Image Segmentation            |                  2 |
+|  53 | [Cell Segmentation](https://paperswithcode.com/task/cell-segmentation)                                                 | Medical Image Segmentation            |                  2 |
+|  54 | [Pancreas Segmentation](https://paperswithcode.com/task/pancreas-segmentation)                                         | Medical Image Segmentation            |                  2 |
+|  55 | [Unsupervised Video Object Segmentation](https://paperswithcode.com/task/unsupervised-video-object-segmentation)       | Video Object Segmentation             |                  2 |
+|  56 | [Action Detection](https://paperswithcode.com/task/action-detection)                                                   | Action Detection                      |                  2 |
+|  57 | [Synthetic-to-Real Translation](https://paperswithcode.com/task/synthetic-to-real-translation)                         | Image-to-Image Translation            |                  2 |
+|  58 | [Curved Text Detection](https://paperswithcode.com/task/curved-text-detection)                                         | Scene Text Detection                  |                  2 |
+|  59 | [Object Counting](https://paperswithcode.com/task/object-counting)                                                     | Object Counting                       |                  2 |
+|  60 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                               | Semantic Segmentation                 |                  1 |
+|  61 | [Knowledge Distillation](https://paperswithcode.com/task/knowledge-distillation)                                       | Image Classification                  |                  1 |
+|  62 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)           | Image Classification                  |                  1 |
+|  63 | [Document Image Classification](https://paperswithcode.com/task/document-image-classification)                         | Image Classification                  |                  1 |
+|  64 | [3D Object Detection](https://paperswithcode.com/task/3d-object-detection)                                             | Object Detection                      |                  1 |
+|  65 | [Dense Object Detection](https://paperswithcode.com/task/dense-object-detection)                                       | Object Detection                      |                  1 |
+|  66 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                               | Image Generation                      |                  1 |
+|  67 | [Conditional Image Generation](https://paperswithcode.com/task/conditional-image-generation)                           | Image Generation                      |                  1 |
+|  68 | [Multi-Person Pose Estimation](https://paperswithcode.com/task/multi-person-pose-estimation)                           | Pose Estimation                       |                  1 |
+|  69 | [Vehicle Pose Estimation](https://paperswithcode.com/task/vehicle-pose-estimation)                                     | Pose Estimation                       |                  1 |
+|  70 | [Pedestrian Attribute Recognition](https://paperswithcode.com/task/pedestrian-attribute-recognition)                   | Autonomous Vehicles                   |                  1 |
+|  71 | [Denoising](https://paperswithcode.com/task/denoising)                                                                 | Denoising                             |                  1 |
+|  72 | [Color Image Denoising](https://paperswithcode.com/task/color-image-denoising)                                         | Denoising                             |                  1 |
+|  73 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                       | Super-Resolution                      |                  1 |
+|  74 | [Video Prediction](https://paperswithcode.com/task/video-prediction)                                                   | Video                                 |                  1 |
+|  75 | [Visual Object Tracking](https://paperswithcode.com/task/visual-object-tracking)                                       | Video                                 |                  1 |
+|  76 | [Video Retrieval](https://paperswithcode.com/task/video-retrieval)                                                     | Video                                 |                  1 |
+|  77 | [Activity Recognition In Videos](https://paperswithcode.com/task/activity-recognition-in-videos)                       | Video                                 |                  1 |
+|  78 | [Group Activity Recognition](https://paperswithcode.com/task/group-activity-recognition)                               | Activity Recognition                  |                  1 |
+|  79 | [Facial Expression Recognition](https://paperswithcode.com/task/facial-expression-recognition)                         | Facial Recognition and Modelling      |                  1 |
+|  80 | [Handwritten Digit Recognition](https://paperswithcode.com/task/handwritten-digit-recognition)                         | Optical Character Recognition         |                  1 |
+|  81 | [Instance Segmentation](https://paperswithcode.com/task/instance-segmentation)                                         | Instance Segmentation                 |                  1 |
+|  82 | [Multi-label zero-shot learning](https://paperswithcode.com/task/multi-label-zero-shot-learning)                       | Zero-Shot Learning                    |                  1 |
+|  83 | [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)                                         | Object Tracking                       |                  1 |
+|  84 | [Lung Nodule Segmentation](https://paperswithcode.com/task/lung-nodule-segmentation)                                   | Medical Image Segmentation            |                  1 |
+|  85 | [Skin Cancer Segmentation](https://paperswithcode.com/task/skin-cancer-segmentation)                                   | Medical Image Segmentation            |                  1 |
+|  86 | [Electron Microscopy Image Segmentation](https://paperswithcode.com/task/electron-microscopy-image-segmentation)       | Medical Image Segmentation            |                  1 |
+|  87 | [Semi-Supervised Video Object Segmentation](https://paperswithcode.com/task/semi-supervised-video-object-segmentation) | Video Object Segmentation             |                  1 |
+|  88 | [Gesture Recognition](https://paperswithcode.com/task/gesture-recognition)                                             | Gesture Recognition                   |                  1 |
+|  89 | [Multi-Label Classification](https://paperswithcode.com/task/multi-label-classification)                               | Multi-Label Classification            |                  1 |
+|  90 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                         | Image Quality Assessment              |                  1 |
+|  91 | [Monocular 3D Human Pose Estimation](https://paperswithcode.com/task/monocular-3d-human-pose-estimation)               | 3D Human Pose Estimation              |                  1 |
+|  92 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                           | Scene Text Detection                  |                  1 |
+|  93 | [Visual Place Recognition](https://paperswithcode.com/task/visual-place-recognition)                                   | Visual Place Recognition              |                  1 |
+|  94 | [Human-Object Interaction Detection](https://paperswithcode.com/task/human-object-interaction-detection)               | Human-Object Interaction Detection    |                  1 |
+|  95 | [Edge Detection](https://paperswithcode.com/task/edge-detection)                                                       | Edge Detection                        |                  1 |
+|  96 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                         | 3D Point Cloud Classification         |                  1 |
+|  97 | [Multi-Human Parsing](https://paperswithcode.com/task/multi-human-parsing)                                             | Human Parsing                         |                  1 |
+|  98 | [Video Question Answering](https://paperswithcode.com/task/video-question-answering)                                   | Video Question Answering              |                  1 |
+|  99 | [Motion Segmentation](https://paperswithcode.com/task/motion-segmentation)                                             | Motion Segmentation                   |                  1 |
+| 100 | [Dense Pixel Correspondence Estimation](https://paperswithcode.com/task/dense-pixel-correspondence-estimation)         | Dense Pixel Correspondence Estimation |                  1 |
+| 101 | [Human Part Segmentation](https://paperswithcode.com/task/human-part-segmentation)                                     | Human Part Segmentation               |                  1 |
+| 102 | [Disguised Face Verification](https://paperswithcode.com/task/disguised-face-verification)                             | Face Verification                     |                  1 |
 
 ## 2014
 
-|    | Field                                   | Type                             |   Number of Papers |
-|---:|:----------------------------------------|:---------------------------------|-------------------:|
-|  0 | Image Classification                    | Image Classification             |                 40 |
-|  1 | Keyword Spotting                        | Keyword Spotting                 |                 21 |
-|  2 | Video Salient Object Detection          | Object Detection                 |                  8 |
-|  3 | Video Salient Object Detection          | Video Object Segmentation        |                  8 |
-|  4 | Video Salient Object Detection          | Salient Object Detection         |                  8 |
-|  5 | Action Recognition                      | Activity Recognition             |                  7 |
-|  6 | Action Recognition                      | Action Recognition               |                  7 |
-|  7 | Action Recognition                      | Video Classification             |                  7 |
-|  8 | Semantic Segmentation                   | Semantic Segmentation            |                  6 |
-|  9 | Face Verification                       | Facial Recognition and Modelling |                  6 |
-| 10 | Face Verification                       | 3D                               |                  6 |
-| 11 | Image Super-Resolution                  | Super-Resolution                 |                  5 |
-| 12 | Face Detection                          | Facial Recognition and Modelling |                  5 |
-| 13 | Skeleton Based Action Recognition       | Action Recognition               |                  5 |
-| 14 | Image Super-Resolution                  | Image Super-Resolution           |                  5 |
-| 15 | Skeleton Based Action Recognition       | Action Detection                 |                  5 |
-| 16 | Skeleton Based Action Recognition       | Gesture Recognition              |                  5 |
-| 17 | Skeleton Based Action Recognition       | Human Interaction Recognition    |                  5 |
-| 18 | Skeleton Based Action Recognition       | Action Classification            |                  5 |
-| 19 | Skeleton Based Action Recognition       | Hand Gesture Recognition         |                  5 |
-| 20 | Human action generation                 | Activity Recognition             |                  4 |
-| 21 | 3D Multi-Person Pose Estimation         | 3D Human Pose Estimation         |                  4 |
-| 22 | 3D Multi-Person Pose Estimation         | 3D Multi-Person Pose Estimation  |                  4 |
-| 23 | Video Super-Resolution                  | Super-Resolution                 |                  3 |
-| 24 | Video Super-Resolution                  | Video                            |                  3 |
-| 25 | Font Recognition                        | Font Recognition                 |                  3 |
-| 26 | Real-Time Semantic Segmentation         | Semantic Segmentation            |                  2 |
-| 27 | Image Generation                        | Image Generation                 |                  2 |
-| 28 | Pose Estimation                         | 2D Human Pose Estimation         |                  2 |
-| 29 | Deblurring                              | 2D Human Pose Estimation         |                  2 |
-| 30 | Pose Estimation                         | Pose Estimation                  |                  2 |
-| 31 | 3D Human Pose Estimation                | Pose Estimation                  |                  2 |
-| 32 | Keypoint Detection                      | Pose Estimation                  |                  2 |
-| 33 | Pedestrian Detection                    | Autonomous Vehicles              |                  2 |
-| 34 | Image Generation                        | 3D Face Animation                |                  2 |
-| 35 | Activity Recognition In Videos          | Video                            |                  2 |
-| 36 | Face Anti-Spoofing                      | Facial Recognition and Modelling |                  2 |
-| 37 | Activity Recognition In Videos          | Action Recognition               |                  2 |
-| 38 | Scene Text Recognition                  | Scene Parsing                    |                  2 |
-| 39 | Person Re-Identification                | Person Re-Identification         |                  2 |
-| 40 | Deblurring                              | Deblurring                       |                  2 |
-| 41 | Face Anti-Spoofing                      | Visual Odometry                  |                  2 |
-| 42 | Human Interaction Recognition           | Human Interaction Recognition    |                  2 |
-| 43 | Face Anti-Spoofing                      | Depth And Camera Motion          |                  2 |
-| 44 | Multi-target Domain Adaptation          | Multi-target Domain Adaptation   |                  2 |
-| 45 | Scene Segmentation                      | Semantic Segmentation            |                  1 |
-| 46 | Fine-Grained Image Classification       | Image Classification             |                  1 |
-| 47 | Object Detection                        | Object Detection                 |                  1 |
-| 48 | Weakly Supervised Object Detection      | Object Detection                 |                  1 |
-| 49 | Domain Adaptation                       | Domain Adaptation                |                  1 |
-| 50 | Image-to-Image Translation              | Image Generation                 |                  1 |
-| 51 | Action Classification                   | Video                            |                  1 |
-| 52 | Multiple Object Tracking                | Video                            |                  1 |
-| 53 | Multimodal Activity Recognition         | Activity Recognition             |                  1 |
-| 54 | Face Alignment                          | Facial Recognition and Modelling |                  1 |
-| 55 | Unsupervised Facial Landmark Detection  | Facial Recognition and Modelling |                  1 |
-| 56 | Monocular Depth Estimation              | Depth Estimation                 |                  1 |
-| 57 | Multiple Object Tracking                | Object Tracking                  |                  1 |
-| 58 | 3D FACE MODELING                        | 3D                               |                  1 |
-| 59 | Image Retrieval                         | Image Retrieval                  |                  1 |
-| 60 | Text-Image Retrieval                    | Image Retrieval                  |                  1 |
-| 61 | Image Captioning                        | Image Captioning                 |                  1 |
-| 62 | Hand Gesture Recognition                | Gesture Recognition              |                  1 |
-| 63 | No-Reference Image Quality Assessment   | Image Quality Assessment         |                  1 |
-| 64 | Unsupervised Image-To-Image Translation | Image-to-Image Translation       |                  1 |
-| 65 | Image Compression                       | Image Compression                |                  1 |
-| 66 | Hand Gesture Recognition                | Hand                             |                  1 |
-| 67 | Scene Text Detection                    | Scene Text Detection             |                  1 |
-| 68 | 3D Point Cloud Classification           | 3D Point Cloud Classification    |                  1 |
-| 69 | Unsupervised Facial Landmark Detection  | Facial Landmark Detection        |                  1 |
-| 70 | Video Quality Assessment                | Video Quality Assessment         |                  1 |
-| 71 | Hand Gesture Recognition                | 3D Car Instance Understanding    |                  1 |
-| 72 | 3D FACE MODELING                        | 3D FACE MODELING                 |                  1 |
+|    | Task                                                                                                               | Field                            |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------|-------------------:|
+|  0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                       | Image Classification             |                 40 |
+|  1 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                               | Keyword Spotting                 |                 21 |
+|  2 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                   | Object Detection                 |                  8 |
+|  3 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                           | Activity Recognition             |                  7 |
+|  4 | [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)                                     | Semantic Segmentation            |                  6 |
+|  5 | [Face Verification](https://paperswithcode.com/task/face-verification)                                             | Facial Recognition and Modelling |                  6 |
+|  6 | [Image Super-Resolution](https://paperswithcode.com/task/image-super-resolution)                                   | Super-Resolution                 |                  5 |
+|  7 | [Face Detection](https://paperswithcode.com/task/face-detection)                                                   | Facial Recognition and Modelling |                  5 |
+|  8 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition)             | Action Recognition               |                  5 |
+|  9 | [Human action generation](https://paperswithcode.com/task/human-action-generation)                                 | Activity Recognition             |                  4 |
+| 10 | [3D Multi-Person Pose Estimation](https://paperswithcode.com/task/3d-multi-person-pose-estimation)                 | 3D Human Pose Estimation         |                  4 |
+| 11 | [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)                                   | Super-Resolution                 |                  3 |
+| 12 | [Font Recognition](https://paperswithcode.com/task/font-recognition)                                               | Font Recognition                 |                  3 |
+| 13 | [Real-Time Semantic Segmentation](https://paperswithcode.com/task/real-time-semantic-segmentation)                 | Semantic Segmentation            |                  2 |
+| 14 | [Image Generation](https://paperswithcode.com/task/image-generation)                                               | Image Generation                 |                  2 |
+| 15 | [Pose Estimation](https://paperswithcode.com/task/pose-estimation)                                                 | 2D Human Pose Estimation         |                  2 |
+| 16 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                           | 2D Human Pose Estimation         |                  2 |
+| 17 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                               | Pose Estimation                  |                  2 |
+| 18 | [Keypoint Detection](https://paperswithcode.com/task/keypoint-detection)                                           | Pose Estimation                  |                  2 |
+| 19 | [Pedestrian Detection](https://paperswithcode.com/task/pedestrian-detection)                                       | Autonomous Vehicles              |                  2 |
+| 20 | [Activity Recognition In Videos](https://paperswithcode.com/task/activity-recognition-in-videos)                   | Video                            |                  2 |
+| 21 | [Face Anti-Spoofing](https://paperswithcode.com/task/face-anti-spoofing)                                           | Facial Recognition and Modelling |                  2 |
+| 22 | [Scene Text Recognition](https://paperswithcode.com/task/scene-text-recognition)                                   | Scene Parsing                    |                  2 |
+| 23 | [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)                               | Person Re-Identification         |                  2 |
+| 24 | [Human Interaction Recognition](https://paperswithcode.com/task/human-interaction-recognition)                     | Human Interaction Recognition    |                  2 |
+| 25 | [Multi-target Domain Adaptation](https://paperswithcode.com/task/multi-target-domain-adaptation)                   | Multi-target Domain Adaptation   |                  2 |
+| 26 | [Scene Segmentation](https://paperswithcode.com/task/scene-segmentation)                                           | Semantic Segmentation            |                  1 |
+| 27 | [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification)             | Image Classification             |                  1 |
+| 28 | [Object Detection](https://paperswithcode.com/task/object-detection)                                               | Object Detection                 |                  1 |
+| 29 | [Weakly Supervised Object Detection](https://paperswithcode.com/task/weakly-supervised-object-detection)           | Object Detection                 |                  1 |
+| 30 | [Domain Adaptation](https://paperswithcode.com/task/domain-adaptation)                                             | Domain Adaptation                |                  1 |
+| 31 | [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)                           | Image Generation                 |                  1 |
+| 32 | [Action Classification](https://paperswithcode.com/task/action-classification)                                     | Video                            |                  1 |
+| 33 | [Multiple Object Tracking](https://paperswithcode.com/task/multiple-object-tracking)                               | Video                            |                  1 |
+| 34 | [Multimodal Activity Recognition](https://paperswithcode.com/task/multimodal-activity-recognition)                 | Activity Recognition             |                  1 |
+| 35 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                                   | Facial Recognition and Modelling |                  1 |
+| 36 | [Unsupervised Facial Landmark Detection](https://paperswithcode.com/task/unsupervised-facial-landmark-detection)   | Facial Recognition and Modelling |                  1 |
+| 37 | [Monocular Depth Estimation](https://paperswithcode.com/task/monocular-depth-estimation)                           | Depth Estimation                 |                  1 |
+| 38 | [3D FACE MODELING](https://paperswithcode.com/task/3d-face-modeling)                                               | 3D                               |                  1 |
+| 39 | [Image Retrieval](https://paperswithcode.com/task/image-retrieval)                                                 | Image Retrieval                  |                  1 |
+| 40 | [Text-Image Retrieval](https://paperswithcode.com/task/text-image-retrieval)                                       | Image Retrieval                  |                  1 |
+| 41 | [Image Captioning](https://paperswithcode.com/task/image-captioning)                                               | Image Captioning                 |                  1 |
+| 42 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                               | Gesture Recognition              |                  1 |
+| 43 | [No-Reference Image Quality Assessment](https://paperswithcode.com/task/no-reference-image-quality-assessment)     | Image Quality Assessment         |                  1 |
+| 44 | [Unsupervised Image-To-Image Translation](https://paperswithcode.com/task/unsupervised-image-to-image-translation) | Image-to-Image Translation       |                  1 |
+| 45 | [Image Compression](https://paperswithcode.com/task/image-compression)                                             | Image Compression                |                  1 |
+| 46 | [Scene Text Detection](https://paperswithcode.com/task/scene-text-detection)                                       | Scene Text Detection             |                  1 |
+| 47 | [3D Point Cloud Classification](https://paperswithcode.com/task/3d-point-cloud-classification)                     | 3D Point Cloud Classification    |                  1 |
+| 48 | [Video Quality Assessment](https://paperswithcode.com/task/video-quality-assessment)                               | Video Quality Assessment         |                  1 |
 
 ## 2013
 
-|    | Field                             | Type                             |   Number of Papers |
-|---:|:----------------------------------|:---------------------------------|-------------------:|
-|  0 | Image Classification              | Image Classification             |                 21 |
-|  1 | Image Clustering                  | Image Clustering                 |                  6 |
-|  2 | Face Alignment                    | Facial Recognition and Modelling |                  2 |
-|  3 | Skeleton Based Action Recognition | Action Recognition               |                  2 |
-|  4 | Skeleton Based Action Recognition | Action Detection                 |                  2 |
-|  5 | Skeleton Based Action Recognition | Gesture Recognition              |                  2 |
-|  6 | Skeleton Based Action Recognition | Human Interaction Recognition    |                  2 |
-|  7 | Skeleton Based Action Recognition | Action Classification            |                  2 |
-|  8 | Skeleton Based Action Recognition | Hand Gesture Recognition         |                  2 |
-|  9 | Crowd Counting                    | Crowds                           |                  2 |
-| 10 | Deblurring                        | 2D Human Pose Estimation         |                  1 |
-| 11 | 3D Human Pose Estimation          | Pose Estimation                  |                  1 |
-| 12 | Age-Invariant Face Recognition    | Facial Recognition and Modelling |                  1 |
-| 13 | Multi-label zero-shot learning    | Zero-Shot Learning               |                  1 |
-| 14 | Hand Gesture Recognition          | Gesture Recognition              |                  1 |
-| 15 | Deblurring                        | Deblurring                       |                  1 |
-| 16 | Hand Gesture Recognition          | Hand                             |                  1 |
-| 17 | Human Interaction Recognition     | Human Interaction Recognition    |                  1 |
-| 18 | Hand Gesture Recognition          | 3D Car Instance Understanding    |                  1 |
-| 19 | Age-Invariant Face Recognition    | Face Recognition                 |                  1 |
+|    | Task                                                                                                   | Field                            |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------------------------|:---------------------------------|-------------------:|
+|  0 | [Image Classification](https://paperswithcode.com/task/image-classification)                           | Image Classification             |                 21 |
+|  1 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                   | Image Clustering                 |                  6 |
+|  2 | [Face Alignment](https://paperswithcode.com/task/face-alignment)                                       | Facial Recognition and Modelling |                  2 |
+|  3 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition) | Action Recognition               |                  2 |
+|  4 | [Crowd Counting](https://paperswithcode.com/task/crowd-counting)                                       | Crowds                           |                  2 |
+|  5 | [Deblurring](https://paperswithcode.com/task/deblurring)                                               | 2D Human Pose Estimation         |                  1 |
+|  6 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                   | Pose Estimation                  |                  1 |
+|  7 | [Age-Invariant Face Recognition](https://paperswithcode.com/task/age-invariant-face-recognition)       | Facial Recognition and Modelling |                  1 |
+|  8 | [Multi-label zero-shot learning](https://paperswithcode.com/task/multi-label-zero-shot-learning)       | Zero-Shot Learning               |                  1 |
+|  9 | [Hand Gesture Recognition](https://paperswithcode.com/task/hand-gesture-recognition)                   | Gesture Recognition              |                  1 |
+| 10 | [Human Interaction Recognition](https://paperswithcode.com/task/human-interaction-recognition)         | Human Interaction Recognition    |                  1 |
 
 ## 2012
 
-|    | Field                             | Type                          |   Number of Papers |
-|---:|:----------------------------------|:------------------------------|-------------------:|
-|  0 | Image Classification              | Image Classification          |                  8 |
-|  1 | Image Clustering                  | Image Clustering              |                  5 |
-|  2 | Unsupervised Domain Adaptation    | Domain Adaptation             |                  1 |
-|  3 | Traffic Sign Recognition          | Autonomous Vehicles           |                  1 |
-|  4 | Video Deinterlacing               | Video                         |                  1 |
-|  5 | Skeleton Based Action Recognition | Action Recognition            |                  1 |
-|  6 | Skeleton Based Action Recognition | Action Detection              |                  1 |
-|  7 | Skeleton Based Action Recognition | Gesture Recognition           |                  1 |
-|  8 | Skeleton Based Action Recognition | Human Interaction Recognition |                  1 |
-|  9 | Skeleton Based Action Recognition | Action Classification         |                  1 |
-| 10 | Skeleton Based Action Recognition | Hand Gesture Recognition      |                  1 |
-| 11 | Image Matching                    | Image Matching                |                  1 |
-| 12 | Motion Segmentation               | Motion Segmentation           |                  1 |
-| 13 | Video Quality Assessment          | Video Quality Assessment      |                  1 |
+|    | Task                                                                                                   | Field                    |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------------------------|:-------------------------|-------------------:|
+|  0 | [Image Classification](https://paperswithcode.com/task/image-classification)                           | Image Classification     |                  8 |
+|  1 | [Image Clustering](https://paperswithcode.com/task/image-clustering)                                   | Image Clustering         |                  5 |
+|  2 | [Unsupervised Domain Adaptation](https://paperswithcode.com/task/unsupervised-domain-adaptation)       | Domain Adaptation        |                  1 |
+|  3 | [Traffic Sign Recognition](https://paperswithcode.com/task/traffic-sign-recognition)                   | Autonomous Vehicles      |                  1 |
+|  4 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)                             | Video                    |                  1 |
+|  5 | [Skeleton Based Action Recognition](https://paperswithcode.com/task/skeleton-based-action-recognition) | Action Recognition       |                  1 |
+|  6 | [Image Matching](https://paperswithcode.com/task/image-matching)                                       | Image Matching           |                  1 |
+|  7 | [Motion Segmentation](https://paperswithcode.com/task/motion-segmentation)                             | Motion Segmentation      |                  1 |
+|  8 | [Video Quality Assessment](https://paperswithcode.com/task/video-quality-assessment)                   | Video Quality Assessment |                  1 |
 
 ## 2011
 
-|    | Field                | Type                 |   Number of Papers |
-|---:|:---------------------|:---------------------|-------------------:|
-|  0 | Image Classification | Image Classification |                  3 |
+|    | Task                                                                         | Field                |   Number of Papers |
+|---:|:-----------------------------------------------------------------------------|:---------------------|-------------------:|
+|  0 | [Image Classification](https://paperswithcode.com/task/image-classification) | Image Classification |                  3 |
 
 ## 2010
 
-|    | Field                               | Type            |   Number of Papers |
-|---:|:------------------------------------|:----------------|-------------------:|
-|  0 | Multivariate Time Series Imputation | Imputation      |                  4 |
-|  1 | 3D Human Pose Estimation            | Pose Estimation |                  1 |
+|    | Task                                                                                                       | Field           |   Number of Papers |
+|---:|:-----------------------------------------------------------------------------------------------------------|:----------------|-------------------:|
+|  0 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation) | Imputation      |                  4 |
+|  1 | [3D Human Pose Estimation](https://paperswithcode.com/task/3d-human-pose-estimation)                       | Pose Estimation |                  1 |
 
 ## 2009
 
-|    | Field                    | Type                             |   Number of Papers |
-|---:|:-------------------------|:---------------------------------|-------------------:|
-|  0 | Point Cloud Registration | Point Cloud Registration         |                  3 |
-|  1 | Face Verification        | Facial Recognition and Modelling |                  1 |
-|  2 | Face Verification        | 3D                               |                  1 |
+|    | Task                                                                                 | Field                            |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------|:---------------------------------|-------------------:|
+|  0 | [Point Cloud Registration](https://paperswithcode.com/task/point-cloud-registration) | Point Cloud Registration         |                  3 |
+|  1 | [Face Verification](https://paperswithcode.com/task/face-verification)               | Facial Recognition and Modelling |                  1 |
 
 ## 2007
 
-|    | Field                | Type                 |   Number of Papers |
-|---:|:---------------------|:---------------------|-------------------:|
-|  0 | Video Deinterlacing  | Video                |                  4 |
-|  1 | Image Classification | Image Classification |                  1 |
+|    | Task                                                                         | Field                |   Number of Papers |
+|---:|:-----------------------------------------------------------------------------|:---------------------|-------------------:|
+|  0 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing)   | Video                |                  4 |
+|  1 | [Image Classification](https://paperswithcode.com/task/image-classification) | Image Classification |                  1 |
 
 ## 2005
 
-|    | Field                      | Type                       |   Number of Papers |
-|---:|:---------------------------|:---------------------------|-------------------:|
-|  0 | Surface Normals Estimation | Surface Normals Estimation |                  1 |
+|    | Task                                                                                     | Field                      |   Number of Papers |
+|---:|:-----------------------------------------------------------------------------------------|:---------------------------|-------------------:|
+|  0 | [Surface Normals Estimation](https://paperswithcode.com/task/surface-normals-estimation) | Surface Normals Estimation |                  1 |
 
 ## 1999
 
-|    | Field               | Type   |   Number of Papers |
-|---:|:--------------------|:-------|-------------------:|
-|  0 | Video Deinterlacing | Video  |                  1 |
+|    | Task                                                                       | Field   |   Number of Papers |
+|---:|:---------------------------------------------------------------------------|:--------|-------------------:|
+|  0 | [Video Deinterlacing](https://paperswithcode.com/task/video-deinterlacing) | Video   |                  1 |
 
 ## 1992
 
-|    | Field                      | Type                       |   Number of Papers |
-|---:|:---------------------------|:---------------------------|-------------------:|
-|  0 | Surface Normals Estimation | Surface Normals Estimation |                  1 |
+|    | Task                                                                                     | Field                      |   Number of Papers |
+|---:|:-----------------------------------------------------------------------------------------|:---------------------------|-------------------:|
+|  0 | [Surface Normals Estimation](https://paperswithcode.com/task/surface-normals-estimation) | Surface Normals Estimation |                  1 |
+
+## 
+
+|    | Task                                                                                                               | Field                                   |   Number of Papers |
+|---:|:-------------------------------------------------------------------------------------------------------------------|:----------------------------------------|-------------------:|
+|  0 | [Image Classification](https://paperswithcode.com/task/image-classification)                                       | Image Classification                    |                 45 |
+|  1 | [Learning with noisy labels](https://paperswithcode.com/task/learning-with-noisy-labels)                           | Image Classification                    |                  6 |
+|  2 | [Video Salient Object Detection](https://paperswithcode.com/task/video-salient-object-detection)                   | Object Detection                        |                  5 |
+|  3 | [Sign Language Recognition](https://paperswithcode.com/task/sign-language-recognition)                             | Sign Language Recognition               |                  5 |
+|  4 | [Multivariate Time Series Imputation](https://paperswithcode.com/task/multivariate-time-series-imputation)         | Imputation                              |                  4 |
+|  5 | [Deblurring](https://paperswithcode.com/task/deblurring)                                                           | 2D Human Pose Estimation                |                  2 |
+|  6 | [Image Dehazing](https://paperswithcode.com/task/image-dehazing)                                                   | Dehazing                                |                  2 |
+|  7 | [Shadow Detection](https://paperswithcode.com/task/shadow-detection)                                               | Shadow Detection                        |                  2 |
+|  8 | [Zero-Shot Transfer Image Classification](https://paperswithcode.com/task/zero-shot-transfer-image-classification) | Zero-Shot Transfer Image Classification |                  2 |
+|  9 | [Semi-Supervised Image Classification](https://paperswithcode.com/task/semi-supervised-image-classification)       | Image Classification                    |                  1 |
+| 10 | [Partial Domain Adaptation](https://paperswithcode.com/task/partial-domain-adaptation)                             | Domain Adaptation                       |                  1 |
+| 11 | [Action Recognition](https://paperswithcode.com/task/action-recognition)                                           | Activity Recognition                    |                  1 |
+| 12 | [Text-Image Retrieval](https://paperswithcode.com/task/text-image-retrieval)                                       | Image Retrieval                         |                  1 |
+| 13 | [Trajectory Prediction](https://paperswithcode.com/task/trajectory-prediction)                                     | Trajectory Prediction                   |                  1 |
+| 14 | [Aesthetics Quality Assessment](https://paperswithcode.com/task/aesthetics-quality-assessment)                     | Image Quality Assessment                |                  1 |
+| 15 | [Keyword Spotting](https://paperswithcode.com/task/keyword-spotting)                                               | Keyword Spotting                        |                  1 |
+| 16 | [Disease Trajectory Forecasting](https://paperswithcode.com/task/disease-trajectory-forecasting)                   | Disease Prediction                      |                  1 |
+
